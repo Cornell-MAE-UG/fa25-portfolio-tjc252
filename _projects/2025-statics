@@ -1,0 +1,15 @@
+---
+layout: project
+title: 2025 Statics Portofolio Problem
+description: Analysis
+image: /assets/images/problem4.png
+---
+
+
+
+The given problem was: 
+Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (your choice), 3 pin supports of which two need to be mounted on the ground and a linear actuator (pick from the given online catalog, use max force values only), design a frame/mechanism to lift the maximum possible weight to the highest possible height. Assume all the supports and bar/actuator are rigid.
+
+
+
+For this problem I found the actuator with the highest peak and had a good stroke length for the motion. The one I chose was IMA44 RN05 which had a highest peak of 3850 lbf. I chose a bar length of 45 cm so that the payload in question would not hit the ceiling. The actuator point is at 0.6L as this balanced the mechanical advantage that was desired while dealing with the given stroke requirements. Based on these max requiremnts, the base G was set at (90,0) and with room to spare point A was picked arbitrarily. The range of motion was best found to be 12 to 62 degrees in order to maximize the lift while avoiding a singular position towards the bottom angle. Thus the paylod was lifted from 9.4cm to 39.7cm.
