@@ -13,7 +13,9 @@ title_separator          : "-"
 subtitle                 : tjc252 # site tagline that appears below site title in masthead
 name                     : Trevor Crouse
 description              : Trevor Crouse - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+url: "https://cornell-mae-ug.github.io"   # no trailing slash
+baseurl: "/fa25-portfolio-tjc252"         # EXACT repo name, with a leading slash
+
 
 # Theme and Style
 theme: jekyll-theme-minimal
