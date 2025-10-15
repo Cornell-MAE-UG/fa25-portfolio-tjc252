@@ -1,0 +1,15 @@
+---
+layout: project
+title: 2025 DBF Wing CAD
+description: Designed wing from scratch
+image: /assets/images/dbf25xflr5.png
+image: /assets/images/dbf25airfoil.png
+image: /assets/images/dbf25wing.png
+---
+
+
+
+
+
+
+For the Cornell Design Build Fly Project Team, I was tasked with picking the most ideal airfoil and designing the most effective wing possible for our plane. Due to some fuselage and manufacturing reasons, a rectangular high wing was choosen. The data from xFLR5 along with servo constraints made the FX 60-126 the best airfoil to build. The way we were integrating the wing we decided to use a 3D-printed section of the wing over the fuselage with hard wood and balsa for the rest of our 3.5 foot wingspan. This was the part that I built completely on SOLIDWORKS. I made half the wing and then mirrored it in the complete plane CAD to have the complete wing.
