@@ -1,20 +1,14 @@
 ---
-
 layout: project
 title: 2025 DBF Wing CAD
 description: Designed wing from scratch
 
-# used by the Projects index card
-image: /assets/images/dbf25wing.png
+image: /assets/images/dbf25wing.png   # for the Projects grid
 
-# optional gallery used on the project page
-images:
+images:                               # for the project page itself
   - /assets/images/dbf25wing.png
   - /assets/images/dbf25xflr5.png
   - /assets/images/airfoil.png
----
-
-
 ---
 
 
