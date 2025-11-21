@@ -8,7 +8,7 @@ image: /assets/images/dbf25wing.png   # for the Projects grid
 images:                               # for the project page itself
   - /assets/images/dbf25wing.png
   - /assets/images/dbf25xflr5.png
-  - /assets/images/airfoil.png
+  - /assets/images/dbf25airfoil.png
 ---
 
 
