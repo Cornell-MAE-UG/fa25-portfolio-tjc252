@@ -17,7 +17,8 @@ layout: default
   {% endif %}
 
   <div class="project-text">
-    {{ content }}
+  {{ content | markdownify }}
   </div>
+
 
 </article>
