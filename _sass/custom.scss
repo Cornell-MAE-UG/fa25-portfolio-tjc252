@@ -37,11 +37,13 @@ body {
   padding: 0;
 }
 
-header, footer {
+header.site-header,
+footer {
   padding: 10px 5px;
   background: $primary-color;
   color: $background-color;
 }
+
 
 header {
   margin-bottom: 40px;
