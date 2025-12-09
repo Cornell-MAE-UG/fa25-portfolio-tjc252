@@ -201,3 +201,21 @@ footer {
 }
 
 
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.project-text {
+  max-width: 60rem;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}

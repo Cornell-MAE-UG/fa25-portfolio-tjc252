@@ -1,35 +1,54 @@
 ---
 layout: project
 title: 2025 Statics Portofolio Problem
-description: Analysis
-image: /assets/images/problem4.png   # for the Projects grid
+description: Designed a lifting mechanism and checked deflection constraints
+image: /assets/images/problem4.png      # for the Projects grid
 
-images:                               # for the project page itself
+images:                                  # still used by the layout if needed
   - /assets/images/problem4.png
   - /assets/images/part2.png
   - /assets/images/part3a.png
   - /assets/images/part3bc.png
 ---
 
+<div class="project-gallery">
+  <img src="/assets/images/problem4.png" alt="Statics portfolio problem page 1">
+  <img src="/assets/images/part2.png" alt="Statics portfolio problem page 2">
+  <img src="/assets/images/part3a.png" alt="Statics portfolio problem page 3a">
+  <img src="/assets/images/part3bc.png" alt="Statics portfolio problem page 3b and 3c">
+</div>
 
+<div class="project-text">
 
-The given problem was: 
-Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (your choice), 3 pin supports of which two need to be mounted on the ground and a linear actuator (pick from the given online catalog, use max force values only), design a frame/mechanism to lift the maximum possible weight to the highest possible height. Assume all the supports and bar/actuator are rigid.
-The next part of the problem was as follows:
-Step 2: Consider the bar in your design to be rigid.
-a) Create sections to define the problem, your constraints/objectives, and your
-design degrees of freedom.
-b) Treating the bar as rigid, revisit your submission for HW5 by describing the
-static analysis you conducted to determine your final design.
-c) Present your final mechanism design in an image or drawing.
-Step 3: The bar in your mechanism is no longer rigid. In fact, it is now best described as
-a beam which bends due to the combined action of the weight and the actuator force.
-Consider only the components of these forces transverse to your beam:
-a) Find the maximum deflection in your beam. State your assumptions clearly and
-describe your analysis.
-b) Choose a beam design (cross-section, material) such that its vertical deflection is
-below 2% of its length and is the most mass-efficient possible.
-c) Present your final beam design in an image or drawing.
+### Problem
 
+The portfolio problem asked me to design a planar lifting mechanism in a 150 cm by 50 cm workspace.  
+Using a rigid bar of chosen length, three pin supports (two fixed to the ground), and one linear actuator from a provided catalog, I needed to design a frame that lifted the maximum possible weight to the highest possible height, assuming all elements behaved as rigid bodies.
 
-For this problem I found the actuator with the highest peak and had a good stroke length for the motion. The one I chose was IMA44 RN05 which had a highest peak of 3850 lbf. I chose a bar length of 45 cm so that the payload in question would not hit the ceiling. The actuator point is at 0.6L as this balanced the mechanical advantage that was desired while dealing with the given stroke requirements. Based on these max requiremnts, the base G was set at (90,0) and with room to spare point A was picked arbitrarily. The range of motion was best found to be 12 to 62 degrees in order to maximize the lift while avoiding a singular position towards the bottom angle. Thus the paylod was lifted from 9.4cm to 39.7cm.
+### Rigid-bar design (Step 2)
+
+Treating the bar as rigid, I:
+
+- Defined the problem geometry, constraints, objectives, and design degrees of freedom.
+- Performed a full static analysis of the mechanism to size the actuator and locate the supports.
+- Chose an actuator that could provide the required force over the needed stroke.
+- Produced the final rigid-body design as free-body diagrams and hand calculations.
+
+### Flexible-bar design and deflection (Step 3)
+
+In the final step the bar was treated as a beam that bends under the combined weight and actuator force.  
+I:
+
+- Modeled the bar as a beam and calculated the maximum vertical deflection under worst-case loading.
+- Selected a cross-section and material so that the deflection stayed below 2% of the beam length while keeping the design as light as possible.
+- Updated the mechanism dimensions to avoid singular positions and to keep the motion smooth over the full range of actuator travel.
+
+For my final design I selected actuator IMA44 RN05, which has a peak load rating of 3850 lbf.  
+A bar length of 45 cm prevented the payload from hitting the ceiling, and placing the actuator at 0.6L gave a good compromise between mechanical advantage and allowable stroke.  
+With the base at (90, 0) and point A positioned to clear the workspace, the usable motion range was 12° to 62°.  
+This allowed the payload to move from 9.4 cm to 39.7 cm in height while satisfying the deflection constraint.
+
+**Technologies used:** Hand statics, beam theory, design iteration on paper
+
+</div>
+
