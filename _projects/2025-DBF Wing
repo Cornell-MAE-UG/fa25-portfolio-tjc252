@@ -1,21 +1,40 @@
 ---
 layout: project
 title: 2025 DBF Wing CAD
-description: Designed and modeled the competition wing from scratch
-image: /assets/images/dbf25wing.png        # for the Projects grid
+description: Designed wing from scratch
+image: /assets/images/dbf25wing.png       # for the Projects grid
 
-images:                                     # for the project page itself
+images:                                    # used by the layout if needed
   - /assets/images/dbf25wing.png
   - /assets/images/dbf25xflr5.png
   - /assets/images/dbf25airfoil.png
 ---
 
-For the Cornell Design Build Fly project team, I was responsible for selecting the wing airfoil and designing a manufacturable wing for our 2025 aircraft. Because of fuselage geometry and manufacturing constraints, we chose a rectangular high wing.
+<div class="project-gallery">
+  <img src="/assets/images/dbf25wing.png" alt="DBF wing CAD model">
+  <img src="/assets/images/dbf25xflr5.png" alt="xFLR5 airfoil analysis plots">
+  <img src="/assets/images/dbf25airfoil.png" alt="Chosen FX 60-126 airfoil">
+</div>
 
-Using xFLR5, I analyzed more than 30 candidate airfoils under our expected flight conditions and servo limits. The FX 60-126 provided the best balance of lift, drag, and control authority, so I used it as the basis for the final wing design.
+<div class="project-text">
 
-To integrate the wing with the fuselage, we designed a 3D-printed center section that keys into the fuselage and carries the main loads. The rest of the 3.5-ft wingspan uses hardwood spars and balsa ribs, which keeps the structure light while staying easy to manufacture and repair.
+### Role
+
+For the Cornell Design Build Fly team I was responsible for choosing the airfoil and creating the wing CAD for our 2025 aircraft.
+
+### Airfoil selection
+
+Because of fuselage geometry and manufacturing constraints we went with a rectangular high wing.  
+Using xFLR5 I analyzed more than 30 candidate airfoils under our expected flight conditions and servo limits.  
+The FX 60-126 provided the best mix of lift, drag, and control authority, so it became the basis for the final wing.
+
+### Wing design and integration
+
+To connect the wing to the fuselage, I designed a 3D-printed center section that keys into the fuselage and carries the main loads.  
+The rest of the 3.5-foot span uses hardwood spars and balsa ribs, which keeps the structure light while staying easy to manufacture and repair.
 
 I modeled the full wing in SOLIDWORKS, building one half and then mirroring it to create the complete assembly that plugs into the overall aircraft CAD.
 
 **Technologies used:** xFLR5, SOLIDWORKS, 3D printing, hardwood and balsa construction
+
+</div>
