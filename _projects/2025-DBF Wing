@@ -2,21 +2,13 @@
 layout: project
 title: 2025 DBF Wing CAD
 description: Designed wing from scratch
-image: /assets/images/dbf25wing.png       # for the Projects grid
+image: /assets/images/dbf25wing.png
 
-images:                                    # used by the layout if needed
+images:
   - /assets/images/dbf25wing.png
   - /assets/images/dbf25xflr5.png
   - /assets/images/dbf25airfoil.png
 ---
-
-<div class="project-gallery">
-  <img src="/assets/images/dbf25wing.png" alt="DBF wing CAD model">
-  <img src="/assets/images/dbf25xflr5.png" alt="xFLR5 airfoil analysis plots">
-  <img src="/assets/images/dbf25airfoil.png" alt="Chosen FX 60-126 airfoil">
-</div>
-
-<div class="project-text">
 
 ### Role
 
@@ -36,5 +28,3 @@ The rest of the 3.5-foot span uses hardwood spars and balsa ribs, which keeps th
 I modeled the full wing in SOLIDWORKS, building one half and then mirroring it to create the complete assembly that plugs into the overall aircraft CAD.
 
 **Technologies used:** xFLR5, SOLIDWORKS, 3D printing, hardwood and balsa construction
-
-</div>
