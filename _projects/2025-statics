@@ -3,13 +3,30 @@ layout: project
 title: 2025 Statics Portofolio Problem
 description: Analysis
 image: /assets/images/problem4.png
+image: /assets/images/part2.png
+image: /assets/images/part3a.png
+image: /assets/images/part3bc.png
 ---
 
 
 
 The given problem was: 
 Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (your choice), 3 pin supports of which two need to be mounted on the ground and a linear actuator (pick from the given online catalog, use max force values only), design a frame/mechanism to lift the maximum possible weight to the highest possible height. Assume all the supports and bar/actuator are rigid.
-
+The next part of the problem was as follows:
+Step 2: Consider the bar in your design to be rigid.
+a) Create sections to define the problem, your constraints/objectives, and your
+design degrees of freedom.
+b) Treating the bar as rigid, revisit your submission for HW5 by describing the
+static analysis you conducted to determine your final design.
+c) Present your final mechanism design in an image or drawing.
+Step 3: The bar in your mechanism is no longer rigid. In fact, it is now best described as
+a beam which bends due to the combined action of the weight and the actuator force.
+Consider only the components of these forces transverse to your beam:
+a) Find the maximum deflection in your beam. State your assumptions clearly and
+describe your analysis.
+b) Choose a beam design (cross-section, material) such that its vertical deflection is
+below 2% of its length and is the most mass-efficient possible.
+c) Present your final beam design in an image or drawing.
 
 
 For this problem I found the actuator with the highest peak and had a good stroke length for the motion. The one I chose was IMA44 RN05 which had a highest peak of 3850 lbf. I chose a bar length of 45 cm so that the payload in question would not hit the ceiling. The actuator point is at 0.6L as this balanced the mechanical advantage that was desired while dealing with the given stroke requirements. Based on these max requiremnts, the base G was set at (90,0) and with room to spare point A was picked arbitrarily. The range of motion was best found to be 12 to 62 degrees in order to maximize the lift while avoiding a singular position towards the bottom angle. Thus the paylod was lifted from 9.4cm to 39.7cm.
