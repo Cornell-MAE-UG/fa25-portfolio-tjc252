@@ -40,13 +40,13 @@ After the inflation phase, the system switches to the exhaust phase. Air is rout
 Throughout this system there is no shaft work crossing the boundaries of my control volumes, because the engine compressor work stays inside the engine. There is also negligible heat transfer to the surroundings because the ducts and lines are small and the process is fast. Energy is carried in and out entirely by the enthalpy of the flowing air.
 
 ### Assumptions for this Control Volume
-CV1 (Compressor bleed source): I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure P1, temperature T1, enthalpy h1). No work or heat crosses this system boundary.
+Compressor bleed: I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure P1, temperature T1, enthalpy h1). No work or heat crosses this system boundary.
 
-CV2 (Throttling device/flow control valve): steady state, adiabatic, no shaft work, negligible kinetic and potential energy changes, single inlet and outlet.
+Throttling device: steady state, adiabatic, no shaft work, negligible kinetic and potential energy changes, single inlet and outlet.
 
-CV3 (Tank/de-ice boot chamber): control mass that inflates. Transient process with accumulation of mass and internal energy, negligible heat transfer and shaft work, small changes in kinetic and potential energy. I neglect boundary work associated with boot expansion.
+Tank: control mass that inflates. Transient process with accumulation of mass and internal energy, negligible heat transfer and shaft work, small changes in kinetic and potential energy. I neglect boundary work associated with boot expansion.
 
-CV4 (Exhaust): steady state throttling from boot pressure to an exhaust or vacuum pressure, adiabatic, no shaft work, negligible kinetic and potential energy changes.
+Exhaust: steady state throttling from boot pressure to an exhaust or vacuum pressure, adiabatic, no shaft work, negligible kinetic and potential energy changes.
 
 ### Equations of the System
 For mass balance equations see figure 7.
