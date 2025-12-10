@@ -2,13 +2,18 @@
 layout: project
 title: 2025 Thermodynamics System Analysis
 description: Analysis
-image: /assets/images/problem4.png
+image: /assets/images/figure1.png
 
 images:
-  - /assets/images/problem4.png
-  - /assets/images/part2.png
-  - /assets/images/part3a.png
-  - /assets/images/part3bc.png
+  - /assets/images/figure1.png
+  - /assets/images/figure2.png
+  - /assets/images/figure3.png
+  - /assets/images/figure4.png
+  - /assets/images/figure5.png
+  - /assets/images/figure6.png
+  - /assets/images/figure7.png
+  - /assets/images/figure8.png
+  - /assets/images/figure9.png
 ---
 
 ### Problem
