@@ -18,18 +18,16 @@ $text-color: #333;
   $text-color: #1e0101;
 }
 
-
+/* TYPOGRAPHY AND GLOBAL STYLING */
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
 
-h1 {
-  margin-bottom: 25px;
-}
+h1 { margin-bottom: 25px; }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
+  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
@@ -44,21 +42,19 @@ footer {
   color: $background-color;
 }
 
-
-header {
-  margin-bottom: 40px;
-}
-
+header { margin-bottom: 40px; }
 footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
 }
 
+/* DEFAULT CONTAINER WIDTH */
 .container {
   max-width: 600px;
 }
 
+/* PROJECT LIST PAGE STYLING */
 .project-item img {
   max-width: 100%;
   height: auto;
@@ -79,6 +75,7 @@ footer {
   transition: background 0.3s;
 }
 
+/* CODE BLOCK COLORING */
 .highlight {
   background-color: #2d2d2d;
   color: #e0e0e0;
@@ -96,31 +93,28 @@ footer {
 .highlight .p { color: #89ddff; }
 .highlight .o { color: #ff5370; }
 
+/* INLINE + PROFILE IMAGES */
 .profile-image {
   float: left;
   margin: 20px 25px 25px 0;
   width: 150px;
-  vertical-align: top;
 }
 
 .project-image {
   float: left;
   margin: 20px 25px 25px 0;
   max-width: 200px;
-  vertical-align: top;
 }
 
 .inline-image {
   max-width: 350px;
   margin: 0px 25px 15px 25px;
-  vertical-align: top;
 
   &-l {
     @extend .inline-image;
     float: left;
     margin-left: 0;
   }
-
   &-r {
     @extend .inline-image;
     float: right;
@@ -133,7 +127,7 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+/* GALLERY GRID */
 .gallery-container {
   display: flex;
   justify-content: center;
@@ -153,19 +147,16 @@ footer {
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
+  max-width: 250px;
+  max-height: 300px;
 }
 
 .gallery-item img {
   width: 100%;
   height: 85%;
-  display: block;
   object-fit: cover;
-  object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .gallery-item p {
@@ -174,22 +165,7 @@ footer {
   color: $text-color;
 }
 
-.gallery-item a {
-  text-decoration: none;
-}
-
-.gallery-item:hover {
-  transform: scale(1.05); 
-}
-
-.project-text img {
-  display: block;
-  margin: 20px auto;
-  max-width: 90%;
-  height: auto;
-}
-
-
+/* LINK + ARROW */
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
@@ -205,29 +181,49 @@ footer {
   transform: translateX(-4px);
 }
 
+/* ==========================================
+   ✨ UPDATED PROJECT PAGE STYLING (FIXES MARKDOWN IMAGES)
+   ========================================== */
 
-.project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2.5rem;
+.project-page {
+  max-width: 900px !important;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.7;
 }
 
-.project-gallery img {
-  width: 100%;
+/* Section Headers */
+.project-page h2,
+.project-page h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.project-page h2 { font-size: 1.9rem; }
+.project-page h3 { font-size: 1.6rem; }
+
+/* Center + style all Markdown images */
+.project-page img {
   display: block;
-  border-radius: 12px;
-}
-
-.project-text {
-  max-width: 60rem;
-  margin: 0 auto 2rem;
-  line-height: 1.6;
-}
-
-.project-text img {
-  display: block;
-  margin: 20px auto;
-  max-width: 85%;
+  margin: 25px auto 10px auto;
+  max-width: 95%;
   height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Captions under images */
+.project-page em {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.95rem;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+/* Wider content container for projects only */
+.project-content {
+  max-width: 900px;
+  margin: 0 auto;
 }
