@@ -12,5 +12,16 @@ layout: default
   {{ content | markdownify }}
   </div>
 
+<div class="project-text">
+  {{ content | markdownify }}
+</div>
+
+{% if page.images %}
+<div class="project-gallery">
+  {% for image in page.images %}
+    <img src="{{ image | relative_url }}">
+  {% endfor %}
+</div>
+{% endif %}
 
 </article>
