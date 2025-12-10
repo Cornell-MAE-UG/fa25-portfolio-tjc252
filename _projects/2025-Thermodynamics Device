@@ -26,10 +26,20 @@ conditions.
 ### Initial Design Choice
 
 Take a Beechcraft King Air 350, which is a twin prop, low wing, T-tail aircraft. It can carry up to 11 passengers up to 2077 miles at 359 mph. See figures 1 and 2 for what the aircraft looks like.
+![Figure 1](/assets/images/figure1.png)
+*Figure 1: Beechcraft King Air 350 in flight.*
 
+![Figure 2](/assets/images/figure2.png)
+*Figure 2: Hand-drawn aircraft layout.*
 I will model this aircraft's de-icing system. Information on the components can be found in figure 3 from Collins Aerospace inside of their Goodrich De-Icers. Specifically I am going the pick the left wing from the engine to wingtip (see Figure 4).
+![Figure 3](/assets/images/figure3.png)
+*Figure 3: Beechcraft King Air 350 De-icer Components.*
 
+![Figure 4](/assets/images/figure4.png)
+*Figure 4: Selected Modeling Diagram of the aircraft's wing.*
 ### Modelling System
+![Figure 5](/assets/images/figure5.png)
+*Figure 5: System Diagram on the wing.*
 
 As seen in Figure 5, flow exits the engine compressor and is tapped off at a bleed port. At this point the air has high pressure and temperature from the compressor and enters my de-icing system at state 1. The bleed air then passes through a flow control valve that I model as a throttling device. Across this valve there is a pressure drop and an increase in entropy, but negligible shaft work and negligible heat transfer. I assume steady state through the valve.
 
@@ -38,6 +48,8 @@ Downstream of the valve, the air enters the wing de-ice boot, which I model as a
 After the inflation phase, the system switches to the exhaust phase. Air is routed from the boot into an exhaust or vacuum line that dumps to a lower pressure region. This removes pressure from the boot so that it collapses back toward the wing surface. In practice, this inflation and exhaust cycle breaks ice off the leading edge and prevents further ice buildup. In my model, I treat the exhaust hardware as another throttling device with a pressure drop, negligible heat transfer, no shaft work, and entropy generation due to irreversibilities in the flow.
 
 Throughout this system there is no shaft work crossing the boundaries of my control volumes, because the engine compressor work stays inside the engine. There is also negligible heat transfer to the surroundings because the ducts and lines are small and the process is fast. Energy is carried in and out entirely by the enthalpy of the flowing air.
+![Figure 6](/assets/images/figure6.png)
+*Figure 6: System Diagram of De-icer.*
 
 ### Assumptions for this Control Volume
 Compressor bleed: I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure P1, temperature T1, enthalpy h1). No work or heat crosses this system boundary.
@@ -54,6 +66,15 @@ For mass balance equations see figure 7.
 For energy balance equations see figure 8.
 
 For entropy balance and irreversibility see figure 9.
+
+![Figure 7](/assets/images/figure7.png)
+*Figure 7: Mass balance equations.*
+
+![Figure 8](/assets/images/figure8.png)
+*Figure 8: Energy balance equations.
+
+*![Figure 9](/assets/images/figure9.png)
+*Figure 9: Entropy balance and irreversibility.*
 
 ### Effect of Changing Valve Setting
 
