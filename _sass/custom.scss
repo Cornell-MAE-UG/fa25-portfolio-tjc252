@@ -182,10 +182,13 @@ footer {
   transform: scale(1.05); 
 }
 
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.project-text img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
 }
+
 
 .back-arrow {
   display: inline-block;
