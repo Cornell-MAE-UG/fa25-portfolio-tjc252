@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Trevor Crouse - BuzzKill
 permalink: /O3_ClientOutlineTemplate/
 fontsize: 11pt
 geometry: margin=1in
@@ -56,8 +55,6 @@ By the end of the semester, we will have a tested prototype showing proof of con
   - **Decision Affected**: Impacts whether or not the tool is extendable/flexible to enable greater reach
 
 \newpage
-
-# References and Figures
 
 ## References
 
