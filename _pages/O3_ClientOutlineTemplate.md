@@ -14,7 +14,7 @@ header-includes:
 
 **Team:** BuzzKill
 
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 ## The Problem
 
