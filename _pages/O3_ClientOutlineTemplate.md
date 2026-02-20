@@ -67,6 +67,6 @@ By the end of the semester, we will have a tested prototype showing proof of con
 
 ## Figure
 
-![Mechanical Jaw Bucket Design with Internal Compartment](/assets/images/design1.PNG)
+![Mechanical Jaw Bucket Design with Internal Compartment](/assets/images/design1.png)
 
 *Figure 1: Mechanical Jaw Bucket Design with Internal Compartment*
