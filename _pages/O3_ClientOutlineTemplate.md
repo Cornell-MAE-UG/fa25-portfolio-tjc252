@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Trevor Crouse - BuzzKill
+permalink: /O3_ClientOutlineTemplate/
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
@@ -61,5 +64,3 @@ Focus on questions they can answer from lived experience.
 - <Source 2 (URL or citation)>
 
 ## Figure
-
-<!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->
