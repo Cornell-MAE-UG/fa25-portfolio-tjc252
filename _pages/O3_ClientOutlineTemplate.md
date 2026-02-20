@@ -10,9 +10,10 @@ header-includes:
   - \pagenumbering{gobble}
 ---
 
-# Your Project Title
+# BuzzKill Jaw Bucket
 
 **Team:** BuzzKill
+
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 ## The Problem
@@ -23,8 +24,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 Vineyards reduce SLF populations at the source by targeting egg masses, which prevents the emergence of 30 to 50 insects per egg mass (1). Verifying destruction allows vineyards to quantify population reduction, improving confidence in control protocols and providing a scalable solution.
 
 ## Proposed direction(s)
-Jaw Bucket Egg Removal and Containment System
-### Concept A (primary): <1-line name>
+### Jaw Bucket Egg Removal and Containment System
 <u>Method of Usage:</u>
 - Uses a trigger on a handle to create a high mechanical advantage to close the jaws
 - Jaws scrape against the surface, removing and collecting the egg masses
@@ -36,7 +36,7 @@ Jaw Bucket Egg Removal and Containment System
 
 By the end of the semester, we will have a tested prototype showing proof of concept that efficiently removes and collects simulated egg masses off various surfaces and requires little force input to operate.</u>
 
-## Key risks / unknowns
+## Key risks
 
 - **Risk 1**: Operation of this device can be labor and time intensive for farmers with tight margins
   - **Importance/Testing**: If too slow, vineyards won’t adopt it; test by finding time per egg mass
@@ -56,15 +56,13 @@ By the end of the semester, we will have a tested prototype showing proof of con
 
 \newpage
 
-# Optional page 2 — References and/or one figure
+# References and Figures
 
 ## References
 
 1. Keller, J., Rost, J., Hoover, K., Urban, J., Leach, H., Porras, M., Walsh, B., Bosold, M., & Calvin, D. (2020). Dispersion Patterns and Sample Size Estimates for Egg Masses of Spotted Lanternfly (Hemiptera: Fulgoridae). *Environmental Entomology*, 49(6), 1462–1472. [https://doi.org/10.1093/ee/nvaa107](https://doi.org/10.1093/ee/nvaa107)
 
 2. Liu, H. (2019). Oviposition Substrate Selection, Egg Mass Characteristics, Host Preference, and Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America. *Environmental Entomology*, 48(6), 1452–1468. [https://doi.org/10.1093/ee/nvz123](https://doi.org/10.1093/ee/nvz123)
-
-## Figure
 
 ## Figure
 
