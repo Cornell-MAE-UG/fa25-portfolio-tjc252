@@ -15,44 +15,44 @@ header-includes:
 **Team:** BuzzKill
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+## The Problem
 
-<Who is affected?> is trying to <do what?> in <where/when?>, but <what currently goes wrong?>.
-What challenge currently makes obvious solutions difficult to implement?
-Add enough detail to narrow down the scope to the part of the problem you want to focus on.  
+Current control methods for the spotted lanternfly (SLF) fail to ensure destruction or provide a reliable way to quantify how many egg masses were destroyed. Eggs are protected by a waxy coating and 68.5% are adhered to rough surfaces such as tree bark (2); if scraped onto the ground, they can still hatch if not destroyed. Our challenge is to develop a mechanical system that ensures destruction of egg masses across various surfaces and enables growers to numerically analyze the system’s success.
 
 ## Impact
-Give context for why solving this sub-problem addresses the client's user needs.
+Vineyards reduce SLF populations at the source by targeting egg masses, which prevents the emergence of 30 to 50 insects per egg mass (1). Verifying destruction allows vineyards to quantify population reduction, improving confidence in control protocols and providing a scalable solution.
 
 ## Proposed direction(s)
-
+Jaw Bucket Egg Removal and Containment System
 ### Concept A (primary): <1-line name>
+<u>Method of Usage:</u>
+- Uses a trigger on a handle to create a high mechanical advantage to close the jaws
+- Jaws scrape against the surface, removing and collecting the egg masses
+- Uses a sliding door container to allow egg masses to fall in but not back out onto the ground
 
-**What it is:** <1–2 sentences.>  
-**How it would be used:** <2–4 bullet “user flow” steps.>  
-**Why it’s better than the status quo:** <2–3 bullets.>  
-**End-of-semester proof-of-concept:** <what you can realistically build/test in MAE 2250.>  
+<u>Improvements Over Past Solutions:</u>
+- More efficient and comfortable than scraping with a card, allows collection of many egg masses
+- Doesn’t use chemicals or toxic fluids, doesn’t interfere with farm equipment or operations
 
-### Concepts B, C, etc.
-
-<Only include if you want the client to compare two directions. Keep short.>
+By the end of the semester, we will have a tested prototype showing proof of concept that efficiently removes and collects simulated egg masses off various surfaces and requires little force input to operate.</u>
 
 ## Key risks / unknowns
 
-- <Risk 1> — why it matters, and how you’ll test it.
-- <Risk 2> — why it matters, and how you’ll test it.
-- <Risk 3> — why it matters, and how you’ll test it.
+- **Risk 1**: Operation of this device can be labor and time intensive for farmers with tight margins
+  - **Importance/Testing**: If too slow, vineyards won’t adopt it; test by finding time per egg mass
+- **Risk 2**: Damage to grapevines or grapes when the egg masses are scraped off
+  - **Importance/Testing**: If it damages vines, they may be unusable; inspect after repeated use to test
+- **Risk 3**: Interference with growing regulations by introducing a new device into the vineyard
+  - **Importance/Testing**: If it violates regulations, it can’t be used; test by checking growing standards
 
 ## Questions for the client
-Focus on questions they can answer from lived experience.
-1. **<Question 1>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-2. **<Question 2>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-3. **<Question 3>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-4. **<Question 4 (optional)>**  
-   *Decision affected:* <what choice this answer changes for your team.>
+
+- **Do egg masses vary significantly in size, thickness, or shape throughout the season?**
+  - **Decision Affected**: Jaw opening width, bucket size, and shape of teeth on the jaw
+- **What surfaces are the most difficult to remove the egg masses from?**
+  - **Decision Affected**: Material of our scraper (some surfaces might require more or less force)
+- **Are eggs often laid in places throughout vineyards that can’t be reached by hand?**
+  - **Decision Affected**: Impacts whether or not the tool is extendable/flexible to enable greater reach
 
 \newpage
 
@@ -60,7 +60,14 @@ Focus on questions they can answer from lived experience.
 
 ## References
 
-- <Source 1 (URL or citation)>
-- <Source 2 (URL or citation)>
+1. Keller, J., Rost, J., Hoover, K., Urban, J., Leach, H., Porras, M., Walsh, B., Bosold, M., & Calvin, D. (2020). Dispersion Patterns and Sample Size Estimates for Egg Masses of Spotted Lanternfly (Hemiptera: Fulgoridae). *Environmental Entomology*, 49(6), 1462–1472. [https://doi.org/10.1093/ee/nvaa107](https://doi.org/10.1093/ee/nvaa107)
+
+2. Liu, H. (2019). Oviposition Substrate Selection, Egg Mass Characteristics, Host Preference, and Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America. *Environmental Entomology*, 48(6), 1452–1468. [https://doi.org/10.1093/ee/nvz123](https://doi.org/10.1093/ee/nvz123)
 
 ## Figure
+
+## Figure
+
+![Mechanical Jaw Bucket Design with Internal Compartment](images/design1.PNG)
+
+*Figure 1: Mechanical Jaw Bucket Design with Internal Compartment*
