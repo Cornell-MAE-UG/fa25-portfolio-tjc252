@@ -4,16 +4,6 @@ title: 2025 Thermodynamics System Analysis
 description: Analysis
 image: /assets/images/350.png
 
-images:
-  - /assets/images/figure1.png
-  - /assets/images/figure2.png
-  - /assets/images/figure3.png
-  - /assets/images/figure4.png
-  - /assets/images/figure5.png
-  - /assets/images/figure6.png
-  - /assets/images/figure7.png
-  - /assets/images/figure8.png
-  - /assets/images/figure9.png
 ---
 
 ### Problem
@@ -25,11 +15,20 @@ conditions.
 
 ### Initial Design Choice
 
-Take a Beechcraft King Air 350, which is a twin prop, low wing, T-tail aircraft. It can carry up to 11 passengers up to 2077 miles at 359 mph. See figures 1 and 2 for what the aircraft looks like.
+Take a Beechcraft King Air 350, which is a twin prop, low wing, T-tail aircraft. It can carry up to 11 passengers up to 2077 miles at 359 mph. Figures 1 and 2 show what the aircraft looks like.
 
-I will model this aircraft's de-icing system. Information on the components can be found in figure 3 from Collins Aerospace inside of their Goodrich De-Icers. Specifically I am going the pick the left wing from the engine to wingtip (see Figure 4).
+<img src="/fa25-portfolio-tjc252/assets/images/figure1.png" alt="Thermo" style="max-width: 100%; height: auto;">
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure2.png" alt="Thermo" style="max-width: 100%; height: auto;">
+I will model this aircraft's de-icing system. Information on the components can be found in figure 3 from Collins Aerospace inside of their Goodrich De-Icers. Specifically I am going the pick the left wing from the engine to wingtip.
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure3.png" alt="Thermo" style="max-width: 100%; height: auto;">
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure4.png" alt="Thermo" style="max-width: 100%; height: auto;">
 
 ### Modelling System
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure5.png" alt="Thermo" style="max-width: 100%; height: auto;">
 
 As seen in Figure 5, flow exits the engine compressor and is tapped off at a bleed port. At this point the air has high pressure and temperature from the compressor and enters my de-icing system at state 1. The bleed air then passes through a flow control valve that I model as a throttling device. Across this valve there is a pressure drop and an increase in entropy, but negligible shaft work and negligible heat transfer. I assume steady state through the valve.
 
@@ -40,6 +39,9 @@ After the inflation phase, the system switches to the exhaust phase. Air is rout
 Throughout this system there is no shaft work crossing the boundaries of my control volumes, because the engine compressor work stays inside the engine. There is also negligible heat transfer to the surroundings because the ducts and lines are small and the process is fast. Energy is carried in and out entirely by the enthalpy of the flowing air.
 
 ### Assumptions for this Control Volume
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure6.png" alt="Thermo" style="max-width: 100%; height: auto;">
+
 Compressor bleed: I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure P1, temperature T1, enthalpy h1). No work or heat crosses this system boundary.
 
 Throttling device: steady state, adiabatic, no shaft work, negligible kinetic and potential energy changes, single inlet and outlet.
@@ -49,6 +51,11 @@ Tank: control mass that inflates. Transient process with accumulation of mass an
 Exhaust: steady state throttling from boot pressure to an exhaust or vacuum pressure, adiabatic, no shaft work, negligible kinetic and potential energy changes.
 
 ### Equations of the System
+<img src="/fa25-portfolio-tjc252/assets/images/figure7.png" alt="Thermo" style="max-width: 100%; height: auto;">
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure8.png" alt="Thermo" style="max-width: 100%; height: auto;">
+
+<img src="/fa25-portfolio-tjc252/assets/images/figure9.png" alt="Thermo" style="max-width: 100%; height: auto;">
 
 Figures 7, 8, and 9 show mass balance, energy balance, and entropy production.
 
