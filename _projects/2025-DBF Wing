@@ -14,7 +14,7 @@ On the Cornell Design Build Fly team, I led the airfoil selection, computational
 
 ### Airfoil selection
 
-To choose the wing airfoil, I used a weighted trade matrix to compare candidates on aerodynamic performance and practical build constraints. I weighted \(C_{L,\max}\) and manufacturability the highest because \(C_{L,\max}\) sets stall speed (especially important for M3 with banner drag), and manufacturability drives surface quality and how cleanly the wing integrates with internal components like the servos and spar. I gave \(C_L/C_D\) a moderate weight since the overall aircraft configuration also affects that ratio. I weighted \(C_{L0}\) and stall angle the lowest because they were similar across the candidate airfoils and mattered less given that we were not limited by takeoff distance.
+To choose the wing airfoil, I used a weighted trade matrix to compare candidates on aerodynamic performance and practical build constraints. I weighted \(\mathrm{C}_{L,\max}\) and manufacturability the highest because \(\mathrm{C}_{L,\max}\) sets stall speed (especially important for M3 with banner drag), and manufacturability drives surface quality and how cleanly the wing integrates with internal components like the servos and spar. I gave \(\mathrm{C}_L/\mathrm{C}_D\) a moderate weight since the overall aircraft configuration also affects that ratio. I weighted \(\mathrm{C}_{L0}\) and stall angle the lowest because they were similar across the candidate airfoils and mattered less given that we were not limited by takeoff distance.
 
 From a larger pool, I narrowed the shortlist to four airfoils: FX 60-126, MH-114, NACA 2412, and USA-35B. I analyzed these at the expected Reynolds number of **300,000** in XFLR5 (Figure 4.4.1), and based on the comparisons, I identified the FX 60-126 as the strongest option.
 
@@ -58,7 +58,7 @@ $$
 For drag, I built a full drag characterization of DF1 using a mix of empirical analytical methods and numerical simulations. I separated total drag into parasitic and induced components and used Equation (4) for the overall drag coefficien:
 
 $$
-C_D=C_{D0}+\frac{C_L^{2}}{\pi e\,AR}
+\mathrm{C}_D = \mathrm{C}_{D0} + \frac{\mathrm{C}_L^{2}}{\pi e\,AR}
 $$
 *(4)*
 
