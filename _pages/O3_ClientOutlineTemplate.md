@@ -62,8 +62,6 @@ By the end of the semester, we will have a tested prototype showing proof of con
 - **Are eggs often laid in places throughout vineyards that can’t be reached by hand?**
   - **Decision Affected**: Impacts whether or not the tool is extendable to enable greater reach
 
-\newpage
-
 ## References
 
 1. J Keller, J Rost, K Hoover, J Urban, H Leach, M Porras, B Walsh, M Bosold, D Calvin. “Dis-
