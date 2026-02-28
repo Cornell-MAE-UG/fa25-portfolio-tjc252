@@ -60,6 +60,19 @@ header {
   margin-bottom: 40px;
 }
 
+header .navbar {
+  background-color: $primary-color !important;
+}
+
+header .navbar-brand,
+header .nav-link {
+  color: $background-color !important;
+}
+
+header .nav-link:hover {
+  color: #bbb !important;
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
