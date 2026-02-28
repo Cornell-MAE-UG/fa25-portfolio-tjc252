@@ -15,13 +15,10 @@ image: /assets/images/350.png
 
 Take a Beechcraft King Air 350, which is a twin prop, low wing, T-tail aircraft. It can carry up to 11 passengers up to 2077 miles at 359 mph. Figures 1 and 2 show what the aircraft looks like.
 
-<img src="/fa25-portfolio-tjc252/assets/images/figure1.png" alt="Thermo" style="max-width: 50%; height: auto;">
-<img src="/fa25-portfolio-tjc252/assets/images/figure2.png" alt="Thermo" style="max-width: 50%; height: auto;">
+<img src="/fa25-portfolio-tjc252/assets/images/figure1.png" alt="Thermo" style="max-width: 50%; height: auto;"> <img src="/fa25-portfolio-tjc252/assets/images/figure2.png" alt="Thermo" style="max-width: 50%; height: auto;">
 I will model this aircraft's de-icing system. Information on the components can be found in figure 3 from Collins Aerospace inside of their Goodrich De-Icers. Specifically I am going the pick the left wing from the engine to wingtip.
 
-<img src="/fa25-portfolio-tjc252/assets/images/figure3.png" alt="Thermo" style="max-width: 50%; height: auto;">
-
-<img src="/fa25-portfolio-tjc252/assets/images/figure4.png" alt="Thermo" style="max-width: 50%; height: auto;">
+<img src="/fa25-portfolio-tjc252/assets/images/figure3.png" alt="Thermo" style="max-width: 50%; height: auto;"> <img src="/fa25-portfolio-tjc252/assets/images/figure4.png" alt="Thermo" style="max-width: 50%; height: auto;">
 
 ### Modelling System
 
