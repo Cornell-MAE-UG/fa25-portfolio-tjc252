@@ -22,6 +22,8 @@ For my final design I selected actuator IMA44 RN05, which has a peak load rating
 A bar length of 45 cm prevented the payload from hitting the ceiling, and placing the actuator at 0.6L gave a good compromise between mechanical advantage and allowable stroke.  
 With the base at (90, 0) and point A positioned to clear the workspace, the usable motion range was 12° to 62°. This allowed the payload to move from 9.4 cm to 39.7 cm in height while satisfying the deflection constraint. 
 
+<img src="/fa25-portfolio-tjc252/assets/images/problem4.png" alt="Math" style="max-width: 100%; height: auto;">
+
 ### Rigid-bar design (Step 2)
 
 - Defined the problem geometry, constraints, objectives, and design degrees of freedom.  
@@ -29,6 +31,7 @@ With the base at (90, 0) and point A positioned to clear the workspace, the usab
 - Chose an actuator that could provide the required force over the needed stroke.  
 - Produced the final rigid-body design as free-body diagrams and hand calculations.
 
+<img src="/fa25-portfolio-tjc252/assets/images/part2.png" alt="Math" style="max-width: 100%; height: auto;">
 ### Flexible-bar design and deflection (Step 3)
 
 In the final step the bar was treated as a beam that bends under the combined weight and actuator force. I:
@@ -37,4 +40,6 @@ In the final step the bar was treated as a beam that bends under the combined we
 - Selected a cross-section and material so that the deflection stayed below 2% of the beam length while keeping the design as light as possible.  
 - Updated the mechanism dimensions to avoid singular positions and to keep the motion smooth over the full range of actuator travel.
 
-**Technologies used:** Hand statics, beam theory, design iteration on paper
+<img src="/fa25-portfolio-tjc252/assets/images/part3a" alt="Math" style="max-width: 100%; height: auto;">
+
+<img src="/fa25-portfolio-tjc252/assets/images/part3bc.png" alt="Math" style="max-width: 100%; height: auto;">
