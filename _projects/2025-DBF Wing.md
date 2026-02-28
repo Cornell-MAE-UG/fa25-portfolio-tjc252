@@ -10,7 +10,7 @@ image: /assets/images/fullplanefinal.png
 
 ### Role
 
-On the Cornell Design Build Fly team, I led the airfoil selection, computationally analyzed different wing design choices and then built the full wing CAD for our 2025 aircraft. Furthermore I also 
+On the Cornell Design Build Fly team, I led the airfoil selection, computationally analyzed different wing design choices and then built the full wing CAD for our 2025 aircraft.
 
 ### Airfoil selection
 
