@@ -75,6 +75,6 @@ https://doi.org/10.1093/ee/nvz123
 
 ## Figure
 
-<img src="/fa25-portfolio-tjc252/assets/images/design1.jpg" alt="Mechanical Jaw Bucket Design with Internal Compartment" style="max-width: 80%; height: auto;">
+<img src="/fa25-portfolio-tjc252/assets/images/design1.jpg" alt="Mechanical Jaw Bucket Design with Internal Compartment" style="max-width: 100%; height: auto;">
 
 *Figure 1: Mechanical Jaw Bucket Design with Internal Compartment*
