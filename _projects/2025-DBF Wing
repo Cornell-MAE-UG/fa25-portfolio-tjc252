@@ -18,7 +18,7 @@ To choose the wing airfoil, I used a weighted trade matrix to compare candidates
 
 From a larger pool, I narrowed the shortlist to four airfoils: FX 60-126, MH-114, NACA 2412, and USA-35B. I analyzed these at the expected Reynolds number of **300,000** in XFLR5 (Figure 4.4.1), and based on the comparisons, I identified the FX 60-126 as the strongest option.
 
-<img src="/fa25-portfolio-tjc252/assets/images/fullairfoil" alt="MATLAB plotted graphs of the airfoil analysis done in xFLR5" style="max-width: 100%; height: auto;">
+<img src="/fa25-portfolio-tjc252/assets/images/fullairfoil.png" alt="MATLAB plotted graphs of the airfoil analysis done in xFLR5" style="max-width: 100%; height: auto;">
 
 ### Wing design and integration
 
