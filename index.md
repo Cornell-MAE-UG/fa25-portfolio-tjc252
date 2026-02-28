@@ -6,7 +6,7 @@ title: Trevor Crouse
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/itsme.JPEG" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/tjc252_headshot.jpg" | relative_url }}){: class="profile-image"}
 
  
 My name is {{ site.name }}, and I am a mechanical engineer with passions in mechanical design and aerodynamics. I am on the Cornell University Design, Build, Fly project team taking primary role on wing design and manufactoring. In my free time I play hockey, being the goalie for Cornell Club Hockey and I am part of the Zeta Psi Fraternity here on campus. 
