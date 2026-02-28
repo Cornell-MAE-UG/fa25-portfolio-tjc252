@@ -36,7 +36,7 @@ Throughout this system there is no shaft work crossing the boundaries of my cont
 
 <img src="/fa25-portfolio-tjc252/assets/images/figure6.png" alt="Thermo" style="max-width: 100%; height: auto;">
 
-Compressor bleed: I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure P1, temperature T1, enthalpy h1). No work or heat crosses this system boundary.
+Compressor bleed: I do not model the compressor itself. I only take the outlet bleed air properties at state 1 (pressure $P_1$, temperature $T_1$, enthalpy $h_1$). No work or heat crosses this system boundary.
 
 Throttling device: steady state, adiabatic, no shaft work, negligible kinetic and potential energy changes, single inlet and outlet.
 
@@ -55,9 +55,9 @@ Figures 7, 8, and 9 show mass balance, energy balance, and entropy production.
 
 ### Effect of Changing Valve Setting
 
-In normal operation, the flow control valve is sized and scheduled so that the de-ice boot inflates to a target pressure Pboot-nom within a short time interval. I consider a change where the valve is redesigned or operated with a larger effective flow area. For the same upstream compressor bleed pressure P1​, a larger valve opening increases the mass flow rate m2​ into the boot chamber.
+In normal operation, the flow control valve is sized and scheduled so that the de-ice boot inflates to a target pressure $P_{\text{boot-nom}}$ within a short time interval. I consider a change where the valve is redesigned or operated with a larger effective flow area. For the same upstream compressor bleed pressure $P_1$, a larger valve opening increases the mass flow rate $m_2$ into the boot chamber.
 
-From the mass balance for the boot, m2=dmboot/dt a larger m2 means that the mass inside the boot rises more quickly, so the pressure reaches the target value in a shorter inflation time. The energy balance for the boot, d(mboot*uboot)/dt also shows that a larger mass flow rate leads to a faster increase in the internal energy stored in the boot air. In practice, this gives a more rapid and possibly higher peak boot pressure.
+From the mass balance for the boot, $m_2 = \frac{dm_{\text{boot}}}{dt}$, a larger $m_2$ means that the mass inside the boot rises more quickly, so the pressure reaches the target value in a shorter inflation time. The energy balance for the boot, $\frac{d(m_{\text{boot}} u_{\text{boot}})}{dt}$, also shows that a larger mass flow rate leads to a faster increase in the internal energy stored in the boot air. In practice, this gives a more rapid and possibly higher peak boot pressure.
 
 The performance impact is two-sided. A faster inflation rate improves the system’s ability to break off ice, especially in severe icing where rapid boot cycling is important. However, the higher mass flow rate of bleed air slightly reduces the mass flow through the engine core and increases engine fuel consumption. A higher peak pressure also increases mechanical stresses in the boot material. If the pressure overshoots the design value, the boot can wear prematurely or even fail.
 
