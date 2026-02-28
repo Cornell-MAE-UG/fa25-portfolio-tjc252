@@ -16,7 +16,7 @@ On the Cornell Design Build Fly team, I led the airfoil selection, computational
 
 To choose the wing airfoil, I used a weighted trade matrix to compare candidates on aerodynamic performance and practical build constraints. I weighted $C_{L,\max}$ and manufacturability the highest because $C_{L,\max}$ sets stall speed (especially important for M3 with banner drag), and manufacturability drives surface quality and how cleanly the wing integrates with internal components like the servos and spar. I gave $C_L/C_D$ a moderate weight since the overall aircraft configuration also affects that ratio. I weighted $C_{L0}$ and stall angle the lowest because they were similar across the candidate airfoils and mattered less given that we were not limited by takeoff distance.
 
-From a larger pool, I narrowed the shortlist to four airfoils: FX 60-126, MH-114, NACA 2412, and USA-35B. I analyzed these at the expected Reynolds number of **300,000** in XFLR5 (Figure 4.4.1), and based on the comparisons, I identified the FX 60-126 as the strongest option.
+From a larger pool, I narrowed the shortlist to four airfoils: FX 60-126, MH-114, NACA 2412, and USA-35B. I analyzed these at the expected Reynolds number of 300,000 in XFLR5 (Figure 4.4.1), and based on the comparisons, I identified the FX 60-126 as the strongest option.
 
 <img src="/fa25-portfolio-tjc252/assets/images/fullairfoil.png" alt="MATLAB plotted graphs of the airfoil analysis done in xFLR5" style="max-width: 100%; height: auto;">
 
@@ -66,13 +66,13 @@ $$
 
 ### Wing manufacturing
 
-To manufacture the wing and ailerons, I used a wooden rib-and-stringer approach assembled with wood glue and CA, then mounted everything on a square carbon fiber spar. I chose to laser cut the ribs and combs from **1/8 in** balsa or basswood depending on what each piece needed to do: basswood for the more load-bearing parts and balsa for components that were primarily shaping the geometry. Before covering, the full wooden structure is shown. 
+To manufacture the wing and ailerons, I used a wooden rib-and-stringer approach assembled with wood glue and CA, then mounted everything on a square carbon fiber spar. I chose to laser cut the ribs and combs from 1/8 in balsa or basswood depending on what each piece needed to do: basswood for the more load-bearing parts and balsa for components that were primarily shaping the geometry. Before covering, the full wooden structure is shown. 
 
 <img src="/fa25-portfolio-tjc252/assets/images/wingmidmanu.png" alt="Wing midway through manufacturing" style="max-width: 100%; height: auto;">
 
-For the leading edge, I formed it from **1/32 in** balsa sheet. I soaked the sheet in water so it could bend cleanly, then molded it to match the airfoil contour. For the trailing edge, I bonded **1/8 in** balsa stringers into the rib notches using CA. This gave the wing a clean, continuous edge and provided a rigid skeleton that the MonoKote could pull tight over without collapsing or warping the structure.
+For the leading edge, I formed it from 1/32 in balsa sheet. I soaked the sheet in water so it could bend cleanly, then molded it to match the airfoil contour. For the trailing edge, I bonded 1/8 in balsa stringers into the rib notches using CA. This gave the wing a clean, continuous edge and provided a rigid skeleton that the MonoKote could pull tight over without collapsing or warping the structure.
 
-For integration, I mounted the servos directly to a wing rib using **2-56** nylon fasteners. After covering the wing halves and ailerons with MonoKote, I attached the ailerons with CA hinges to keep the gap small and maintain consistent control feel.
+For integration, I mounted the servos directly to a wing rib using 2-56 nylon fasteners. After covering the wing halves and ailerons with MonoKote, I attached the ailerons with CA hinges to keep the gap small and maintain consistent control feel.
 
 <img src="/fa25-portfolio-tjc252/assets/images/planefly.png" alt="Iteration 2 flight test" style="max-width: 100%; height: auto;">
 

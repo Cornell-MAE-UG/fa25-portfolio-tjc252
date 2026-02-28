@@ -1,17 +1,15 @@
 ---
 layout: project
-title: 2025 Thermodynamics System Analysis
+title: De-icing Thermodynamic System Analysis
 description: Analysis
 image: /assets/images/350.png
 
 ---
 
+
 ### Problem
 
-Please select a real-world instance of a device or
-system that we have learned about in this course, explain how it works in detail, and then
-discuss how its performance would change under a change in design or operating
-conditions.
+ I need to select a real-world instance of a thermodynamic system, explain how it works indetail, and then discuss how its performance would change under a change in design or operating conditions.
 
 ### Initial Design Choice
 

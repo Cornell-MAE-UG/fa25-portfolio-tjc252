@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 2025 Statics Portofolio Problem
+title: Maximizing Lift of a Linear Actuator
 description: Analysis
 image: /assets/images/12loads.png
 
@@ -8,7 +8,8 @@ image: /assets/images/12loads.png
 
 ### Problem
 
-The portfolio problem asked me to design a planar lifting mechanism in a 150 cm by 50 cm workspace.  
+I need to design a planar lifting mechanism in a 150 cm by 50 cm workspace.  
+
 Using a rigid bar of chosen length, three pin supports (two fixed to the ground), and one linear actuator from a provided catalog, I needed to design a frame that lifted the maximum possible weight to the highest possible height, assuming all elements behaved as rigid bodies.
 
 ### Design Choice
@@ -27,6 +28,7 @@ With the base at (90, 0) and point A positioned to clear the workspace, the usab
 - Produced the final rigid-body design as free-body diagrams and hand calculations.
 
 <img src="/fa25-portfolio-tjc252/assets/images/part2.png" alt="Math" style="max-width: 100%; height: auto;">
+
 ### Flexible-bar design and deflection (Step 3)
 
 In the final step the bar was treated as a beam that bends under the combined weight and actuator force. I:
