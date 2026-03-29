@@ -242,10 +242,27 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Results:**
 
-| Metric | Initial | After 100 Cycles |
-|--------|---------|-----------------|
-| Output force (fully open) | 12.5 N | 11.5 N |
-| Jaw opening gap | 1.05 in | 1.15 in |
+<table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
+  <thead>
+    <tr style="background-color: #3c4267; color: white; text-align: left;">
+      <th style="padding: 10px 12px;">Metric</th>
+      <th style="padding: 10px 12px;">Initial</th>
+      <th style="padding: 10px 12px;">After 100 Cycles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Output force (fully open)</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">12.5 N</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">11.5 N</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Jaw opening gap</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">1.05 in</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">1.15 in</td>
+    </tr>
+  </tbody>
+</table>
 
 **Conclusion:** Opening gap increased by 0.1 in and force decreased by 1 N over 100 cycles. The springs are too long and too prone to wear, so we will find shorter and more durable springs for the next prototype.
 
@@ -259,14 +276,28 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Results:**
 
-| Position | RULA Score |
-|----------|-----------|
-| Low | 3 |
-| Middle | 4 |
-| High | 4 |
-| **Total (time-weighted)** | **3.9** |
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 1em 0;">
+  <div style="flex: 1; min-width: 120px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">Low Position</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">3</div>
+  </div>
+  <div style="flex: 1; min-width: 120px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">Middle Position</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">4</div>
+  </div>
+  <div style="flex: 1; min-width: 120px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">High Position</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">4</div>
+  </div>
+  <div style="flex: 1; min-width: 120px; background-color: #3c4267; border-left: 4px solid #2a2f4a; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #ccc; margin-bottom: 4px;">Total (time-weighted)</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: white;">3.9</div>
+  </div>
+</div>
 
-- Actuation force when not perfectly aligned: >40 lbf
+<div style="background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
+  Actuation force when not perfectly aligned: <strong>&gt;40 lbf</strong>
+</div>
 
 **Conclusion:** Our goal was a RULA score below 5, indicating low MSD (musculoskeletal disorder) risk. We achieved a score of 3.9, meeting our target. For the next prototype, we aim to maintain a score at or below 3.9. The handle and trigger will also be redesigned — the rail system frequently jams, causing the trigger to stick even under large squeezing forces.
 <div style="text-align: center; margin: 1em 0;">
@@ -279,6 +310,7 @@ This concludes the assembly process. Below is an image of the functional prototy
 </div>
 
 ---
+
 ### Test Three: Jaw-Trigger-String Connection
 
 **Testing:** Effectiveness of the assembly at opening the jaw wide enough.
