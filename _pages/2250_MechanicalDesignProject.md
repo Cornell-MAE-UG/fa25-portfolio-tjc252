@@ -6,9 +6,9 @@ permalink: /2250-Mechanical-Design-Project/
 
 # 2250 Mechanical Design Project
 
-## Table of Contents
+## Quickview Table of Contents
 
-- [03_Client OutlineTemplate]({{ "/O3_ClientOutlineTemplate/" | relative_url }})
+- [Client Pitch]({{ "/O3_ClientOutlineTemplate/" | relative_url }})
 - [Second Project (Template)]({{ "/2250-MechanicalDesignProject-SecondProject/" | relative_url }})
 
 ---
