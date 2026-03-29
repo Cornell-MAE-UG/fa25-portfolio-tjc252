@@ -126,7 +126,7 @@ Our bucket and jaw assembly, made out of lightweight 3D-printed plastic, is desi
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 1em 0;">
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/workspaces/fa25-portfolio-tjc252/_site/assets/images/f1-jawclosed.jpg" alt="Bucket and Jaw Side View Closed" style="max-width: 100%; height: auto;">
+    <img src="/workspaces/fa25-portfolio-tjc252/assets/images/f1-jawclosed.jpg" alt="Bucket and Jaw Side View Closed" style="max-width: 100%; height: auto;">
     <figcaption><strong>Figure 1: Bucket and Jaw Side View Closed</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 200px; text-align: center;">
