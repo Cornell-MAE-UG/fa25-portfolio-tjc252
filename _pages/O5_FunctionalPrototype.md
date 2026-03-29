@@ -270,6 +270,11 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 
 ---
 
+***
+
+___
+
+
 ## References
 
 <div style="font-size:0.95em; line-height:1.7;">
