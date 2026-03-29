@@ -19,7 +19,7 @@ header-includes:
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Part</th>
       <th style="padding: 10px 12px;">Specs</th>
       <th style="padding: 10px 12px;">McMaster Code</th>
@@ -28,7 +28,7 @@ header-includes:
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Bucket</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">215×200×168.5mm bounding box; PLA; 27 in³ inner volume</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
