@@ -9,7 +9,7 @@ permalink: /2250-Mechanical-Design-Project/
 ## Quickview Table of Contents
 
 - [Client Pitch]({{ "/O3_ClientOutlineTemplate/" | relative_url }})
-- [Second Project (Template)]({{ "/2250-MechanicalDesignProject-SecondProject/" | relative_url }})
+- [Functional Prototype]({{ "/O5_FunctionalPrototype/" | relative_url }})
 
 ---
 
