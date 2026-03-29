@@ -17,22 +17,100 @@ header-includes:
 
 ## Parts List
 
-**Table 1: Parts List**
-
-| Part | Specs | McMaster Code | Fabrication Details | Price [$] |
-|------|-------|---------------|---------------------|-----------|
-| Bucket | 215×200×168.5mm bounding box; PLA; 27 in³ inner volume | N/A | 3D printed in RPL using PLA | 20.05 |
-| Jaw | 200×75×10mm bounding box; PLA; tooth at end for scraping | N/A | 3D printed in RPL using PLA | 4.40 |
-| Extension Jaw Springs | Stainless Steel, 2" rest length, 0.94 lbf/in spring constant | 9065K575 | No fabrication needed | 10.76 |
-| PVC Pipe | ¼" wall, chemical resistant, 1.125in OD, 3ft length | 8749K77 | Drill press holes for string routing | 43.23 |
-| Handle | 152×42×180mm bounding box; PLA; trigger slides in internal rails | N/A | 3D printed in RPL using PLA | 8.85 |
-| Trigger | 15×36×130mm bounding box; PLA; string tied to it for jaw actuation | N/A | 3D printed in RPL using PLA | 0.80 |
-| String | 585mm length | N/A | No fabrication needed | Free |
-| Shoulder Stock | 127×50×38mm bounding box; PLA; attaches via M6 bolt; padded | N/A | 3D printed in RPL using PLA | 4.60 |
-| Hinge | Polycarbonate, 2.5×2.125×0.2in; four M6 bolts | 1635A24 | No fabrication needed | 6.75 |
-| M6 Bolt and Nuts | Seven total: 4 @ 16mm, 3 @ 50mm | N/A | Sourced from TDS | Free |
-| Handle Grip/Stock Padding | 2ft, Buna-N-Foam, 1.25" OD | 9754K643 | Cut and hot glued to pipe and shoulder stock | 3.73 |
-| **Total** | | | | **103.17** |
+<table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
+  <thead>
+    <tr style="background-color: #3c4267; color: white; text-align: left;">
+      <th style="padding: 10px 12px;">Part</th>
+      <th style="padding: 10px 12px;">Specs</th>
+      <th style="padding: 10px 12px;">McMaster Code</th>
+      <th style="padding: 10px 12px;">Fabrication Details</th>
+      <th style="padding: 10px 12px; text-align: right;">Price [$]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Bucket</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">215×200×168.5mm; PLA; 27 in³ inner volume</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">20.05</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Jaw</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">200×75×10mm; PLA; tooth at end for scraping</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">4.40</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Extension Jaw Springs</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Stainless steel, 2" rest length, 0.94 lbf/in</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">9065K575</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">No fabrication needed</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">10.76</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">PVC Pipe</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">¼" wall, chemical resistant, 1.125in OD, 3ft</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">8749K77</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Drill press holes for string routing</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">43.23</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Handle</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">152×42×180mm; PLA; trigger slides in internal rails</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">8.85</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Trigger</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">15×36×130mm; PLA; string tied to it for jaw actuation</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">0.80</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">String</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">585mm length</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">No fabrication needed</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">Free</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Shoulder Stock</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">127×50×38mm; PLA; attaches via M6 bolt; padded</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">4.60</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Hinge</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Polycarbonate, 2.5×2.125×0.2in; four M6 bolts</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">1635A24</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">No fabrication needed</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">6.75</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">M6 Bolt and Nuts</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Seven total: 4 @ 16mm, 3 @ 50mm</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Sourced from TDS</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">Free</td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Handle Grip/Stock Padding</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">2ft, Buna-N-Foam, 1.25" OD</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">9754K643</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Cut and hot glued to pipe and shoulder stock</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">3.73</td>
+    </tr>
+    <tr style="background-color: #3c4267; color: white; font-weight: bold;">
+      <td style="padding: 10px 12px;" colspan="4">Total</td>
+      <td style="padding: 10px 12px; text-align: right;">103.17</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Design Intent and Functionality
 
