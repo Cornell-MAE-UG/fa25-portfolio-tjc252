@@ -131,11 +131,11 @@ Our bucket and jaw assembly, made out of lightweight 3D-printed plastic, is desi
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 1em 0;">
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f3-jawinside.jpg" alt="Inside Bucket with Jaw Springs" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f3-jawinside.jpg" alt="Inside Bucket with Jaw Springs" style="max-width: 75%; height: auto;">
     <figcaption><strong>Figure 3: Inside Bucket with Jaw Springs</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f4-jawoverall.jpg" alt="Overall Bucket and Jaw with String Attached" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f4-jawoverall.jpg" alt="Overall Bucket and Jaw with String Attached" style="max-width: 75%; height: auto;">
     <figcaption><strong>Figure 4: Overall Bucket and Jaw with String Attached</strong></figcaption>
   </figure>
 </div>
@@ -144,11 +144,11 @@ After feedback on our mock-up prototype, we designed a 3D-printed shoulder stock
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 1em 0;">
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f5-shoulderrear.jpg" alt="Shoulder Stock Rear View" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f5-shoulderrear.jpg" alt="Shoulder Stock Rear View" style="max-width: 50%; height: auto;">
     <figcaption><strong>Figure 5: Shoulder Stock Rear View</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f6-shoulderside.jpg" alt="Shoulder Stock Side View" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f6-shoulderside.jpg" alt="Shoulder Stock Side View" style="max-width: 50%; height: auto;">
     <figcaption><strong>Figure 6: Shoulder Stock Side View</strong></figcaption>
   </figure>
 </div>
@@ -161,11 +161,11 @@ The handle-trigger assembly is made up of 2 pieces of 3D-printed plastic. The ha
     <figcaption><strong>Figure 7: Handle-Trigger Side Profile</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 150px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f8-handleback.jpg" alt="Handle Back Profile and Trigger Guide Rails" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f8-handleback.jpg" alt="Handle Back Profile and Trigger Guide Rails" style="max-width: 100%; height: 60%;">
     <figcaption><strong>Figure 8: Handle Back Profile and Trigger Guide Rails</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 150px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f9-handleassembly.jpg" alt="Handle-Trigger Assembly" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f9-handleassembly.jpg" alt="Handle-Trigger Assembly" style="max-width: 100%; height: 80%;">
     <figcaption><strong>Figure 9: Handle-Trigger Assembly</strong></figcaption>
   </figure>
 </div>
@@ -184,7 +184,7 @@ After 3D printing the parts shown above and ordering the rest of the parts from 
 First, a through hole was drilled in the back of the pipe and the shoulder stock was bolted on. For consistency, red arrows denote functional/mechanical motion (intended use) and blue arrows denote assembly processes.
 
 <div style="text-align: center; margin: 1em 0;">
-  <img src="/fa25-portfolio-tjc252/assets/images/f11-shoulderattached.jpg" alt="Shoulder Stock Attached" style="max-width: 60%; height: auto;">
+  <img src="/fa25-portfolio-tjc252/assets/images/f11-shoulderattached.jpg" alt="Shoulder Stock Attached" style="max-width: 50%; height: 50%;">
   <p><em><strong>Figure 11: Shoulder Stock Attached</strong></em></p>
 </div>
 
@@ -200,7 +200,7 @@ Next, we drilled holes both for the bolt attaching the handle to the pipe and al
     <figcaption><strong>Figure 13: Running String Through Handle</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 150px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f14-handlebolted.jpg" alt="Trigger and Handle Assembled and Bolted" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f14-handlebolted.jpg" alt="Trigger and Handle Assembled and Bolted" style="max-width: 100%; height: 90%;">
     <figcaption><strong>Figure 14: Trigger and Handle Assembled and Bolted</strong></figcaption>
   </figure>
 </div>
@@ -213,7 +213,7 @@ Following this, we drilled a hole to bolt the bucket-jaw assembly to the pipe, a
     <figcaption><strong>Figure 15: Inserting Pipe to Bucket</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f16-attachedjaw.jpg" alt="Attached Bucket-Jaw Assembly" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f16-attachedjaw.jpg" alt="Attached Bucket-Jaw Assembly" style="max-width: 100%; height: 80%;">
     <figcaption><strong>Figure 16: Attached Bucket-Jaw Assembly</strong></figcaption>
   </figure>
 </div>
@@ -221,7 +221,7 @@ Following this, we drilled a hole to bolt the bucket-jaw assembly to the pipe, a
 The subassemblies include the handle-trigger and bucket-jaw assemblies. The handle-trigger assembly can be seen through the images above, as the trigger simply slides in the handle's guide rails while the string ties to it. The bucket-jaw assembly is made using four M6 bolts and the ordered hinge as shown below.
 
 <div style="text-align: center; margin: 1em 0;">
-  <img src="/fa25-portfolio-tjc252/assets/images/f17-bucketjawassembly.jpg" alt="Bucket-Jaw Assembly" style="max-width: 60%; height: auto;">
+  <img src="/fa25-portfolio-tjc252/assets/images/f17-bucketjawassembly.jpg" alt="Bucket-Jaw Assembly" style="max-width: 50%; height: 50%;">
   <p><em><strong>Figure 17: Bucket-Jaw Assembly</strong></em></p>
 </div>
 
@@ -270,11 +270,11 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Conclusion:** Our goal was a RULA score below 5, indicating low MSD (musculoskeletal disorder) risk. We achieved a score of 3.9, meeting our target. For the next prototype, we aim to maintain a score at or below 3.9. The handle and trigger will also be redesigned — the rail system frequently jams, causing the trigger to stick even under large squeezing forces.
 <div style="text-align: center; margin: 1em 0;">
-  <img src="/fa25-portfolio-tjc252/assets/images/f19-RULAmeanings.jpg" alt="RULA Score Meanings" style="max-width: 60%; height: auto;">
+  <img src="/fa25-portfolio-tjc252/assets/images/f19-RULAmeanings.jpg" alt="RULA Score Meanings" style="max-width: 40%; height: auto;">
   <p><em><strong>Figure 19: RULA Score Meanings (2)</strong></em></p>
 </div>
 <div style="text-align: center; margin: 1em 0;">
-  <img src="/fa25-portfolio-tjc252/assets/images/f20-RULAcalcs.jpg" alt="RULA Calculations with CU Ergo Template" style="max-width: 100%; height: auto;">
+  <img src="/fa25-portfolio-tjc252/assets/images/f20-RULAcalcs.jpg" alt="RULA Calculations with CU Ergo Template" style="max-width: 120%; height: auto;">
   <p><em><strong>Figure 20: RULA Calculations with CU Ergo Template (1)</strong></em></p>
 </div>
 
