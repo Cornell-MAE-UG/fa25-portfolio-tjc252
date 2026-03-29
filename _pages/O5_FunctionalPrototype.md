@@ -120,11 +120,11 @@ Our bucket and jaw assembly, made out of lightweight 3D-printed plastic, is desi
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 1em 0;">
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f1-jawclosed.jpg" alt="Bucket and Jaw Side View Closed" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f1-jawclosed.jpg" alt="Bucket and Jaw Side View Closed" style="max-width: 75%; height: auto;">
     <figcaption><strong>Figure 1: Bucket and Jaw Side View Closed</strong></figcaption>
   </figure>
   <figure style="flex: 1; min-width: 200px; text-align: center;">
-    <img src="/fa25-portfolio-tjc252/assets/images/f2-jawopen.jpg" alt="Bucket and Jaw Side View Open" style="max-width: 100%; height: auto;">
+    <img src="/fa25-portfolio-tjc252/assets/images/f2-jawopen.jpg" alt="Bucket and Jaw Side View Open" style="max-width: 75%; height: auto;">
     <figcaption><strong>Figure 2: Bucket and Jaw Side View Open</strong></figcaption>
   </figure>
 </div>
@@ -174,7 +174,7 @@ This then yields the larger, more surface-level operation of the functional prot
 
 <div style="text-align: center; margin: 1em 0;">
   <img src="/fa25-portfolio-tjc252/assets/images/f10-entirecad.jpg" alt="Entire CAD Prototype" style="max-width: 100%; height: auto;">
-  <p><em>Figure 10: Entire CAD Prototype</em></p>
+  <p><em><strong>Figure 10: Entire CAD Prototype</strong></em></p>
 </div>
 
 ## Assembly Process
