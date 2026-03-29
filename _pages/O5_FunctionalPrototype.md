@@ -11,10 +11,6 @@ header-includes:
 
 # BuzzKill Jaw Bucket
 
-**Team:** BuzzKill
-
-**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape
-
 ## Parts List
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
@@ -112,6 +108,8 @@ header-includes:
   </tbody>
 </table>
 
+---
+
 ## Design Intent and Functionality
 
 We used the calculations and design estimates from our proof of concept and the feedback we received to refine our design and build our functional prototype.
@@ -133,6 +131,8 @@ The handle-trigger assembly is made up of 2 pieces of 3D-printed plastic. The ha
 This then yields the larger, more surface-level operation of the functional prototype in which a user squeezes the trigger to open the jaw, and then releases to scrape off an egg mass.
 
 <div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f10-entirecad.jpg" alt="Entire CAD Prototype" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 10: Entire CAD Prototype</strong></em></p></div>
+
+---
 
 ## Assembly Process
 
@@ -157,6 +157,8 @@ The subassemblies include the handle-trigger and bucket-jaw assemblies. The hand
 This concludes the assembly process. Below is an image of the functional prototype as built in the lab.
 
 <div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f18-finaloperatingposition.jpg" alt="Final Assembled Prototype in Operating Position" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 18: Final Assembled Prototype in Operating Position</strong></em></p></div>
+
+--- 
 
 ## Design Testing
 
@@ -226,6 +228,8 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 <div style="background-color:#f0f0f0; border-left:4px solid #aaa; padding:12px 16px; border-radius:4px; margin:1em 0; font-style:italic; color:#555;"><strong>Note:</strong> A fourth test for the spring force of the bucket divider was initially planned, but the springs ordered from McMaster had too high a spring constant and were too large. We decided not to implement the divider until correct springs were found, allowing more time to focus on the jaw and bucket mechanism.</div>
 
+---
+
 ## Success Criteria
 
 Our project is a prototype jaw device designed to remove spotted lanternfly egg masses from a variety of surfaces efficiently and safely. The goal is to improve egg mass removal efficiency and collection ability while being easy to operate.
@@ -263,6 +267,8 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 </table>
 
 <div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0;"><strong>Exhibit-Day Demonstration:</strong> Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.</div>
+
+---
 
 ## References
 
