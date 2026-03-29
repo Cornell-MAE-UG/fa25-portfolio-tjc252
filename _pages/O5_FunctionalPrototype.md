@@ -140,7 +140,7 @@ After 3D printing the parts shown above and ordering the rest of the parts from 
 
 First, a through hole was drilled in the back of the pipe and the shoulder stock was bolted on. For consistency, red arrows denote functional/mechanical motion (intended use) and blue arrows denote assembly processes.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f11-shoulderattached.jpg" alt="Shoulder Stock Attached" style="max-width:55%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 11: Shoulder Stock Attached</strong></em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f11-shoulderattached.jpg" alt="Shoulder Stock Attached" style="max-width:40%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 11: Shoulder Stock Attached</strong></em></p></div>
 
 Next, we drilled holes both for the bolt attaching the handle to the pipe and also to run string from the handle to inside the pipe.
 
@@ -152,7 +152,7 @@ Following this, we drilled a hole to bolt the bucket-jaw assembly to the pipe, a
 
 The subassemblies include the handle-trigger and bucket-jaw assemblies. The handle-trigger assembly can be seen through the images above, as the trigger simply slides in the handle's guide rails while the string ties to it. The bucket-jaw assembly is made using four M6 bolts and the ordered hinge as shown below.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f17-bucketjawassembly.jpg" alt="Bucket-Jaw Assembly" style="max-width:55%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 17: Bucket-Jaw Assembly</strong></em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/f17-bucketjawassembly.jpg" alt="Bucket-Jaw Assembly" style="max-width:40%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 17: Bucket-Jaw Assembly</strong></em></p></div>
 
 This concludes the assembly process. Below is an image of the functional prototype as built in the lab.
 
@@ -208,7 +208,7 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Conclusion:** Our goal was a RULA score below 5, indicating low MSD (musculoskeletal disorder) risk. We achieved a score of 3.9, meeting our target. For the next prototype, we aim to maintain a score at or below 3.9. The handle and trigger will also be redesigned — the rail system frequently jams, causing the trigger to stick even under large squeezing forces.
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0; align-items:flex-start;"><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f19-RULAmeanings.jpg" alt="RULA Score Meanings" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 19: RULA Score Meanings (2)</strong></em></figcaption></figure><figure style="flex:2; min-width:280px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f20-RULAcalcs.jpg" alt="RULA Calculations with CU Ergo Template" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 20: RULA Calculations with CU Ergo Template (1)</strong></em></figcaption></figure></div>
+<div style="margin:1.5em 0;"><div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;"><figure style="flex:0 0 auto; width:260px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f19-RULAmeanings.jpg" alt="RULA Score Meanings" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 19: RULA Score Meanings (2)</strong></em></figcaption></figure><figure style="flex:1; min-width:280px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f20-RULAcalcs.jpg" alt="RULA Calculations with CU Ergo Template" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 20: RULA Calculations with CU Ergo Template (1)</strong></em></figcaption></figure></div></div>
 
 ---
 
