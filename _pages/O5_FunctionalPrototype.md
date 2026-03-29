@@ -279,7 +279,6 @@ This concludes the assembly process. Below is an image of the functional prototy
 </div>
 
 ---
-
 ### Test Three: Jaw-Trigger-String Connection
 
 **Testing:** Effectiveness of the assembly at opening the jaw wide enough.
@@ -287,31 +286,76 @@ This concludes the assembly process. Below is an image of the functional prototy
 **How to Perform:** Using the assembled prototype, pull the trigger as far as possible and measure the jaw opening distance. Compare with the average size of an SLF egg mass.
 
 **Results:**
-- Rest length opening: 1.05 in
-- Maximum trigger-actuated opening: 1.95 in
-- Average SLF egg mass length: ~1.5 in (3)
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 1em 0;">
+  <div style="flex: 1; min-width: 150px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">Rest Length Opening</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">1.05 in</div>
+  </div>
+  <div style="flex: 1; min-width: 150px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">Max Trigger-Actuated Opening</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">1.95 in</div>
+  </div>
+  <div style="flex: 1; min-width: 150px; background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px;">
+    <div style="font-size: 0.8em; color: #666; margin-bottom: 4px;">Avg. SLF Egg Mass Length</div>
+    <div style="font-size: 1.4em; font-weight: bold; color: #3c4267;">~1.5 in</div>
+  </div>
+</div>
 
 **Conclusion:** We need to increase the amount the trigger pulls the jaw upwards. The hinge and design allow the distance needed, but the trigger cannot currently pull it close to its maximum height. Due to limitations in human hand range of motion, the trigger will likely need to be redesigned to amplify motion for the next prototype.
 
-*Note: A fourth test for the spring force of the bucket divider was initially planned, but the springs ordered from McMaster had too high a spring constant and were too large. We decided not to implement the divider until correct springs were found, allowing more time to focus on the jaw and bucket mechanism.*
+<div style="background-color: #f0f0f0; border-left: 4px solid #aaa; padding: 12px 16px; border-radius: 4px; margin: 1em 0; font-style: italic; color: #555;">
+  <strong>Note:</strong> A fourth test for the spring force of the bucket divider was initially planned, but the springs ordered from McMaster had too high a spring constant and were too large. We decided not to implement the divider until correct springs were found, allowing more time to focus on the jaw and bucket mechanism.
+</div>
 
 ## Success Criteria
 
 Our project is a prototype jaw device designed to remove spotted lanternfly egg masses from a variety of surfaces efficiently and safely. The goal is to improve egg mass removal efficiency and collection ability while being easy to operate.
 
-| Criterion | Target | Priority |
-|-----------|--------|----------|
-| Removal effectiveness | <10% of egg mass area remaining after one pass on any test surface | High |
-| Durability | Jaw force and opening within ±5% after 100 cycles | Mid |
-| Clamping force | ≥10 N at jaw teeth | Low |
-| Ergonomics | RULA score <5; weight <15 lbs | High |
+<table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
+  <thead>
+    <tr style="background-color: #3c4267; color: white; text-align: left;">
+      <th style="padding: 10px 12px;">Criterion</th>
+      <th style="padding: 10px 12px;">Target</th>
+      <th style="padding: 10px 12px;">Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Removal Effectiveness</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">&lt;10% of egg mass area remaining after one pass on any test surface</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color: #3c4267; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">High</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Durability</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Jaw force and opening within ±5% after 100 cycles</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color: #6c757d; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Mid</span></td>
+    </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Clamping Force</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">≥10 N at jaw teeth</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color: #adb5bd; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Low</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Ergonomics</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">RULA score &lt;5; weight &lt;15 lbs</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color: #3c4267; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">High</span></td>
+    </tr>
+  </tbody>
+</table>
 
-**Exhibit-Day Demonstration:** Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.
+<div style="background-color: #f8f9fa; border-left: 4px solid #3c4267; padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
+  <strong>Exhibit-Day Demonstration:</strong> Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.
+</div>
 
 ## References
 
-1. Hedge, Alan. CUergo: RULA. Cornell University, https://ergo.human.cornell.edu/ahRULA.html. Accessed 23 Mar. 2026.
+<div style="font-size: 0.95em; line-height: 1.7;">
 
-2. Ergonomics Plus: A Step-by-Step Guide: Rapid Upper Limb Assessment (RULA), https://ergo-plus.com/wp-content/uploads/RULA-A-Step-by-Step-Guide1.pdf. Accessed 23 Mar. 2026.
+<p>1. Hedge, Alan. <em>CUergo: RULA.</em> Cornell University, <a href="https://ergo.human.cornell.edu/ahRULA.html">https://ergo.human.cornell.edu/ahRULA.html</a>. Accessed 23 Mar. 2026.</p>
 
-3. University of Rhode Island Biocontrol Lab. Biocontrol of Insects: Spotted Lanternfly: Identification and Life Cycle, https://web.uri.edu/biocontrol/projects/slf-identification-and-life-cycle/. Accessed 23 Mar. 2026.
+<p>2. Ergonomics Plus. <em>A Step-by-Step Guide: Rapid Upper Limb Assessment (RULA).</em> <a href="https://ergo-plus.com/wp-content/uploads/RULA-A-Step-by-Step-Guide1.pdf">https://ergo-plus.com/wp-content/uploads/RULA-A-Step-by-Step-Guide1.pdf</a>. Accessed 23 Mar. 2026.</p>
+
+<p>3. University of Rhode Island Biocontrol Lab. <em>Biocontrol of Insects: Spotted Lanternfly: Identification and Life Cycle.</em> <a href="https://web.uri.edu/biocontrol/projects/slf-identification-and-life-cycle/">https://web.uri.edu/biocontrol/projects/slf-identification-and-life-cycle/</a>. Accessed 23 Mar. 2026.</p>
+
+</div>
