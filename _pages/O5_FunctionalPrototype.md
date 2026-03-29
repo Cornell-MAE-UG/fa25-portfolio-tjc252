@@ -194,8 +194,6 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Conclusion:** Opening gap increased by 0.1 in and force decreased by 1 N over 100 cycles. The springs are too long and too prone to wear, so we will find shorter and more durable springs for the next prototype.
 
----
-
 ### Test Two: Handle/Trigger Assembly
 
 **Testing:** Ergonomics of the handle and the force required to squeeze it.
@@ -211,8 +209,6 @@ This concludes the assembly process. Below is an image of the functional prototy
 **Conclusion:** Our goal was a RULA score below 5, indicating low MSD (musculoskeletal disorder) risk. We achieved a score of 3.9, meeting our target. For the next prototype, we aim to maintain a score at or below 3.9. The handle and trigger will also be redesigned — the rail system frequently jams, causing the trigger to stick even under large squeezing forces.
 
 <div style="margin:1.5em 0;"><div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;"><figure style="flex:0 0 auto; width:260px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f19-RULAmeanings.jpg" alt="RULA Score Meanings" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 19: RULA Score Meanings (2)</strong></em></figcaption></figure><figure style="flex:1; min-width:280px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/f20-RULAcalcs.jpg" alt="RULA Calculations with CU Ergo Template" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 20: RULA Calculations with CU Ergo Template (1)</strong></em></figcaption></figure></div></div>
-
----
 
 ### Test Three: Jaw-Trigger-String Connection
 
@@ -269,18 +265,6 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 <div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0;"><strong>Exhibit-Day Demonstration:</strong> Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.</div>
 
 ---
-
-***
-
-___
-
-<hr><hr><hr>
-
-
-| |
-| :--- |
-| |
-| |
 
 ## References
 
