@@ -26,7 +26,7 @@ permalink: /projects/
 
 <div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
 <div style="background-color:#3a3f58; color:white; padding:14px 18px;">
-<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">MAE 2210 — Thermodynamics</div>
+<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">ENGRD 2210 — Thermodynamics</div>
 <div style="font-size:1.15em; font-weight:bold;">De-icing Thermodynamic System Analysis</div>
 </div>
 <div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
@@ -39,7 +39,7 @@ permalink: /projects/
 
 <div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
 <div style="background-color:#3a3f58; color:white; padding:14px 18px;">
-<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">MAE 2250 — Statics & Mechanics</div>
+<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">ENGRD 2020 — Statics & Mechanics</div>
 <div style="font-size:1.15em; font-weight:bold;">Maximizing Lift of a Linear Actuator</div>
 </div>
 <div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
