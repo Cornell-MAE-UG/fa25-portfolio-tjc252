@@ -29,7 +29,7 @@ The project spanned the full design cycle from client brief to functional protot
 <div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
 <p style="margin:0 0 10px 0;">Defined the problem, proposed the Jaw Bucket concept, and identified three key design risks. Presented three client questions to guide design decisions around jaw geometry, surface compatibility, and tool reach.</p>
 <p style="margin:0 0 12px 0;"><strong>Key content:</strong> Problem statement · Impact · Proposed direction · Key risks · Client questions · References</p>
-<a href="/trevor_crouse/O3_ClientOutlineTemplate/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Deliverable →</a>
+<a href="/fa25-portfolio-tjc252/O3_ClientOutlineTemplate/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Deliverable →</a>
 </div>
 </div>
 <div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
@@ -40,7 +40,7 @@ The project spanned the full design cycle from client brief to functional protot
 <div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
 <p style="margin:0 0 10px 0;">Designed, fabricated, and tested a full functional prototype. Components include a 3D-printed PLA bucket-jaw assembly, PVC pipe, shoulder stock, and a trigger-actuated string mechanism. Total build cost: $103.17.</p>
 <p style="margin:0 0 12px 0;"><strong>Key content:</strong> Parts list · Design intent · Assembly process · 3 design tests · Success criteria</p>
-<a href="/trevor_crouse/O5_FunctionalPrototype/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Deliverable →</a>
+<a href="/fa25-portfolio-tjc252/O5_FunctionalPrototype/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Deliverable →</a>
 </div>
 </div>
 </div>

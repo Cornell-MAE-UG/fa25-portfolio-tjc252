@@ -19,17 +19,17 @@ I need to select a real-world instance of a thermodynamic system, explain how it
 
 ## Aircraft Selection
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure1.png" alt="Beechcraft King Air 350" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 1: Beechcraft King Air 350</em></figcaption></figure><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure2.png" alt="King Air 350 interior" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 2: King Air 350 profile</em></figcaption></figure></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure1.png" alt="Beechcraft King Air 350" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 1: Beechcraft King Air 350</em></figcaption></figure><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure2.png" alt="King Air 350 interior" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 2: King Air 350 profile</em></figcaption></figure></div>
 
 The Beechcraft King Air 350 is a twin-prop, low-wing, T-tail aircraft capable of carrying up to 11 passengers over 2,077 miles at 359 mph. I modeled its **pneumatic de-icing system**, focusing on the left wing from engine to wingtip using Goodrich De-Icers components.
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure3.png" alt="De-icer components" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 3: Collins Aerospace Goodrich De-Icer components</em></figcaption></figure><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure4.png" alt="System layout" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 4: System layout</em></figcaption></figure></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure3.png" alt="De-icer components" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 3: Collins Aerospace Goodrich De-Icer components</em></figcaption></figure><figure style="flex:1; min-width:200px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure4.png" alt="System layout" style="width:100%; height:220px; object-fit:contain;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 4: System layout</em></figcaption></figure></div>
 
 ---
 
 ## Modelling the System
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/trevor_crouse/assets/images/figure5.png" alt="Control volume diagram" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 5: Control volume schematic of the de-icing system</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/figure5.png" alt="Control volume diagram" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 5: Control volume schematic of the de-icing system</em></p></div>
 
 Flow exits the engine compressor and is tapped off at a bleed port, entering the de-icing system at state 1 with high pressure and temperature. The bleed air then passes through a **flow control valve** modeled as a throttling device — pressure drops, entropy increases, with negligible shaft work and heat transfer.
 
@@ -68,13 +68,13 @@ Downstream, the air enters the **wing de-ice boot**, modeled as a small inflatio
   </tbody>
 </table>
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/trevor_crouse/assets/images/figure6.png" alt="Assumptions diagram" style="max-width:75%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 6: Annotated control volume with assumptions</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/figure6.png" alt="Assumptions diagram" style="max-width:75%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 6: Annotated control volume with assumptions</em></p></div>
 
 ---
 
 ## Equations of the System
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure7.png" alt="Mass balance" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 7: Mass balance</em></figcaption></figure><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure8.png" alt="Energy balance" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 8: Energy balance</em></figcaption></figure><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/figure9.png" alt="Entropy production" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 9: Entropy production</em></figcaption></figure></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure7.png" alt="Mass balance" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 7: Mass balance</em></figcaption></figure><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure8.png" alt="Energy balance" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 8: Energy balance</em></figcaption></figure><figure style="flex:1; min-width:180px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/figure9.png" alt="Entropy production" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Figure 9: Entropy production</em></figcaption></figure></div>
 
 ---
 

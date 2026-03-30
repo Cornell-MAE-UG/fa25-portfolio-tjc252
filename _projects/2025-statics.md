@@ -38,7 +38,7 @@ I need to design a planar lifting mechanism in a 150 cm by 50 cm workspace. Usin
 
 Placing the actuator at 0.6L gave a good compromise between mechanical advantage and allowable stroke. With the base at (90, 0) and point A positioned to clear the workspace, the usable motion range was **12° to 62°**, satisfying the deflection constraint throughout.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/trevor_crouse/assets/images/problem4.png" alt="Problem setup and geometry" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Problem geometry and design parameters</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/problem4.png" alt="Problem setup and geometry" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Problem geometry and design parameters</em></p></div>
 
 ---
 
@@ -51,7 +51,7 @@ Placing the actuator at 0.6L gave a good compromise between mechanical advantage
 - Chose an actuator that could provide the required force over the needed stroke
 - Produced the final rigid-body design as free-body diagrams and hand calculations
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/trevor_crouse/assets/images/part2.png" alt="Rigid bar static analysis" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Static analysis and free-body diagrams — rigid bar design</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/part2.png" alt="Rigid bar static analysis" style="max-width:85%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Static analysis and free-body diagrams — rigid bar design</em></p></div>
 
 ---
 
@@ -82,7 +82,7 @@ In the final step the bar was treated as a beam that bends under the combined we
   </tbody>
 </table>
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:220px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/part3a.png" alt="Beam deflection analysis" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Beam deflection analysis</em></figcaption></figure><figure style="flex:1; min-width:220px; margin:0; text-align:center;"><img src="/trevor_crouse/assets/images/part3bc.png" alt="Updated mechanism dimensions" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Updated mechanism dimensions and motion range</em></figcaption></figure></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;"><figure style="flex:1; min-width:220px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/part3a.png" alt="Beam deflection analysis" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Beam deflection analysis</em></figcaption></figure><figure style="flex:1; min-width:220px; margin:0; text-align:center;"><img src="/fa25-portfolio-tjc252/assets/images/part3bc.png" alt="Updated mechanism dimensions" style="width:100%; height:auto;"><figcaption style="margin-top:6px; font-size:0.9em;"><em>Updated mechanism dimensions and motion range</em></figcaption></figure></div>
 
 ---
 
