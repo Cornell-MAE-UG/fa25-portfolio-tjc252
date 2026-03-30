@@ -21,7 +21,7 @@ title: Trevor Crouse
 
 ## About Me
 
-I'm a mechanical engineering student at Cornell with a focus in aerodynamics and mechanical design. On the [Cornell AIAA Design Build Fly]({{ "/projects/" | relative_url }}) team, I serve as wing aerodynamics lead — responsible for airfoil selection, computational analysis, full wing CAD, and manufacturing for our competition aircraft. I enjoy working at the intersection of math, simulation, and hands-on build work, and I'm always looking for ways to make things fly better or break less.
+I'm a mechanical engineering student at Cornell with a focus in aerodynamics and mechanical design. On the Cornell AIAA Design Build Fly team, I serve as wing aerodynamics lead — responsible for airfoil selection, computational analysis, full wing CAD, and manufacturing for our competition aircraft. I enjoy working at the intersection of math, simulation, and hands-on build work, and I'm always looking for ways to make things fly better or break less.
 
 Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a member of the Zeta Psi Fraternity on campus.
 
@@ -36,7 +36,7 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Programming</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">MATLAB<br>Python<br>Git</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">MATLAB<br>Python<br>Git<br> </div>
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Fabrication</div>
