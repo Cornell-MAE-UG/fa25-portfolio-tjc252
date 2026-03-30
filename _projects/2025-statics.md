@@ -5,8 +5,6 @@ description: Analysis
 image: /assets/images/12loads.png
 ---
 
-# Maximizing Lift of a Linear Actuator
-
 <div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Designed a planar lifting mechanism in a 150 cm × 50 cm workspace using a rigid bar, three pin supports, and a catalog linear actuator. Optimized for maximum payload height while constraining beam deflection to under 2% of beam length.</div>
 
 ---

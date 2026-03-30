@@ -6,8 +6,6 @@ image: /assets/images/fullplanefinal.png
 permalink: /projects/2025-DBF-Wing/
 ---
 
-# 2025/26 CUDBF Wing CAD
-
 <div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">On the Cornell Design Build Fly team, I led the airfoil selection, computationally analyzed different wing design choices, and built the full wing CAD for our 2025 aircraft.</div>
 
 <div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/fullplanefinal.png" alt="Full plane CAD" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Full Plane CAD</em></p></div>
@@ -20,7 +18,7 @@ To choose the wing airfoil, I used a weighted trade matrix to compare candidates
 
 From a larger pool, I narrowed the shortlist to four airfoils: FX 60-126, MH-114, NACA 2412, and USA-35B. I analyzed these at the expected Reynolds number of 300,000 in XFLR5, and based on the comparisons, I identified the **FX 60-126** as the strongest option.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/fullairfoil.png" alt="MATLAB plotted graphs of the airfoil analysis done in xFLR5" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 4.4.1: Airfoil analysis in XFLR5</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/fullairfoil.png" alt="MATLAB plotted graphs of the airfoil analysis done in xFLR5" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em></em></p></div>
 
 ---
 
@@ -30,7 +28,7 @@ I designed the aircraft wing as a rectangular planform high-wing with no dihedra
 
 To minimize control surface gaps, I used CA hinges and added balsa reinforcement blocks to increase hinge bond area. I also implemented 3D printed PLA leading edges on the ailerons to further close the gap. I used an asymmetric triangular balsa piece for the trailing edge to keep stiffness while still matching the airfoil geometry.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/full wing pictures.png" alt="Full wing CAD" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 5.1.7: Full wing CAD in SOLIDWORKS</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/full wing pictures.png" alt="Full wing CAD" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em></em></p></div>
 
 ---
 
@@ -38,7 +36,7 @@ To minimize control surface gaps, I used CA hinges and added balsa reinforcement
 
 I evaluated endplates by running CFD in ANSYS Fluent across multiple geometries. I ultimately decided **not** to include endplates because the aerodynamic improvement was small relative to the weight increase, added manufacturing complexity, and build time.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/endplate cfd results results.png" alt="Pressure contours of the wing with different endplates" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figure 5.1.8: Pressure contours across endplate geometries in ANSYS Fluent</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/endplate cfd results results.png" alt="Pressure contours of the wing with different endplates" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em></em></p></div>
 
 ---
 
@@ -64,7 +62,7 @@ $$\mathrm{C}_D = \mathrm{C}_{D0} + \frac{\mathrm{C}_L^{2}}{\pi e\,AR}$$
 
 I built a full drag characterization of DF1 using a mix of empirical analytical methods and numerical simulations, separating total drag into parasitic and induced components.
 
-<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/turning_climb_graphs.png" alt="MATLAB plotted graphs of turning performance and climb rate" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Figures 4.4.6–4.4.7: Turning performance and climb rate</em></p></div>
+<div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/turning_climb_graphs.png" alt="MATLAB plotted graphs of turning performance and climb rate" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em></em></p></div>
 
 ---
 

@@ -6,7 +6,6 @@ image: /assets/images/350.png
 permalink: /projects/2025-Thermodynamics/
 ---
 
-# De-icing Thermodynamic System Analysis
 
 <div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Selected a real-world thermodynamic system, modeled it using control volume analysis, and evaluated how performance changes under a modified operating condition.</div>
 
