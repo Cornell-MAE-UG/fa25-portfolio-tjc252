@@ -3,6 +3,7 @@ layout: project
 title: De-icing Thermodynamic System Analysis
 description: Analysis
 image: /assets/images/350.png
+permalink: /projects/2025-Thermodynamics/
 ---
 
 # De-icing Thermodynamic System Analysis

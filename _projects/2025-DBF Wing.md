@@ -3,6 +3,7 @@ layout: project
 title: 2025/26 CUDBF Wing CAD
 description: Designed the wing from scratch
 image: /assets/images/fullplanefinal.png
+permalink: /projects/2025-DBF-Wing/
 ---
 
 # 2025/26 CUDBF Wing CAD
