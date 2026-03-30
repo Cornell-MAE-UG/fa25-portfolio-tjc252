@@ -84,7 +84,7 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Rigid body kinematics, rotating frames, Coriolis effects, numerical ODE methods</td>
     </tr>
     <tr>
-      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Mechanical Design (MAE 2250)</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Mechanical Design</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Full design cycle, prototyping, CAD, fabrication, client-facing deliverables</td>
     </tr>
     <tr style="background-color: #f7f8fa;">
