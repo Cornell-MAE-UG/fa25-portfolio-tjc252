@@ -20,7 +20,7 @@ permalink: /projects/
 <img src="/fa25-portfolio-tjc252/assets/images/fullplanefinal.png" alt="DBF Wing" style="width:100%; height:160px; object-fit:cover; border-radius:4px; margin-bottom:10px;">
 <p style="margin:0 0 10px 0;">Led airfoil selection, wing design, and full wing CAD for Cornell's AIAA Design Build Fly competition aircraft. Conducted aerodynamic analysis in XFLR5 and CFD in ANSYS Fluent.</p>
 <p style="margin:0 0 12px 0;"><strong>Tools:</strong> XFLR5 · SOLIDWORKS · ANSYS Fluent · Python</p>
-<a href="/projects/2025-DBF-Wing/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
+<a href="/fa25-portfolio-tjc252/projects/2025-DBF-Wing/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
 </div>
 </div>
 
@@ -33,7 +33,7 @@ permalink: /projects/
 <img src="/fa25-portfolio-tjc252/assets/images/350.png" alt="King Air 350" style="width:100%; height:160px; object-fit:cover; border-radius:4px; margin-bottom:10px;">
 <p style="margin:0 0 10px 0;">Modeled the pneumatic de-icing system of a Beechcraft King Air 350 using control volume thermodynamics. Analyzed mass, energy, and entropy balances across bleed air, throttling valves, and boot inflation chambers.</p>
 <p style="margin:0 0 12px 0;"><strong>Tools:</strong> Thermodynamic analysis · Control volume modeling</p>
-<a href="/projects/2025-Thermodynamics/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
+<a href="/fa25-portfolio-tjc252/projects/2025-Thermodynamics/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
 </div>
 </div>
 
