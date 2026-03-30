@@ -8,7 +8,7 @@ title: Trevor Crouse
 <div style="flex:1; min-width:220px;">
 <h1 style="margin:0 0 6px 0;">Trevor Crouse</h1>
 <p style="margin:0 0 4px 0; color:#3a3f58; font-weight:bold; font-size:1.05em;">Mechanical Engineering · Cornell University</p>
-<p style="margin:0 0 16px 0; color:#666; font-size:0.95em;">Wing Aerodynamics Lead · Cornell AIAA Design Build Fly</p>
+<p style="margin:0 0 16px 0; color:#666; font-size:0.95em;">Aerodynamics & Controls Lead · Cornell AIAA Design Build Fly</p>
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
 <a href="mailto:tjc252@cornell.edu" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">✉ Email</a>
 <a href="https://www.linkedin.com/in/trevorcrouse/" target="_blank" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">LinkedIn</a>
