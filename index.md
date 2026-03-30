@@ -27,6 +27,20 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
 
 ---
 
+## Portfolio
+
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
+<a href="{{ '/projects/' | relative_url }}" style="flex:1; min-width:160px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; text-decoration:none; color:inherit; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
+<div style="font-size:0.8em; color:#666; margin-bottom:4px;">Browse all</div>
+<div style="font-weight:bold; color:#3a3f58;">Projects →</div>
+</a>
+<a href="{{ '/2250-Mechanical-Design-Project/' | relative_url }}" style="flex:1; min-width:160px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; text-decoration:none; color:inherit; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
+<div style="font-size:0.8em; color:#666; margin-bottom:4px;">MAE 2250</div>
+<div style="font-weight:bold; color:#3a3f58;">Mechanical Design Project →</div>
+</a>
+
+---
+
 ## Skills & Tools
 
 <div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0; align-items:stretch;">
@@ -78,25 +92,6 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
     </tr>
   </tbody>
 </table>
-
----
-
-## Portfolio
-
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
-<a href="{{ '/projects/' | relative_url }}" style="flex:1; min-width:160px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; text-decoration:none; color:inherit; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-<div style="font-size:0.8em; color:#666; margin-bottom:4px;">Browse all</div>
-<div style="font-weight:bold; color:#3a3f58;">Projects →</div>
-</a>
-<a href="{{ '/2250-Mechanical-Design-Project/' | relative_url }}" style="flex:1; min-width:160px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; text-decoration:none; color:inherit; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-<div style="font-size:0.8em; color:#666; margin-bottom:4px;">MAE 2250</div>
-<div style="font-weight:bold; color:#3a3f58;">Mechanical Design Project →</div>
-</a>
-<a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" style="flex:1; min-width:160px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; text-decoration:none; color:inherit; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-<div style="font-size:0.8em; color:#666; margin-bottom:4px;">PDF</div>
-<div style="font-weight:bold; color:#3a3f58;">Resume ↗</div>
-</a>
-</div>
 
 ---
 
