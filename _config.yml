@@ -14,7 +14,7 @@ subtitle                 : tjc252 # site tagline that appears below site title i
 name                     : Trevor Crouse
 description              : Trevor Crouse - Projects and CV 
 url: "https://cornell-mae-ug.github.io"   # no trailing slash
-baseurl: "/fa25-portfolio-tjc252"         # EXACT repo name, with a leading slash
+baseurl: "/trevor_crouse"         # EXACT repo name, with a leading slash
 
 
 # Theme and Style
