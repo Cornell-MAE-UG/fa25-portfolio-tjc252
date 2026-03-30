@@ -29,18 +29,18 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
 
 ## Skills & Tools
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0; align-items:stretch;">
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">CAD & Simulation</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">SOLIDWORKS<br>AutoCAD<br>ANSYS Fluent<br>Fusion 360</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white; flex:1;">SOLIDWORKS<br>AutoCAD<br>ANSYS Fluent<br>Fusion 360</div>
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Programming</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">MATLAB<br>Python<br>Git<br> </div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white; flex:1;">MATLAB<br>Python<br>Git<br> </div>
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Fabrication</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">Laser cutting<br>3D printing (FDM)<br>Balsa & hardwood construction<br>Lathe & Drill Mill</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white; flex:1;">Laser cutting<br>3D printing (FDM)<br>Balsa & hardwood construction<br>Lathe & Drill Mill</div>
 </div>
 </div>
 
