@@ -82,7 +82,15 @@ Downstream, the air enters the **wing de-ice boot**, modeled as a small inflatio
 
 In normal operation, the flow control valve is sized so that the de-ice boot inflates to a target pressure $P_{\text{boot-nom}}$ within a short interval. I consider a redesign where the valve has a **larger effective flow area**.
 
-For the same upstream bleed pressure $P_1$, a larger opening increases mass flow $\dot{m}_2$ into the boot. From the mass balance $\dot{m}_2 = \frac{dm_{\text{boot}}}{dt}$, the boot reaches target pressure faster. The energy balance $\frac{d(m_{\text{boot}} u_{\text{boot}})}{dt}$ shows that internal energy also rises more rapidly, giving a higher peak boot pressure.
+For the same upstream bleed pressure $P_1$, a larger opening increases mass flow into the boot. From the mass balance:
+
+$$\dot{m}_2 = \frac{dm_{\text{boot}}}{dt}$$
+
+A larger $\dot{m}_2$ means the boot reaches target pressure faster. The energy balance:
+
+$$\frac{d(m_{\text{boot}}\, u_{\text{boot}})}{dt} = \dot{m}_2 h_2$$
+
+shows that internal energy also rises more rapidly, giving a higher peak boot pressure.
 
 <div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
 <div style="flex:1; min-width:180px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
