@@ -11,7 +11,7 @@ title: Trevor Crouse
 <p style="margin:0 0 16px 0; color:#666; font-size:0.95em;">Wing Aerodynamics Lead · Cornell AIAA Design Build Fly</p>
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
 <a href="mailto:tjc252@cornell.edu" style="display:inline-block; background-color:#3c4267; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">✉ Email</a>
-<a href="https://www.linkedin.com/in/trevorcrouse/" target="_blank" style="display:inline-block; background-color:#3c4267; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">in LinkedIn</a>
+<a href="https://www.linkedin.com/in/trevorcrouse/" target="_blank" style="display:inline-block; background-color:#3c4267; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">LinkedIn</a>
 <a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" style="display:inline-block; border:2px solid #3c4267; color:#3c4267; padding:5px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">Resume ↗</a>
 </div>
 </div>
@@ -32,15 +32,15 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
 <div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3c4267; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">CAD & Simulation</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">SOLIDWORKS<br>XFLR5<br>ANSYS Fluent<br>Fusion 360</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">SOLIDWORKS<br>AutoCAD<br>ANSYS Fluent<br>Fusion 360</div>
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3c4267; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Programming</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">Python<br>MATLAB<br>Git / GitHub</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">MATLAB<br>Python<br>Git</div>
 </div>
 <div style="flex:1; min-width:180px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
 <div style="background-color:#3c4267; color:white; padding:10px 14px; font-weight:bold; font-size:0.9em;">Fabrication</div>
-<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">Laser cutting<br>3D printing (FDM)<br>Balsa & hardwood construction<br>Hand tools & drill press</div>
+<div style="padding:12px 14px; font-size:0.92em; line-height:1.8; background:white;">Laser cutting<br>3D printing (FDM)<br>Balsa & hardwood construction<br>Lathe & Drill Mill</div>
 </div>
 </div>
 
