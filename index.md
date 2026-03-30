@@ -38,6 +38,7 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and a me
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">MAE 2250</div>
 <div style="font-weight:bold; color:#3a3f58;">Mechanical Design Project →</div>
 </a>
+</div>
 
 ---
 
