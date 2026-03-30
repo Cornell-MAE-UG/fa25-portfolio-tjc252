@@ -15,7 +15,7 @@ header-includes:
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Part</th>
       <th style="padding: 10px 12px;">Specs</th>
       <th style="padding: 10px 12px;">McMaster Code</th>
@@ -24,7 +24,7 @@ header-includes:
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Bucket</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">215×200×168.5mm bounding box; PLA; 27 in³ inner volume</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
@@ -38,7 +38,7 @@ header-includes:
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">4.40</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Extension Jaw Springs</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Stainless steel, 2" rest length, 0.94 lbf/in spring constant</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">9065K575</td>
@@ -52,7 +52,7 @@ header-includes:
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Drill press holes for string routing</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">43.23</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Handle</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">152×42×180mm bounding box; PLA; trigger slides in internal rails</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
@@ -66,7 +66,7 @@ header-includes:
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">0.80</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">String</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">585mm length</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">N/A</td>
@@ -80,7 +80,7 @@ header-includes:
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">3D printed in RPL using PLA</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">4.60</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Hinge</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Polycarbonate, 2.5×2.125×0.2in; four M6 bolts</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">1635A24</td>
@@ -94,14 +94,14 @@ header-includes:
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Sourced from TDS</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">Free</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Handle Grip/Stock Padding</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">2ft, Buna-N-Foam, 1.25" OD</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">9754K643</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Cut and hot glued to pipe and shoulder stock</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6; text-align: right;">3.73</td>
     </tr>
-    <tr style="background-color: #3c4267; color: white; font-weight: bold;">
+    <tr style="background-color: #3a3f58; color: white; font-weight: bold;">
       <td style="padding: 10px 12px;" colspan="4">Total</td>
       <td style="padding: 10px 12px; text-align: right;">103.17</td>
     </tr>
@@ -172,14 +172,14 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Metric</th>
       <th style="padding: 10px 12px;">Initial</th>
       <th style="padding: 10px 12px;">After 100 Cycles</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Output force (fully open)</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">12.5 N</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">11.5 N</td>
@@ -202,9 +202,9 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Results:**
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1em 0;"><div style="flex:1; min-width:120px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">Low Position</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">3</div></div><div style="flex:1; min-width:120px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">Middle Position</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">4</div></div><div style="flex:1; min-width:120px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">High Position</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">4</div></div><div style="flex:1; min-width:120px; background-color:#3c4267; border-left:4px solid #2a2f4a; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#ccc; margin-bottom:4px;">Total (time-weighted)</div><div style="font-size:1.4em; font-weight:bold; color:white;">3.9</div></div></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1em 0;"><div style="flex:1; min-width:120px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">Low Position</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">3</div></div><div style="flex:1; min-width:120px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">Middle Position</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">4</div></div><div style="flex:1; min-width:120px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">High Position</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">4</div></div><div style="flex:1; min-width:120px; background-color:#3a3f58; border-left:4px solid #2a2f4a; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#ccc; margin-bottom:4px;">Total (time-weighted)</div><div style="font-size:1.4em; font-weight:bold; color:white;">3.9</div></div></div>
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0;">Actuation force when not perfectly aligned: <strong>&gt;40 lbf</strong></div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px; margin:1em 0;">Actuation force when not perfectly aligned: <strong>&gt;40 lbf</strong></div>
 
 **Conclusion:** Our goal was a RULA score below 5, indicating low MSD (musculoskeletal disorder) risk. We achieved a score of 3.9, meeting our target. For the next prototype, we aim to maintain a score at or below 3.9. The handle and trigger will also be redesigned — the rail system frequently jams, causing the trigger to stick even under large squeezing forces.
 
@@ -218,7 +218,7 @@ This concludes the assembly process. Below is an image of the functional prototy
 
 **Results:**
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1em 0;"><div style="flex:1; min-width:150px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">Rest Length Opening</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">1.05 in</div></div><div style="flex:1; min-width:150px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">Max Trigger-Actuated Opening</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">1.95 in</div></div><div style="flex:1; min-width:150px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#666; margin-bottom:4px;">Avg. SLF Egg Mass Length</div><div style="font-size:1.4em; font-weight:bold; color:#3c4267;">~1.5 in</div></div></div>
+<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1em 0;"><div style="flex:1; min-width:150px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">Rest Length Opening</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">1.05 in</div></div><div style="flex:1; min-width:150px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">Max Trigger-Actuated Opening</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">1.95 in</div></div><div style="flex:1; min-width:150px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;"><div style="font-size:0.8em; color:#444; margin-bottom:4px;">Avg. SLF Egg Mass Length</div><div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">~1.5 in</div></div></div>
 
 **Conclusion:** We need to increase the amount the trigger pulls the jaw upwards. The hinge and design allow the distance needed, but the trigger cannot currently pull it close to its maximum height. Due to limitations in human hand range of motion, the trigger will likely need to be redesigned to amplify motion for the next prototype.
 
@@ -232,24 +232,24 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Criterion</th>
       <th style="padding: 10px 12px;">Target</th>
       <th style="padding: 10px 12px;">Priority</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Removal Effectiveness</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">&lt;10% of egg mass area remaining after one pass on any test surface</td>
-      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#3c4267; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">High</span></td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#3a3f58; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">High</span></td>
     </tr>
     <tr>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Durability</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Jaw force and opening within ±5% after 100 cycles</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#6c757d; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">Mid</span></td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Clamping Force</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">≥10 N at jaw teeth</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#adb5bd; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">Low</span></td>
@@ -257,12 +257,12 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
     <tr>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Ergonomics</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">RULA score &lt;5; weight &lt;15 lbs</td>
-      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#3c4267; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">High</span></td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><span style="background-color:#3a3f58; color:white; padding:2px 8px; border-radius:12px; font-size:0.85em;">High</span></td>
     </tr>
   </tbody>
 </table>
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0;"><strong>Exhibit-Day Demonstration:</strong> Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px; margin:1em 0;"><strong>Exhibit-Day Demonstration:</strong> Visitors will use the device to remove Play-Doh "egg masses" from bark, metal, or plastic surfaces and measure the remaining material using calipers — directly demonstrating removal effectiveness and minimal surface damage.</div>
 
 ---
 
