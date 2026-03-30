@@ -5,7 +5,7 @@ description: Analysis
 image: /assets/images/12loads.png
 ---
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Designed a planar lifting mechanism in a 150 cm × 50 cm workspace using a rigid bar, three pin supports, and a catalog linear actuator. Optimized for maximum payload height while constraining beam deflection to under 2% of beam length.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Designed a planar lifting mechanism in a 150 cm × 50 cm workspace using a rigid bar, three pin supports, and a catalog linear actuator. Optimized for maximum payload height while constraining beam deflection to under 2% of beam length.</div>
 
 ---
 
@@ -18,21 +18,21 @@ I need to design a planar lifting mechanism in a 150 cm by 50 cm workspace. Usin
 ## Design Choice
 
 <div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
-<div style="flex:1; min-width:140px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Actuator Selected</div>
-<div style="font-size:1.2em; font-weight:bold; color:#3c4267;">IMA44 RN05</div>
+<div style="font-size:1.2em; font-weight:bold; color:#3a3f58;">IMA44 RN05</div>
 </div>
-<div style="flex:1; min-width:140px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Peak Load Rating</div>
-<div style="font-size:1.2em; font-weight:bold; color:#3c4267;">3,850 lbf</div>
+<div style="font-size:1.2em; font-weight:bold; color:#3a3f58;">3,850 lbf</div>
 </div>
-<div style="flex:1; min-width:140px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Bar Length</div>
-<div style="font-size:1.2em; font-weight:bold; color:#3c4267;">45 cm</div>
+<div style="font-size:1.2em; font-weight:bold; color:#3a3f58;">45 cm</div>
 </div>
-<div style="flex:1; min-width:140px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Payload Height Range</div>
-<div style="font-size:1.2em; font-weight:bold; color:#3c4267;">9.4 – 39.7 cm</div>
+<div style="font-size:1.2em; font-weight:bold; color:#3a3f58;">9.4 – 39.7 cm</div>
 </div>
 </div>
 
@@ -61,13 +61,13 @@ In the final step the bar was treated as a beam that bends under the combined we
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Task</th>
       <th style="padding: 10px 12px;">Approach</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Deflection modeling</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Modeled bar as a beam under worst-case combined loading; calculated maximum vertical deflection</td>
     </tr>
@@ -75,7 +75,7 @@ In the final step the bar was treated as a beam that bends under the combined we
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Cross-section selection</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Selected material and cross-section to keep deflection below 2% of beam length with minimum weight</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Dimension update</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Updated mechanism dimensions to avoid singular positions and maintain smooth motion over full actuator travel</td>
     </tr>
@@ -86,4 +86,4 @@ In the final step the bar was treated as a beam that bends under the combined we
 
 ---
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0; font-size:0.93em;"><strong>Methods used:</strong> Static analysis &nbsp;·&nbsp; Free-body diagrams &nbsp;·&nbsp; Beam deflection &nbsp;·&nbsp; Cross-section optimization &nbsp;·&nbsp; Actuator catalog selection</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px; margin:1em 0; font-size:0.93em;"><strong>Methods used:</strong> Static analysis &nbsp;·&nbsp; Free-body diagrams &nbsp;·&nbsp; Beam deflection &nbsp;·&nbsp; Cross-section optimization &nbsp;·&nbsp; Actuator catalog selection</div>

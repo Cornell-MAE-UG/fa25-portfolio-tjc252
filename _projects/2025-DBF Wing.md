@@ -6,7 +6,7 @@ image: /assets/images/fullplanefinal.png
 permalink: /projects/2025-DBF-Wing/
 ---
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">On the Cornell Design Build Fly team, I led the airfoil selection, computationally analyzed different wing design choices, and built the full wing CAD for our 2025 aircraft.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">On the Cornell Design Build Fly team, I led the airfoil selection, computationally analyzed different wing design choices, and built the full wing CAD for our 2025 aircraft.</div>
 
 <div style="text-align:center; margin:1.5em 0;"><img src="/fa25-portfolio-tjc252/assets/images/fullplanefinal.png" alt="Full plane CAD" style="max-width:100%; height:auto;"><p style="margin-top:6px; font-size:0.9em;"><em>Full Plane CAD</em></p></div>
 
@@ -76,4 +76,4 @@ For the leading edge, I formed it from 1/32 in balsa sheet soaked in water to be
 
 ---
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0; font-size:0.93em;"><strong>Technologies used:</strong> XFLR5 &nbsp;·&nbsp; SOLIDWORKS &nbsp;·&nbsp; ANSYS Fluent &nbsp;·&nbsp; 3D printing &nbsp;·&nbsp; Hardwood and balsa construction</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px; margin:1em 0; font-size:0.93em;"><strong>Technologies used:</strong> XFLR5 &nbsp;·&nbsp; SOLIDWORKS &nbsp;·&nbsp; ANSYS Fluent &nbsp;·&nbsp; 3D printing &nbsp;·&nbsp; Hardwood and balsa construction</div>

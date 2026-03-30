@@ -25,7 +25,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 
 ## Impact
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px; margin:1em 0;">Vineyards reduce SLF populations at the source by targeting egg masses, which prevents the emergence of <strong>30 to 50 insects per egg mass</strong> (1). Verifying destruction allows vineyards to quantify population reduction, improving confidence in control protocols and providing a scalable solution.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px; margin:1em 0;">Vineyards reduce SLF populations at the source by targeting egg masses, which prevents the emergence of <strong>30 to 50 insects per egg mass</strong> (1). Verifying destruction allows vineyards to quantify population reduction, improving confidence in control protocols and providing a scalable solution.</div>
 
 ---
 
@@ -35,7 +35,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 
 <div style="display:flex; gap:20px; flex-wrap:wrap; margin:1.5em 0;">
 <div style="flex:1; min-width:200px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
-<div style="background-color:#3c4267; color:white; padding:10px 14px; font-weight:bold; font-size:0.95em;">Method of Usage</div>
+<div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.95em;">Method of Usage</div>
 <div style="padding:12px 14px; font-size:0.93em; line-height:1.7; background:white;">
 <ul style="margin:0; padding-left:18px;">
 <li>Uses a trigger on a handle to create a high mechanical advantage to close the jaws</li>
@@ -45,7 +45,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 </div>
 </div>
 <div style="flex:1; min-width:200px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
-<div style="background-color:#3c4267; color:white; padding:10px 14px; font-weight:bold; font-size:0.95em;">Why It's Better Than the Status Quo</div>
+<div style="background-color:#3a3f58; color:white; padding:10px 14px; font-weight:bold; font-size:0.95em;">Why It's Better Than the Status Quo</div>
 <div style="padding:12px 14px; font-size:0.93em; line-height:1.7; background:white;">
 <ul style="margin:0; padding-left:18px;">
 <li>More efficient and comfortable than scraping with a card, but still hand-held and chemical-free</li>
@@ -63,13 +63,13 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Risk</th>
       <th style="padding: 10px 12px;">Importance / Testing</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><strong>Risk 1:</strong> Use of the device can be labor and time intensive for farmers with tight margins</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">If too slow, vineyards won't adopt it; test by finding time per egg mass and the mechanical advantage</td>
     </tr>
@@ -77,7 +77,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><strong>Risk 2:</strong> Damage to grapevines or grapes when the egg masses are scraped off</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">If it damages vines, they may be unusable; test by inspecting after repeated use and altering jaw material</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;"><strong>Risk 3:</strong> Interference with growing regulations by introducing a new device into the vineyard</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">If it violates regulations, it can't be used; test by checking growing standards and making device hand-held</td>
     </tr>
@@ -90,13 +90,13 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Question</th>
       <th style="padding: 10px 12px;">Decision Affected</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Do egg masses vary significantly in size, thickness, or shape throughout the season?</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Jaw opening width, bucket size, and shape of teeth on the jaw</td>
     </tr>
@@ -104,7 +104,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">What surfaces are the most difficult to remove the egg masses from?</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Material of the jaw to withstand forces and stress needed to remove</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Are eggs often laid in places throughout vineyards that can't be reached by hand?</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Impacts whether or not the tool is extendable to enable greater reach</td>
     </tr>

@@ -7,7 +7,7 @@ permalink: /projects/2025-Thermodynamics/
 ---
 
 
-<div style="background-color:#f8f9fa; border-left:4px solid #3c4267; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Selected a real-world thermodynamic system, modeled it using control volume analysis, and evaluated how performance changes under a modified operating condition.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Selected a real-world thermodynamic system, modeled it using control volume analysis, and evaluated how performance changes under a modified operating condition.</div>
 
 ---
 
@@ -43,13 +43,13 @@ Downstream, the air enters the **wing de-ice boot**, modeled as a small inflatio
 
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em; margin: 1.5em 0;">
   <thead>
-    <tr style="background-color: #3c4267; color: white; text-align: left;">
+    <tr style="background-color: #3a3f58; color: white; text-align: left;">
       <th style="padding: 10px 12px;">Component</th>
       <th style="padding: 10px 12px;">Assumptions</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Compressor bleed</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Not modeled; only outlet bleed properties at state 1 are used. No work or heat crosses this boundary.</td>
     </tr>
@@ -57,7 +57,7 @@ Downstream, the air enters the **wing de-ice boot**, modeled as a small inflatio
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Throttling valve</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Steady state, adiabatic, no shaft work, negligible kinetic and potential energy changes, single inlet and outlet.</td>
     </tr>
-    <tr style="background-color: #f8f9fa;">
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Boot (tank)</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Transient control mass, negligible heat transfer and shaft work, boundary work from boot expansion neglected.</td>
     </tr>
@@ -93,11 +93,11 @@ $$\frac{d(m_{\text{boot}}\, u_{\text{boot}})}{dt} = \dot{m}_2 h_2$$
 shows that internal energy also rises more rapidly, giving a higher peak boot pressure.
 
 <div style="display:flex; gap:16px; flex-wrap:wrap; margin:1.5em 0;">
-<div style="flex:1; min-width:180px; background-color:#f8f9fa; border-left:4px solid #3c4267; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:180px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Benefit</div>
-<div style="font-size:0.95em; color:#3c4267; font-weight:bold;">Faster inflation → better ice removal in severe icing</div>
+<div style="font-size:0.95em; color:#3a3f58; font-weight:bold;">Faster inflation → better ice removal in severe icing</div>
 </div>
-<div style="flex:1; min-width:180px; background-color:#f8f9fa; border-left:4px solid #aaa; padding:12px 16px; border-radius:4px;">
+<div style="flex:1; min-width:180px; background-color:#f7f8fa; border-left:4px solid #aaa; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#666; margin-bottom:4px;">Cost</div>
 <div style="font-size:0.95em; color:#555; font-weight:bold;">More bleed air → higher fuel consumption + boot wear risk</div>
 </div>
