@@ -117,7 +117,7 @@ Current control methods for the spotted lanternfly (SLF) fail to ensure destruct
 
 <div style="text-align:center; margin:1.5em 0;">
   <img src="/fa25-portfolio-tjc252/assets/images/design1.jpg" alt="Mechanical Jaw Bucket Design with Internal Compartment" style="max-width:70%; height:auto;">
-  <p style="margin-top:6px; font-size:0.9em;"><em>Figure 1: Mechanical Jaw Bucket Design with Internal Compartment</em></p>
+  <p style="margin-top:6px; font-size:0.9em;"><em><strong>Figure 1: Mechanical Jaw Bucket Design with Internal Compartment</strong></em></p>
 </div>
 
 ---
