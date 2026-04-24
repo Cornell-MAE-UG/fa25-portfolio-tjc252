@@ -64,7 +64,7 @@ The project spanned the full design cycle from client brief to functional protot
 </div>
 <div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#444; margin-bottom:4px;">Max Jaw Opening</div>
-<div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">1.95 in</div>
+<div style="font-size:1.4em; font-weight:bold; color:#3a3f58;">3.4 in</div>
 </div>
 <div style="flex:1; min-width:140px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:12px 16px; border-radius:4px;">
 <div style="font-size:0.8em; color:#444; margin-bottom:4px;">Unique Components</div>
