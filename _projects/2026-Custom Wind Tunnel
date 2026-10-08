@@ -1,0 +1,304 @@
+---
+layout: project
+title: 2026 Custom Wind Tunnel
+description: Designed, sized, and 3D printed an open-circuit wind tunnel
+image: /assets/images/windtunnel.png
+permalink: /projects/2026-Wind-Tunnel/
+---
+
+{% raw %}
+<style>
+.wt{--ink:#22252b;--muted:#5f6670;--rule:#dde1e6;--accent:#3a3f58;--soft:#f7f8fa;--flow:#2f5fc4;--flowsoft:rgba(47,95,196,.10);--stream:rgba(47,95,196,.2);--signal:#c24a12;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;color:var(--ink);line-height:1.7}
+.wt p{margin:0 0 1em}
+.wt h2{margin:2em 0 .5em;color:var(--accent);display:flex;gap:.5em;align-items:baseline}
+.wt h2 .n{font-family:var(--mono);font-size:.75em;color:var(--flow)}
+.wt h3{margin:1.5em 0 .3em;color:var(--accent)}
+.wt .eyebrow{font-size:.8em;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.wt .lede{font-size:1.15em;margin:.4em 0 0}
+.wt .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));border-top:2px solid var(--accent);border-bottom:1px solid var(--rule);margin:22px 0 8px;padding:0}
+.wt .specs div{padding:10px 12px 10px 0}
+.wt .specs dt{font-size:.7em;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.wt .specs dd{margin:2px 0 0;font-family:var(--mono);font-size:1em}
+.wt .specs dd.hl{color:var(--signal)}
+.wt .toc{display:flex;flex-wrap:wrap;gap:6px 14px;margin:18px 0;padding:12px 16px;background:var(--soft);border-radius:4px;font-size:.9em}
+.wt .toc .k{width:100%;font-size:.75em;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.wt .toc a{color:var(--accent);text-decoration:none}
+.wt .toc a:hover{text-decoration:underline}
+.wt figure{margin:24px 0}
+.wt .figbox{overflow-x:auto;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:14px}
+.wt .fig{display:block;width:100%;min-width:540px;height:auto}
+.wt figcaption{font-size:.88em;color:var(--muted);margin-top:8px}
+.wt figcaption b{color:var(--ink)}
+.wt section{scroll-margin-top:16px}
+.wt .eq{overflow-x:auto;margin:12px 0 16px}
+.wt .decision{background:var(--soft);border-left:4px solid var(--accent);padding:14px 18px;border-radius:4px;margin:1.5em 0;font-size:.97em}
+.wt .decision .k{display:block;font-size:.72em;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:2px}
+.wt .decision p{margin:0}
+.wt .tbl{overflow-x:auto;margin:16px 0}
+.wt table{border-collapse:collapse;width:100%;font-size:.93em;min-width:420px}
+.wt th{text-align:left;font-size:.75em;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--accent);padding:6px 10px 6px 0}
+.wt td{border-bottom:1px solid var(--rule);padding:7px 10px 7px 0;vertical-align:top}
+.wt td.num,.wt th.num{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums;font-size:.88em}
+.wt tr.tot td{font-weight:700;border-bottom:2px solid var(--accent)}
+.wt .m{font-family:var(--mono);font-size:.88em}
+.wt .photo{border:2px dashed var(--rule);border-radius:4px;aspect-ratio:16/9;max-width:100%;display:grid;place-items:center;text-align:center;padding:16px;color:var(--muted);background:var(--soft);font-size:.9em}
+.wt .photo b{display:block;color:var(--ink)}
+.wt .pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.wt .pair .photo{aspect-ratio:4/3}
+.wt ul.clean{padding-left:1.2em}
+.wt ul.clean li{margin-bottom:.4em}
+.wt .refs{font-size:.92em}
+.wt .wall{fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linejoin:round}
+.wt .stream{fill:none;stroke:var(--stream);stroke-width:1.2}
+.wt .fanplate{fill:var(--ink)}
+.wt .hc{fill:var(--flowsoft);stroke:var(--flow);stroke-width:1;stroke-dasharray:2 2}
+.wt .screen{stroke:var(--flow);stroke-width:1.6;stroke-dasharray:1 3}
+.wt .model{fill:var(--signal)}
+.wt .arrow{stroke:var(--flow);stroke-width:2}
+.wt .ahead{fill:var(--flow)}
+.wt .lab{font:500 12.5px sans-serif;fill:var(--muted)}
+.wt .labm{font:600 12.5px sans-serif;fill:var(--signal)}
+.wt .dim{stroke:var(--muted);stroke-width:1}
+.wt .dimt{font:600 12.5px var(--mono);fill:var(--ink)}
+.wt .dimn{font:500 11.5px sans-serif;fill:var(--muted)}
+.wt .grid{stroke:var(--rule);stroke-width:1}
+.wt .tick{font:500 11.5px var(--mono);fill:var(--muted)}
+.wt .axl{font:500 12.5px sans-serif;fill:var(--muted)}
+.wt .curve{fill:none;stroke:var(--flow);stroke-width:2.4}
+.wt .area{fill:var(--flowsoft)}
+.wt .pt{fill:#fff;stroke:var(--flow);stroke-width:2}
+.wt .meas{fill:var(--signal);stroke:#fff;stroke-width:2}
+.wt .fanline{stroke:var(--ink);stroke-width:1.6;stroke-dasharray:6 4}
+.wt .bar{fill:var(--flow)}
+.wt .rowl{font:500 13px sans-serif;fill:var(--ink)}
+.wt .val{font:500 12px var(--mono);fill:var(--muted)}
+</style>
+<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg:{fontCache:'global'}};</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js" defer></script>
+<div class="wt">
+<div class="hero">
+<div class="eyebrow">Personal project · Summer 2026 · Bristol, NH</div>
+<p class="lede">A 37-inch, fully 3D-printed open-circuit suction tunnel, sized from first principles to test small wing sections for Cornell Design Build Fly and to make airflow visible.</p>
+<dl class="specs">
+<div><dt>Overall length</dt><dd>37.2 in</dd></div>
+<div><dt>Test section</dt><dd>5 × 5 × 9 in</dd></div>
+<div><dt>Contraction ratio</dt><dd>3.61 : 1</dd></div>
+<div><dt>Drive</dt><dd>4 × 120 mm</dd></div>
+<div><dt>Design speed</dt><dd>8.7 m/s</dd></div>
+<div><dt>Measured</dt><dd class="hl">3.3 m/s</dd></div>
+</dl>
+</div>
+<nav class="toc" aria-label="Contents"><span class="k">Contents</span>
+<a href="#purpose">01 Purpose</a><a href="#feasibility">02 Feasibility</a><a href="#architecture">03 Architecture</a><a href="#conditioning">04 Flow conditioning</a><a href="#contraction">05 Contraction</a><a href="#test">06 Test section</a><a href="#diffuser">07 Diffuser &amp; plenum</a><a href="#fans">08 Loss budget &amp; fans</a><a href="#build">09 CAD &amp; fabrication</a><a href="#fog">10 Flow visualization</a><a href="#results">11 Commissioning</a><a href="#next">12 Lessons</a></nav>
+<figure class="wide">
+<div class="figbox"><svg class="fig" viewBox="0 0 973 330" role="img" aria-labelledby="pt pd"><title id="pt">Tunnel side profile, drawn to scale</title><desc id="pd">Side profile of the 37.2 inch tunnel from bellmouth inlet to fan plate, with section lengths dimensioned below.</desc><polyline class="stream" points="40.0,81.6 136.0,81.6 141.1,81.6 146.2,81.6 151.3,81.7 156.4,81.9 161.5,82.1 166.6,82.5 171.7,82.9 176.8,83.5 181.9,84.2 187.0,85.0 192.1,85.9 197.2,86.9 202.3,88.0 207.4,89.2 212.5,90.5 217.6,91.9 222.7,93.3 227.8,94.8 232.9,96.3 238.0,97.8 243.1,99.3 248.2,100.8 253.3,102.3 258.4,103.7 263.5,105.1 268.6,106.4 273.7,107.6 278.8,108.7 283.9,109.7 289.0,110.6 294.1,111.4 299.2,112.1 304.3,112.7 309.4,113.1 314.5,113.5 319.6,113.7 324.7,113.9 329.8,114.0 334.9,114.0 340.0,114.0 556.0,112.9 868.0,103.2"/><polyline class="stream" points="40.0,115.8 136.0,115.8 141.1,115.8 146.2,115.8 151.3,115.9 156.4,115.9 161.5,116.1 166.6,116.2 171.7,116.5 176.8,116.7 181.9,117.1 187.0,117.5 192.1,117.9 197.2,118.4 202.3,119.0 207.4,119.6 212.5,120.3 217.6,120.9 222.7,121.7 227.8,122.4 232.9,123.1 238.0,123.9 243.1,124.7 248.2,125.4 253.3,126.1 258.4,126.9 263.5,127.5 268.6,128.2 273.7,128.8 278.8,129.4 283.9,129.9 289.0,130.3 294.1,130.7 299.2,131.1 304.3,131.3 309.4,131.6 314.5,131.7 319.6,131.9 324.7,131.9 329.8,132.0 334.9,132.0 340.0,132.0 556.0,131.4 868.0,126.6"/><polyline class="stream" points="40.0,150.0 136.0,150.0 141.1,150.0 146.2,150.0 151.3,150.0 156.4,150.0 161.5,150.0 166.6,150.0 171.7,150.0 176.8,150.0 181.9,150.0 187.0,150.0 192.1,150.0 197.2,150.0 202.3,150.0 207.4,150.0 212.5,150.0 217.6,150.0 222.7,150.0 227.8,150.0 232.9,150.0 238.0,150.0 243.1,150.0 248.2,150.0 253.3,150.0 258.4,150.0 263.5,150.0 268.6,150.0 273.7,150.0 278.8,150.0 283.9,150.0 289.0,150.0 294.1,150.0 299.2,150.0 304.3,150.0 309.4,150.0 314.5,150.0 319.6,150.0 324.7,150.0 329.8,150.0 334.9,150.0 340.0,150.0 556.0,150.0 868.0,150.0"/><polyline class="stream" points="40.0,184.2 136.0,184.2 141.1,184.2 146.2,184.2 151.3,184.1 156.4,184.1 161.5,183.9 166.6,183.8 171.7,183.5 176.8,183.3 181.9,182.9 187.0,182.5 192.1,182.1 197.2,181.6 202.3,181.0 207.4,180.4 212.5,179.7 217.6,179.1 222.7,178.3 227.8,177.6 232.9,176.9 238.0,176.1 243.1,175.3 248.2,174.6 253.3,173.9 258.4,173.1 263.5,172.5 268.6,171.8 273.7,171.2 278.8,170.6 283.9,170.1 289.0,169.7 294.1,169.3 299.2,168.9 304.3,168.7 309.4,168.4 314.5,168.3 319.6,168.1 324.7,168.1 329.8,168.0 334.9,168.0 340.0,168.0 556.0,168.6 868.0,173.4"/><polyline class="stream" points="40.0,218.4 136.0,218.4 141.1,218.4 146.2,218.4 151.3,218.3 156.4,218.1 161.5,217.9 166.6,217.5 171.7,217.1 176.8,216.5 181.9,215.8 187.0,215.0 192.1,214.1 197.2,213.1 202.3,212.0 207.4,210.8 212.5,209.5 217.6,208.1 222.7,206.7 227.8,205.2 232.9,203.7 238.0,202.2 243.1,200.7 248.2,199.2 253.3,197.7 258.4,196.3 263.5,194.9 268.6,193.6 273.7,192.4 278.8,191.3 283.9,190.3 289.0,189.4 294.1,188.6 299.2,187.9 304.3,187.3 309.4,186.9 314.5,186.5 319.6,186.3 324.7,186.1 329.8,186.0 334.9,186.0 340.0,186.0 556.0,187.1 868.0,196.8"/><polyline class="wall" points="40.0,36.0 136.0,36.0 141.1,36.0 146.2,36.1 151.3,36.2 156.4,36.5 161.5,36.9 166.6,37.4 171.7,38.2 176.8,39.1 181.9,40.3 187.0,41.6 192.1,43.1 197.2,44.8 202.3,46.7 207.4,48.7 212.5,50.9 217.6,53.1 222.7,55.5 227.8,58.0 232.9,60.5 238.0,63.0 243.1,65.5 248.2,68.0 253.3,70.5 258.4,72.9 263.5,75.1 268.6,77.3 273.7,79.3 278.8,81.2 283.9,82.9 289.0,84.4 294.1,85.7 299.2,86.9 304.3,87.8 309.4,88.6 314.5,89.1 319.6,89.5 324.7,89.8 329.8,89.9 334.9,90.0 340.0,90.0 556.0,88.1 868.0,72.0 868.0,24.0 920.8,24.0"/><polyline class="wall" points="40.0,264.0 136.0,264.0 141.1,264.0 146.2,263.9 151.3,263.8 156.4,263.5 161.5,263.1 166.6,262.6 171.7,261.8 176.8,260.9 181.9,259.7 187.0,258.4 192.1,256.9 197.2,255.2 202.3,253.3 207.4,251.3 212.5,249.1 217.6,246.9 222.7,244.5 227.8,242.0 232.9,239.5 238.0,237.0 243.1,234.5 248.2,232.0 253.3,229.5 258.4,227.1 263.5,224.9 268.6,222.7 273.7,220.7 278.8,218.8 283.9,217.1 289.0,215.6 294.1,214.3 299.2,213.1 304.3,212.2 309.4,211.4 314.5,210.9 319.6,210.5 324.7,210.2 329.8,210.1 334.9,210.0 340.0,210.0 556.0,211.9 868.0,228.0 868.0,276.0 920.8,276.0"/><rect class="fanplate" x="920.8" y="24.0" width="12.0" height="252.0"/><rect class="hc" x="44.8" y="36.0" width="24.0" height="228.0"/><line class="screen" x1="116.8" y1="36.0" x2="116.8" y2="264.0"/><path class="model" d="M409.6,150 C414.4,142.3 452.8,142.8 505.6,151.2 C452.8,152.9 414.4,155.3 409.6,150Z"/><line class="arrow" x1="6" y1="150" x2="34" y2="150" marker-end="url(#ah)"/><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" class="ahead"/></marker></defs><text class="lab" x="56.8" y="28.0" text-anchor="middle">honeycomb</text><text class="lab" x="116.8" y="14.0" text-anchor="middle">screen</text><text class="lab" x="448.0" y="80.0" text-anchor="middle">4 in chord model</text><text class="lab" x="926.8" y="16.0" text-anchor="middle">2×2 fans</text><line class="dim" x1="40.0" y1="297.0" x2="40.0" y2="307.0"/><line class="dim" x1="40.0" y1="302.0" x2="136.0" y2="302.0"/><text class="dimt" x="88.0" y="320.0" text-anchor="middle">4 in</text><text class="dimn" x="88.0" y="335.0" text-anchor="middle">settling</text><line class="dim" x1="136.0" y1="297.0" x2="136.0" y2="307.0"/><line class="dim" x1="136.0" y1="302.0" x2="340.0" y2="302.0"/><text class="dimt" x="238.0" y="320.0" text-anchor="middle">8.5 in</text><text class="dimn" x="238.0" y="335.0" text-anchor="middle">contraction</text><line class="dim" x1="340.0" y1="297.0" x2="340.0" y2="307.0"/><line class="dim" x1="340.0" y1="302.0" x2="556.0" y2="302.0"/><text class="dimt" x="448.0" y="320.0" text-anchor="middle">9 in</text><text class="dimn" x="448.0" y="335.0" text-anchor="middle">test section</text><line class="dim" x1="556.0" y1="297.0" x2="556.0" y2="307.0"/><line class="dim" x1="556.0" y1="302.0" x2="868.0" y2="302.0"/><text class="dimt" x="712.0" y="320.0" text-anchor="middle">13 in</text><text class="dimn" x="712.0" y="335.0" text-anchor="middle">diffuser</text><line class="dim" x1="872.8" y1="297.0" x2="872.8" y2="307.0"/><line class="dim" x1="872.8" y1="302.0" x2="920.8" y2="302.0"/><text class="dimt" x="896.8" y="320.0" text-anchor="middle">2 in</text><text class="dimn" x="896.8" y="335.0" text-anchor="middle">plenum</text><line class="dim" x1="920.8" y1="297.0" x2="920.8" y2="307.0"/><line class="dim" x1="920.8" y1="302.0" x2="932.8" y2="302.0"/><line class="dim" x1="932.8" y1="297.0" x2="932.8" y2="307.0"/><text class="dimt" x="904.0" y="320.0" text-anchor="middle">2.7</text></svg></div>
+<figcaption><b>Figure 1.</b> Final tunnel side profile, drawn to scale. Air enters at the left through a honeycomb and screen, accelerates through the contraction into the test section, decelerates in the diffuser, and is drawn out by the fan array at the right.</figcaption>
+</figure>
+<figure>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: assembled tunnel</b>Hero shot of the finished tunnel, three-quarter view, test-section window facing the camera.</div></div>
+</figure>
+<section id="purpose">
+<h2><span class="n">01</span>Purpose and requirements</h2>
+<p>As Aerodynamics Subteam Lead on Cornell's AIAA Design Build Fly team, I work mostly in simulation. Our team has no physical way to check a CFD result against real flow. I wanted a desktop tunnel that could put small DBF wing segments in a uniform airstream, show flow behavior with tufts and fog, and teach me how a real test facility is sized.</p>
+<p>Before any calculation, I set the constraints the design had to meet:</p>
+<div class="tbl"><table>
+<thead><tr><th>Requirement</th><th>Target</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td>Footprint</td><td>Fits on a coffee table, under about 40 in</td><td>Must live in an apartment, not a lab</td></tr>
+<tr><td>Manufacturing</td><td>Printable on a Bambu A1 (256 mm bed)</td><td>Sets the maximum part size and drives the modular layout</td></tr>
+<tr><td>Test article</td><td>Wing segments around 4 in chord</td><td>Sets test-section size and Reynolds number</td></tr>
+<tr><td>Flow quality</td><td>Uniform, low-turbulence core</td><td>Without it, measurements are noise</td></tr>
+<tr><td>Visualization</td><td>Clear windows and a smoke source</td><td>Makes flow features visible and photographable</td></tr>
+<tr><td>Drive</td><td>Low-voltage 120 mm fans</td><td>Safe, cheap, quiet, and fits the packaging</td></tr>
+</tbody>
+</table></div>
+</section>
+<section id="feasibility">
+<h2><span class="n">02</span>First-pass sizing: why 30 m/s was the wrong goal</h2>
+<p>My first concept was an 8 × 8 in test section running at 30 m/s, driven by two computer fans. A quick power estimate shows why that concept could not work. The required volume flow is the test-section area times the speed:</p>
+<div class="eq">\[ Q = A\,V = (0.0413\ \text{m}^2)(30\ \text{m/s}) = 1.24\ \text{m}^3/\text{s} \approx 2600\ \text{CFM} \]</div>
+<p>The test-section dynamic pressure, and a typical small-tunnel loss of 1.3 to 2 times that value, set the pressure the fan must supply:</p>
+<div class="eq">\[ q = \tfrac12 \rho V^2 = \tfrac12(1.225)(30)^2 = 551\ \text{Pa}, \qquad \Delta p_{\text{fan}} \approx 700\text{–}1100\ \text{Pa} \]</div>
+<div class="eq">\[ P = \frac{Q\,\Delta p}{\eta} \approx \frac{(1.24)(900)}{0.5} \approx 2.2\ \text{kW} \]</div>
+<p>Two case fans supply roughly 10 W. The concept was short by a factor of about 200 in power. The choice was to buy a 3 hp blower or to change the goal.</p>
+<div class="decision"><span class="k">Decision</span><p>Keep the low-voltage fan drive and the coffee-table footprint. Drop the speed target and design the geometry for flow quality, then let the fan curve set the operating speed.</p></div>
+<h3>Design iterations</h3>
+<div class="tbl"><table>
+<thead><tr><th>Concept</th><th>Inlet → test section</th><th class="num">CR</th><th>Outcome</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>No contraction, 8 × 8 in, honeycomb at test-section entry</td><td class="num">1.0</td><td>A duct, not a tunnel. Rejected on power and flow quality.</td></tr>
+<tr><td>B</td><td>10 × 10 → 6 × 6 in</td><td class="num">2.78</td><td>Too little turbulence reduction for the length</td></tr>
+<tr><td>Final</td><td>9.5 × 9.5 → 5 × 5 in</td><td class="num">3.61</td><td>Best contraction that fits the fan array and print bed</td></tr>
+</tbody>
+</table></div>
+</section>
+<section id="architecture">
+<h2><span class="n">03</span>Architecture: open-circuit suction</h2>
+<p>I chose an open-circuit layout because a closed return circuit would double the footprint. I placed the fans at the downstream end so they pull air through the tunnel instead of pushing it. A blower-type tunnel sends fan swirl and blade wakes straight into the test section. In a suction tunnel the air the model sees has only passed through the honeycomb, screen and contraction.</p>
+<div class="tbl"><table>
+<thead><tr><th>Section</th><th class="num">Length (in)</th><th>Cross-section</th><th>Function</th></tr></thead>
+<tbody>
+<tr><td>Settling module</td><td class="num">4.0</td><td>9.5 in square</td><td>Honeycomb, screen, settling length</td></tr>
+<tr><td>Contraction</td><td class="num">8.5</td><td>9.5 → 5 in</td><td>Accelerates flow, damps turbulence</td></tr>
+<tr><td>Test section</td><td class="num">9.0</td><td>5 in square, 0.5° draft</td><td>Model, windows, AoA scale</td></tr>
+<tr><td>Diffuser</td><td class="num">13.0</td><td>5 → 6.5 in</td><td>Recovers pressure, isolates fans</td></tr>
+<tr><td>Step + plenum</td><td class="num">2.2</td><td>10.5 in square</td><td>Spreads flow across all four fans</td></tr>
+<tr><td>Fan plate</td><td class="num">0.5</td><td>2 × 2, bellmouthed bores</td><td>Drive</td></tr>
+<tr class="tot"><td>Total</td><td class="num">37.2</td><td></td><td></td></tr>
+</tbody>
+</table></div>
+</section>
+<section id="conditioning">
+<h2><span class="n">04</span>Flow conditioning: honeycomb and screen</h2>
+<p>Room air enters with swirl and large eddies. The honeycomb straightens it, and the screen evens out the velocity profile. Both sit in the settling chamber, where the air is slowest. Their pressure loss scales with local dynamic pressure, so at one-thirteenth of the test-section <span class="m">q</span> they cost very little.</p>
+<h3>Honeycomb</h3>
+<p>I followed Mehta and Bradshaw's rule of a cell length-to-diameter ratio of 6 to 8. I used 1/8 in (3.2 mm) hexagonal cells, 1.0 in deep, for <span class="m">L/d = 8</span>. At the design speed the air moves through the cells at about 2.4 m/s, so the cell Reynolds number is low and the flow inside each cell stays laminar:</p>
+<div class="eq">\[ Re_{\text{cell}} = \frac{V_s\,d}{\nu} = \frac{(2.41)(0.00318)}{1.5\times10^{-5}} \approx 510 \]</div>
+<h3>Screen</h3>
+<p>A screen corrects non-uniform flow because its pressure drop is highest where the local velocity is highest. This only works when the open-area ratio <span class="m">β</span> is at least 0.57. Below that value the flow through the screen becomes unstable and the screen adds non-uniformity instead of removing it. I selected standard fiberglass window screen (18 × 16 weave, 0.011 in thread) and checked it:</p>
+<div class="eq">\[ \beta = \left(1 - \frac{d}{p_1}\right)\left(1 - \frac{d}{p_2}\right) = (1 - 0.198)(1 - 0.176) = 0.66 \;>\; 0.57 \]</div>
+<p>The screen sits 2 in behind the honeycomb. That is 0.21 chamber widths, which matches the recommended honeycomb-to-screen spacing. The screen is clamped in a two-ring frame that stretches it like an embroidery hoop, because a slack screen opens up where velocity is high and reverses its own corrective effect.</p>
+<div class="decision"><span class="k">Trade-off</span><p>The screen-to-contraction gap is 1 in, about half the textbook 0.2 chamber widths. I accepted it to keep the settling module at 4 in. The turbulence the screen creates keeps decaying through the 8.5 in contraction, so the effective decay length before the test section is closer to 9.5 in.</p></div>
+<figure>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>CAD render or photo: settling module</b>Honeycomb face and the screen clamp ring.</div></div>
+</figure>
+</section>
+<section id="contraction">
+<h2><span class="n">05</span>Contraction</h2>
+<p>The contraction accelerates the flow and is the main reason the test-section flow is uniform. Rapid-distortion theory shows how a contraction of ratio <span class="m">c</span> scales turbulence intensity:</p>
+<div class="eq">\[ \frac{u'/U\big|_{\text{exit}}}{u'/U\big|_{\text{inlet}}} \sim \frac{1}{c^{2}} \ \text{(axial)}, \qquad \sim \frac{1}{\sqrt{c}} \ \text{(lateral)} \]</div>
+<p>The ratio itself is set by the inlet and exit widths:</p>
+<div class="eq">\[ c = \left(\frac{w_i}{w_e}\right)^{2} = \left(\frac{9.5}{5}\right)^{2} = 3.61 \]</div>
+<p>At <span class="m">c = 3.61</span>, axial turbulence intensity drops to about 8% of its inlet value and lateral intensity to about 53%. The usual recommendation for small tunnels is 6 to 9. The inlet width was capped by the 2 × 2 fan array (9.45 in across) and the print bed, so I could not reach that range. The screen carries more of the lateral smoothing as a result.</p>
+<h3>Length and wall shape</h3>
+<p>A short contraction risks separation at the wide end. A long one thickens the boundary layer and adds friction. Bell and Mehta's guidance is a length of about 0.7 to 1.0 times the inlet width. I used 8.5 in, which gives <span class="m">L/w<sub>i</sub> = 0.89</span>.</p>
+<p>I defined the wall with a fifth-order polynomial. Its first and second derivatives are zero at both ends, so the wall joins the settling chamber and test section with no change in slope or curvature, and no pressure spike:</p>
+<div class="eq">\[ h(\xi) = h_i - (h_i - h_e)\left(6\xi^5 - 15\xi^4 + 10\xi^3\right), \qquad \xi = \frac{x}{L} \]</div>
+<p>I entered this as an equation-driven curve in SolidWorks and applied the same profile to both planes of the square duct.</p>
+<figure>
+<div class="figbox"><svg class="fig" viewBox="0 0 640 320" role="img" aria-labelledby="ct cd"><title id="ct">Contraction wall profile</title><desc id="cd">Half-width falls from 4.75 to 2.5 inches over 8.5 inches along a fifth-order polynomial, flat at both ends.</desc><line class="grid" x1="64" x2="616" y1="245.5" y2="245.5"/><text class="tick" x="56" y="249.5" text-anchor="end">2.5</text><line class="grid" x1="64" x2="616" y1="200.4" y2="200.4"/><text class="tick" x="56" y="204.4" text-anchor="end">3.0</text><line class="grid" x1="64" x2="616" y1="155.3" y2="155.3"/><text class="tick" x="56" y="159.3" text-anchor="end">3.5</text><line class="grid" x1="64" x2="616" y1="110.2" y2="110.2"/><text class="tick" x="56" y="114.2" text-anchor="end">4.0</text><line class="grid" x1="64" x2="616" y1="65.1" y2="65.1"/><text class="tick" x="56" y="69.1" text-anchor="end">4.5</text><line class="grid" x1="64" x2="616" y1="20.0" y2="20.0"/><text class="tick" x="56" y="24.0" text-anchor="end">5.0</text><text class="tick" x="64.0" y="286" text-anchor="middle">0</text><text class="tick" x="128.9" y="286" text-anchor="middle">1</text><text class="tick" x="193.9" y="286" text-anchor="middle">2</text><text class="tick" x="258.8" y="286" text-anchor="middle">3</text><text class="tick" x="323.8" y="286" text-anchor="middle">4</text><text class="tick" x="388.7" y="286" text-anchor="middle">5</text><text class="tick" x="453.6" y="286" text-anchor="middle">6</text><text class="tick" x="518.6" y="286" text-anchor="middle">7</text><text class="tick" x="583.5" y="286" text-anchor="middle">8</text><text class="axl" x="340.0" y="312" text-anchor="middle">distance along contraction, x (in)</text><text class="axl" transform="translate(16 144.0) rotate(-90)" text-anchor="middle">half-width h (in)</text><polygon class="area" points="64.0,268.0 64.0,42.5 69.5,42.5 75.0,42.6 80.6,42.6 86.1,42.7 91.6,42.8 97.1,42.9 102.6,43.2 108.2,43.5 113.7,43.8 119.2,44.3 124.7,44.8 130.2,45.5 135.8,46.2 141.3,47.0 146.8,47.9 152.3,49.0 157.8,50.1 163.4,51.4 168.9,52.8 174.4,54.3 179.9,55.9 185.4,57.6 191.0,59.5 196.5,61.5 202.0,63.5 207.5,65.7 213.0,68.1 218.6,70.5 224.1,73.0 229.6,75.6 235.1,78.4 240.6,81.2 246.2,84.1 251.7,87.2 257.2,90.3 262.7,93.5 268.2,96.7 273.8,100.1 279.3,103.5 284.8,107.0 290.3,110.5 295.8,114.1 301.4,117.7 306.9,121.4 312.4,125.1 317.9,128.8 323.4,132.6 329.0,136.4 334.5,140.2 340.0,144.0 345.5,147.8 351.0,151.6 356.6,155.4 362.1,159.2 367.6,162.9 373.1,166.6 378.6,170.3 384.2,173.9 389.7,177.5 395.2,181.0 400.7,184.5 406.2,187.9 411.8,191.3 417.3,194.5 422.8,197.7 428.3,200.8 433.8,203.9 439.4,206.8 444.9,209.6 450.4,212.4 455.9,215.0 461.4,217.5 467.0,219.9 472.5,222.3 478.0,224.5 483.5,226.5 489.0,228.5 494.6,230.4 500.1,232.1 505.6,233.7 511.1,235.2 516.6,236.6 522.2,237.9 527.7,239.0 533.2,240.1 538.7,241.0 544.2,241.8 549.8,242.5 555.3,243.2 560.8,243.7 566.3,244.2 571.8,244.5 577.4,244.8 582.9,245.1 588.4,245.2 593.9,245.3 599.4,245.4 605.0,245.4 610.5,245.5 616.0,245.5 616.0,268.0"/><polyline class="curve" points="64.0,42.5 69.5,42.5 75.0,42.6 80.6,42.6 86.1,42.7 91.6,42.8 97.1,42.9 102.6,43.2 108.2,43.5 113.7,43.8 119.2,44.3 124.7,44.8 130.2,45.5 135.8,46.2 141.3,47.0 146.8,47.9 152.3,49.0 157.8,50.1 163.4,51.4 168.9,52.8 174.4,54.3 179.9,55.9 185.4,57.6 191.0,59.5 196.5,61.5 202.0,63.5 207.5,65.7 213.0,68.1 218.6,70.5 224.1,73.0 229.6,75.6 235.1,78.4 240.6,81.2 246.2,84.1 251.7,87.2 257.2,90.3 262.7,93.5 268.2,96.7 273.8,100.1 279.3,103.5 284.8,107.0 290.3,110.5 295.8,114.1 301.4,117.7 306.9,121.4 312.4,125.1 317.9,128.8 323.4,132.6 329.0,136.4 334.5,140.2 340.0,144.0 345.5,147.8 351.0,151.6 356.6,155.4 362.1,159.2 367.6,162.9 373.1,166.6 378.6,170.3 384.2,173.9 389.7,177.5 395.2,181.0 400.7,184.5 406.2,187.9 411.8,191.3 417.3,194.5 422.8,197.7 428.3,200.8 433.8,203.9 439.4,206.8 444.9,209.6 450.4,212.4 455.9,215.0 461.4,217.5 467.0,219.9 472.5,222.3 478.0,224.5 483.5,226.5 489.0,228.5 494.6,230.4 500.1,232.1 505.6,233.7 511.1,235.2 516.6,236.6 522.2,237.9 527.7,239.0 533.2,240.1 538.7,241.0 544.2,241.8 549.8,242.5 555.3,243.2 560.8,243.7 566.3,244.2 571.8,244.5 577.4,244.8 582.9,245.1 588.4,245.2 593.9,245.3 599.4,245.4 605.0,245.4 610.5,245.5 616.0,245.5"/><circle class="pt" cx="64.0" cy="42.5" r="3.2"/><circle class="pt" cx="119.2" cy="44.3" r="3.2"/><circle class="pt" cx="174.4" cy="54.3" r="3.2"/><circle class="pt" cx="229.6" cy="75.6" r="3.2"/><circle class="pt" cx="284.8" cy="107.0" r="3.2"/><circle class="pt" cx="340.0" cy="144.0" r="3.2"/><circle class="pt" cx="395.2" cy="181.0" r="3.2"/><circle class="pt" cx="450.4" cy="212.4" r="3.2"/><circle class="pt" cx="505.6" cy="233.7" r="3.2"/><circle class="pt" cx="560.8" cy="243.7" r="3.2"/><circle class="pt" cx="616.0" cy="245.5" r="3.2"/><text class="lab" x="83.5" y="32.5">inlet 9.5 in square</text><text class="lab" x="596.5" y="235.5" text-anchor="end">exit 5 in square</text></svg></div>
+<figcaption><b>Figure 2.</b> Contraction half-width with <span class="m">h<sub>i</sub> = 4.75 in</span>, <span class="m">h<sub>e</sub> = 2.5 in</span>, <span class="m">L = 8.5 in</span>. Points mark the stations in the table below.</figcaption>
+</figure>
+<div class="tbl"><table>
+<thead><tr><th class="num">x (in)</th><th class="num">half-width (in)</th><th class="num">width (in)</th></tr></thead>
+<tbody><tr><td class='num'>0.00</td><td class='num'>4.750</td><td class='num'>9.500</td></tr><tr><td class='num'>0.85</td><td class='num'>4.731</td><td class='num'>9.461</td></tr><tr><td class='num'>1.70</td><td class='num'>4.620</td><td class='num'>9.239</td></tr><tr><td class='num'>2.55</td><td class='num'>4.383</td><td class='num'>8.766</td></tr><tr><td class='num'>3.40</td><td class='num'>4.036</td><td class='num'>8.072</td></tr><tr><td class='num'>4.25</td><td class='num'>3.625</td><td class='num'>7.250</td></tr><tr><td class='num'>5.10</td><td class='num'>3.214</td><td class='num'>6.428</td></tr><tr><td class='num'>5.95</td><td class='num'>2.867</td><td class='num'>5.734</td></tr><tr><td class='num'>6.80</td><td class='num'>2.630</td><td class='num'>5.261</td></tr><tr><td class='num'>7.65</td><td class='num'>2.519</td><td class='num'>5.039</td></tr><tr><td class='num'>8.50</td><td class='num'>2.500</td><td class='num'>5.000</td></tr></tbody>
+</table></div>
+</section>
+<section id="test">
+<h2><span class="n">06</span>Test section</h2>
+<p>The test section is 5 × 5 in and 9 in long, 1.8 hydraulic diameters. That leaves the model clear of the contraction exit with room behind it for the wake. The walls diverge by 0.5°. The boundary layer grows along the section and shrinks the effective core, which would otherwise accelerate the flow. The draft holds the core velocity constant, so a reference reading upstream matches the speed at the model.</p>
+<p>For a 4 in chord at the design speed, the chord Reynolds number is in the range DBF aircraft actually fly at:</p>
+<div class="eq">\[ Re_c = \frac{V c}{\nu} = \frac{(8.7)(0.1016)}{1.5\times10^{-5}} \approx 59{,}000 \]</div>
+<h3>Windows and angle-of-attack scale</h3>
+<p>My first approach was to pause the print and embed a 4 × 6 in acrylic panel in the wall. It did not seal well and made the window permanent. I redesigned it as a rebate and clamp frame. The acrylic sits in a rebate on the outer face, flush with the inner wall, and a printed frame clamps it against a foam gasket. The window is removable, never stressed by bolts, and leaves no step or cavity in the flow.</p>
+<p>The back wall carries a 3 in angle-of-attack scale printed in a second color. Tick marks every 5° and labels every 15° are engraved 0.4 mm (two layers) into the outer face. The inner face stays smooth.</p>
+<div class="pair">
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: test-section window</b>Rebate and clamp frame with acrylic installed.</div></div>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: AoA scale</b>Two-color degree ring on the back wall.</div></div>
+</div>
+</section>
+<section id="diffuser">
+<h2><span class="n">07</span>Diffuser, step and plenum</h2>
+<p>The diffuser slows the air after the test section and converts kinetic energy back into static pressure, which reduces the pressure the fans must supply. Its limit is the wall angle. Past an equivalent cone half-angle of about 4 to 5° the flow separates intermittently. That unsteadiness travels upstream into the test section. For a square duct, I converted to the equal-area circle with <span class="m">D = 1.128w</span>:</p>
+<div class="eq">\[ \theta_{\text{wall}} = \tan^{-1}\!\frac{6.5 - 5}{2(13)} = 3.30^\circ, \qquad \theta_{\text{eq}} = \tan^{-1}\!\frac{1.128(6.5-5)}{2(13)} = 3.72^\circ \]</div>
+<div class="eq">\[ AR = \frac{6.5^2}{5^2} = 1.69, \qquad C_{p,\text{ideal}} = 1 - \frac{1}{AR^2} = 0.65 \]</div>
+<div class="decision"><span class="k">Decision</span><p>A 9 in diffuser would have delivered about 97% of the 13 in version's speed. I kept 13 in to put distance between the model and the fans. Four axial fans create swirl and a four-lobed suction pattern, and that pressure field reaches upstream. With 13 in of diffuser plus the plenum, the model sits about 20 in, or four test-section widths, ahead of the fan face.</p></div>
+<h3>Step to the plenum</h3>
+<p>Going from 6.5 in to the 10.5 in plenum with a proper diffuser would take another 40 in, so I used a flat bulkhead, a deliberate sudden expansion. Its loss follows Borda–Carnot:</p>
+<div class="eq">\[ K = \left(1 - \frac{A_1}{A_2}\right)^{2} = \left(1 - \frac{42.25}{110.25}\right)^{2} = 0.38 \]</div>
+<p>I kept the step edge sharp. A sharp edge fixes the separation line in place, so the recirculation is steady and repeatable. A rounded edge lets the separation point move with flow rate. A 2 in plenum after the step lets the jet spread across all four fans so they share the load evenly. The plenum is 10.5 in square so no fan bore is partly blocked by a wall.</p>
+</section>
+<section id="fans">
+<h2><span class="n">08</span>Loss budget and fan matching</h2>
+<p>The operating speed of any tunnel is where the fan curve crosses the system resistance curve. I built the resistance curve from a component loss budget. Each loss is <span class="m">Δp<sub>i</sub> = K<sub>i</sub>q<sub>i</sub></span> at that component's local speed. Referencing every term to the test section through continuity gives:</p>
+<div class="eq">\[ \Delta p_{\text{sys}} = q_t \sum_i K_i \left(\frac{A_t}{A_i}\right)^{2} \]</div>
+<figure>
+<div class="figbox"><svg class="fig" viewBox="0 0 640 258" role="img" aria-labelledby="lt ld"><title id="lt">Loss coefficients by component</title><desc id="ld">Each component loss expressed as a fraction of test-section dynamic pressure; total 0.48.</desc><line class="grid" x1="210.0" x2="210.0" y1="12" y2="228"/><text class="tick" x="210.0" y="244" text-anchor="middle">0.00</text><line class="grid" x1="300.0" x2="300.0" y1="12" y2="228"/><text class="tick" x="300.0" y="244" text-anchor="middle">0.04</text><line class="grid" x1="390.0" x2="390.0" y1="12" y2="228"/><text class="tick" x="390.0" y="244" text-anchor="middle">0.08</text><line class="grid" x1="480.0" x2="480.0" y1="12" y2="228"/><text class="tick" x="480.0" y="244" text-anchor="middle">0.12</text><line class="grid" x1="570.0" x2="570.0" y1="12" y2="228"/><text class="tick" x="570.0" y="244" text-anchor="middle">0.16</text><text class="rowl" x="200" y="36" text-anchor="end">Settling-chamber screen</text><rect class="bar" x="210" y="23" width="310.8" height="18" rx="2"/><text class="val" x="526.8" y="36">0.138</text><text class="rowl" x="200" y="70" text-anchor="end">Sudden expansion to plenum</text><rect class="bar" x="210" y="57" width="299.7" height="18" rx="2"/><text class="val" x="515.7" y="70">0.133</text><text class="rowl" x="200" y="104" text-anchor="end">Diffuser</text><rect class="bar" x="210" y="91" width="219.3" height="18" rx="2"/><text class="val" x="435.3" y="104">0.097</text><text class="rowl" x="200" y="138" text-anchor="end">Test-section skin friction</text><rect class="bar" x="210" y="125" width="121.5" height="18" rx="2"/><text class="val" x="337.5" y="138">0.054</text><text class="rowl" x="200" y="172" text-anchor="end">Honeycomb</text><rect class="bar" x="210" y="159" width="86.3" height="18" rx="2"/><text class="val" x="302.3" y="172">0.038</text><text class="rowl" x="200" y="206" text-anchor="end">Contraction</text><rect class="bar" x="210" y="193" width="45.0" height="18" rx="2"/><text class="val" x="261.0" y="206">0.020</text></svg></div>
+<figcaption><b>Figure 3.</b> Estimated loss coefficients, each referenced to test-section dynamic pressure. The sudden expansion and screen dominate. The honeycomb is nearly free because it sits in slow air.</figcaption>
+</figure>
+<div class="tbl"><table>
+<thead><tr><th>Component</th><th>Basis</th><th class="num">K (test-section q)</th></tr></thead>
+<tbody><tr><td>Settling-chamber screen</td><td>K = 1.8 at settling-chamber q</td><td class='num'>0.138</td></tr><tr><td>Sudden expansion to plenum</td><td>Borda–Carnot, K = 0.38 at diffuser-exit q</td><td class='num'>0.133</td></tr><tr><td>Diffuser</td><td>85% recovery efficiency</td><td class='num'>0.097</td></tr><tr><td>Test-section skin friction</td><td>f ≈ 0.03, L/Dₕ = 1.8</td><td class='num'>0.054</td></tr><tr><td>Honeycomb</td><td>K ≈ 0.5 at settling-chamber q</td><td class='num'>0.038</td></tr><tr><td>Contraction</td><td>typical well-shaped nozzle</td><td class='num'>0.020</td></tr><tr class='tot'><td>Total</td><td>referenced to test-section q</td><td class='num'>0.48</td></tr></tbody>
+</table></div>
+<div class="eq">\[ \Delta p_{\text{sys}} \approx 0.48\left(\tfrac12 \rho V^2\right) \approx 0.29\,V^2 \ \ \text{[Pa, with } V \text{ in m/s]} \]</div>
+<p>Against a high-static-pressure 120 mm fan with about 60 Pa at shut-off, the curves cross near 8.7 m/s and 22 Pa. The total flow there is about 300 CFM, or 75 CFM per fan.</p>
+<figure>
+<div class="figbox"><svg class="fig" viewBox="0 0 640 360" role="img" aria-labelledby="ft fd"><title id="ft">Fan and system curves</title><desc id="fd">System resistance rises with the square of test-section speed. A 60 pascal high-static-pressure fan crosses it near 8.7 metres per second; the installed case fans settled at 3.3 metres per second.</desc><line class="grid" x1="58" x2="616" y1="310.0" y2="310.0"/><text class="tick" x="50" y="314.0" text-anchor="end">0</text><line class="grid" x1="58" x2="616" y1="261.3" y2="261.3"/><text class="tick" x="50" y="265.3" text-anchor="end">10</text><line class="grid" x1="58" x2="616" y1="212.7" y2="212.7"/><text class="tick" x="50" y="216.7" text-anchor="end">20</text><line class="grid" x1="58" x2="616" y1="164.0" y2="164.0"/><text class="tick" x="50" y="168.0" text-anchor="end">30</text><line class="grid" x1="58" x2="616" y1="115.3" y2="115.3"/><text class="tick" x="50" y="119.3" text-anchor="end">40</text><line class="grid" x1="58" x2="616" y1="66.7" y2="66.7"/><text class="tick" x="50" y="70.7" text-anchor="end">50</text><line class="grid" x1="58" x2="616" y1="18.0" y2="18.0"/><text class="tick" x="50" y="22.0" text-anchor="end">60</text><text class="tick" x="58.0" y="328" text-anchor="middle">0</text><text class="tick" x="137.7" y="328" text-anchor="middle">2</text><text class="tick" x="217.4" y="328" text-anchor="middle">4</text><text class="tick" x="297.1" y="328" text-anchor="middle">6</text><text class="tick" x="376.9" y="328" text-anchor="middle">8</text><text class="tick" x="456.6" y="328" text-anchor="middle">10</text><text class="tick" x="536.3" y="328" text-anchor="middle">12</text><text class="tick" x="616.0" y="328" text-anchor="middle">14</text><text class="axl" x="337.0" y="352" text-anchor="middle">test-section speed, V (m/s)</text><text class="axl" transform="translate(14 164.0) rotate(-90)" text-anchor="middle">pressure rise, Δp (Pa)</text><polyline class="curve" points="58.0,310.0 62.0,310.0 66.0,309.9 70.0,309.9 73.9,309.8 77.9,309.6 81.9,309.5 85.9,309.3 89.9,309.1 93.9,308.8 97.9,308.6 101.8,308.3 105.8,307.9 109.8,307.6 113.8,307.2 117.8,306.8 121.8,306.3 125.8,305.9 129.7,305.4 133.7,304.8 137.7,304.3 141.7,303.7 145.7,303.1 149.7,302.4 153.7,301.7 157.6,301.0 161.6,300.3 165.6,299.5 169.6,298.8 173.6,297.9 177.6,297.1 181.6,296.2 185.5,295.3 189.5,294.4 193.5,293.4 197.5,292.4 201.5,291.4 205.5,290.4 209.5,289.3 213.4,288.2 217.4,287.1 221.4,285.9 225.4,284.7 229.4,283.5 233.4,282.2 237.4,281.0 241.3,279.7 245.3,278.3 249.3,277.0 253.3,275.6 257.3,274.1 261.3,272.7 265.3,271.2 269.2,269.7 273.2,268.2 277.2,266.6 281.2,265.0 285.2,263.4 289.2,261.8 293.2,260.1 297.1,258.4 301.1,256.6 305.1,254.9 309.1,253.1 313.1,251.3 317.1,249.4 321.1,247.5 325.0,245.6 329.0,243.7 333.0,241.7 337.0,239.7 341.0,237.7 345.0,235.6 349.0,233.6 352.9,231.5 356.9,229.3 360.9,227.2 364.9,225.0 368.9,222.7 372.9,220.5 376.9,218.2 380.8,215.9 384.8,213.6 388.8,211.2 392.8,208.8 396.8,206.4 400.8,203.9 404.8,201.4 408.7,198.9 412.7,196.4 416.7,193.8 420.7,191.2 424.7,188.6 428.7,186.0 432.7,183.3 436.6,180.6 440.6,177.8 444.6,175.0 448.6,172.3 452.6,169.4 456.6,166.6 460.6,163.7 464.5,160.8 468.5,157.8 472.5,154.9 476.5,151.9 480.5,148.8 484.5,145.8 488.5,142.7 492.4,139.6 496.4,136.5 500.4,133.3 504.4,130.1 508.4,126.9 512.4,123.6 516.4,120.3 520.3,117.0 524.3,113.7 528.3,110.3 532.3,106.9 536.3,103.5 540.3,100.0 544.3,96.5 548.2,93.0 552.2,89.5 556.2,85.9 560.2,82.3 564.2,78.7 568.2,75.0 572.2,71.3 576.1,67.6 580.1,63.9 584.1,60.1 588.1,56.3 592.1,52.5 596.1,48.6 600.1,44.7 604.0,40.8 608.0,36.9 612.0,32.9 616.0,28.9"/><line class="fanline" x1="58.0" y1="18.0" x2="610.0" y2="310.0"/><circle class="pt" cx="404.8" cy="201.4" r="5"/><text class="lab" x="414.8" y="191.4">design point · 8.7 m/s, 22 Pa</text><circle class="meas" cx="189.5" cy="294.4" r="5"/><text class="labm" x="199.5" y="282.4">measured · 3.3 m/s, 3.2 Pa</text><text class="lab" x="97.9" y="47.2">high-static fan, linearized (60 Pa shut-off)</text><text class="lab" x="520.3" y="121.0" text-anchor="end">system: Δp = 0.29 V²  </text></svg></div>
+<figcaption><b>Figure 4.</b> System resistance and fan operating points. The fan line is a linearized high-static fan curve used for design. The orange point is the measured result with the fans actually installed (section 11).</figcaption>
+</figure>
+</section>
+<section id="build">
+<h2><span class="n">09</span>CAD and fabrication</h2>
+<p>I modeled the tunnel in SolidWorks as seven part files in one assembly, all driven by a shared set of global variables (<span class="m">W_set</span>, <span class="m">W_test</span>, <span class="m">L_cont</span>, and others) linked from one external file. Changing the test-section width updates every part. The contraction uses an equation-driven curve and a lofted boss with a thin feature for the wall. The honeycomb is a hexagonal sketch pattern on a 60° offset.</p>
+<ul class="clean">
+<li><b>Print-bed limit.</b> Parts wider than 256 mm were split on the top and front planes and joined with flanges.</li>
+<li><b>Fasteners.</b> I first planned 1/4 in bolts, but their flange tabs pushed parts past the bed size, so I switched to M3. Clearance holes are modeled at 3.7 mm so they print near the 3.4 mm normal fit. Captive-nut pockets are modeled at 5.8 mm across flats.</li>
+<li><b>Material.</b> PETG on a Bambu A1, with the AMS used for the two-color angle-of-attack scale.</li>
+<li><b>Cost.</b> Off-the-shelf fans, window screen and acrylic. Other parts were designed around material already on hand.</li>
+</ul>
+<div class="pair">
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>CAD: exploded assembly</b>All seven modules with the flange joints visible.</div></div>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: printing</b>A contraction quarter on the print bed.</div></div>
+</div>
+</section>
+<section id="fog">
+<h2><span class="n">10</span>Flow visualization: laminar fog generator</h2>
+<p>To make the flow visible I built a fog generator that feeds streaklines into the tunnel inlet. It is a 6 in acrylic cylinder about 9 in tall. An ultrasonic mister sits under about 2 in (800 mL) of water, and a 4.5 in headspace above it lets the fog settle before it leaves. A 1/4 in valve at the outlet feeds four ports.</p>
+<p>Because the tunnel runs on suction, the inlet sits slightly below room pressure. That difference draws fog through the generator, so no separate blower is needed. A needle valve limits the draw so the water surface stays calm. The 1/4 in valve is the smallest flow area in the line, so adding ports would only dilute each streak. I kept four.</p>
+<div class="pair">
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: fog generator</b>Cylinder, mister, and outlet rake.</div></div>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: streaklines</b>Fog passing over a wing section in the test section.</div></div>
+</div>
+</section>
+<section id="results">
+<h2><span class="n">11</span>Commissioning and results</h2>
+<p>I measured <b>3.3 m/s</b> at the center of the test section, about 38% of the 8.7 m/s design speed. At this speed a 4 in chord runs at <span class="m">Re ≈ 22,000</span>.</p>
+<h3>Diagnosis</h3>
+<p>The tunnel was built to the design dimensions. The difference is in the fans. The installed fans draw 0.3 A at 12 V, 3.6 W each. They are standard case fans, rated by free-air flow. The design assumed high-static-pressure fans that draw 0.6 to 2.5 A and develop 40 to 100 Pa. A case fan's flow drops steeply once it pushes against any resistance.</p>
+<p>The system curve explains the result. At 3.3 m/s the tunnel needs only</p>
+<div class="eq">\[ \Delta p_{\text{sys}} = 0.29\,(3.3)^2 \approx 3.2\ \text{Pa} \]</div>
+<p>so the installed fans can deliver only about 3 Pa at the flow they are moving. The loss budget does not need to be wrong for the result to make sense. The fans are pressure-limited.</p>
+<h3>Planned checks</h3>
+<ul class="clean">
+<li><b>Free-air test.</b> Run the fan plate on its own. Strong free-air speed with weak installed speed confirms a pressure limit, not weak fans or a tunnel fault.</li>
+<li><b>Leak check.</b> Continuity predicts <span class="m">V<sub>inlet</sub> = 3.3 / 3.61 = 0.91 m/s</span> at the settling chamber. A higher reading would mean air is leaking in at a flange joint downstream of the contraction.</li>
+</ul>
+<figure>
+<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
+<div class="photo"><div><b>Photo: measurement setup</b>Anemometer position at the test-section center.</div></div>
+</figure>
+</section>
+<section id="next">
+<h2><span class="n">12</span>Lessons and next steps</h2>
+<h3>What I learned</h3>
+<ul class="clean">
+<li><b>Specify fans by static pressure, not CFM.</b> CFM is measured at zero back-pressure and says almost nothing about performance in a tunnel. The operating point is set by where the fan curve crosses the system curve.</li>
+<li><b>Packaging drives the aerodynamics.</b> The fan array width set the plenum, the plenum set the contraction inlet, and the inlet set the contraction ratio. Each compromise has a cost I could calculate before printing.</li>
+<li><b>Put the expensive parts where the air is slow.</b> The honeycomb's contribution to the loss budget is under 0.04 because it sits at one-thirteenth of the test-section dynamic pressure.</li>
+<li><b>Design for revision.</b> The modular, parametric CAD made it possible to rework the window and settling module without reprinting the rest of the tunnel.</li>
+</ul>
+<h3>Next steps</h3>
+<ul class="clean">
+<li>Replace the drive with high-static 120 mm fans rated at 40 Pa or more. The fan-matching model predicts 7 to 9 m/s with no other changes.</li>
+<li>Map velocity across the test section with a pitot traverse on a 5 × 5 grid and report a uniformity figure for the core.</li>
+<li>Run tuft and fog visualization on a DBF wing section and compare the stall behavior with our XFLR5 and ANSYS Fluent predictions.</li>
+</ul>
+</section>
+<section id="refs">
+<h2>References</h2>
+<ol class="refs">
+<li>Mehta, R. D., and Bradshaw, P. "Design rules for small low speed wind tunnels." <i>The Aeronautical Journal</i>, 1979.</li>
+<li>Bell, J. H., and Mehta, R. D. "Contraction design for small low-speed wind tunnels." NASA CR-177488, 1988.</li>
+<li>Barlow, J. B., Rae, W. H., and Pope, A. <i>Low-Speed Wind Tunnel Testing</i>, 3rd ed. Wiley, 1999.</li>
+</ol>
+</section>
+</div>
+{% endraw %}
