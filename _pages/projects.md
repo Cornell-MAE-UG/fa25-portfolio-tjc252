@@ -10,6 +10,19 @@ permalink: /projects/
 
 ---
 
+<div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
+<div style="background-color:#3a3f58; color:white; padding:14px 18px;">
+<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">Personal Project — Design &amp; Build</div>
+<div style="font-size:1.15em; font-weight:bold;">2026 Coffee-Table Wind Tunnel</div>
+</div>
+<div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
+<img src="/fa25-portfolio-tjc252/assets/images/windtunnel.png" alt="Wind Tunnel" style="width:100%; height:160px; object-fit:cover; border-radius:4px; margin-bottom:10px;">
+<p style="margin:0 0 10px 0;">Sized, designed, and 3D printed a 37 in open-circuit suction wind tunnel from first principles, including a 5th-order polynomial contraction, a honeycomb and screen flow conditioner, and a fan-matched loss budget. Compared prototype performance against the design model and analyzed sources of error.</p>
+<p style="margin:0 0 12px 0;"><strong>Tools:</strong> SOLIDWORKS · Bambu A1 / PETG · Fluid Mechanics Analysis</p>
+<a href="/fa25-portfolio-tjc252/projects/2026-Wind-Tunnel/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
+</div>
+</div>
+
 <div style="display:flex; gap:20px; flex-wrap:wrap; margin:1.5em 0;">
 <div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
 <div style="background-color:#3a3f58; color:white; padding:14px 18px;">
