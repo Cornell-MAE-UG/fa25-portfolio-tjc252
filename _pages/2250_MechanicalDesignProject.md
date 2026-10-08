@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2250 Mechanical Design Project
+title: Mechanical Design Project
 permalink: /2250-Mechanical-Design-Project/
 ---
 
