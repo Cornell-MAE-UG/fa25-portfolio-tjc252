@@ -2,7 +2,7 @@
 layout: project
 title: 2026 Coffee-Table Wind Tunnel
 description: Designed, sized, and 3D printed an open-circuit wind tunnel from first principles
-image: /assets/images/windtunnel.png
+image: /assets/images/entire%20wind%20tunnel.png
 permalink: /projects/2026-Wind-Tunnel/
 ---
 
@@ -85,7 +85,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <div><dt>Contraction ratio</dt><dd>3.61 : 1</dd></div>
 <div><dt>Drive</dt><dd>4 × 120 mm</dd></div>
 <div><dt>Design speed</dt><dd>8.7 m/s</dd></div>
-<div><dt>Measured</dt><dd class="hl">3.3 m/s</dd></div>
+<div><dt>Measured max</dt><dd class="hl">2.9 m/s</dd></div>
 </dl>
 </div>
 <nav class="toc" aria-label="Contents"><span class="k">Contents</span>
@@ -95,8 +95,8 @@ permalink: /projects/2026-Wind-Tunnel/
 <figcaption><b>Figure 1.</b> Final tunnel side profile, drawn to scale. Air enters at the left through a honeycomb and screen, accelerates through the contraction into the test section, decelerates in the diffuser, and is drawn out by the fan array at the right.</figcaption>
 </figure>
 <figure>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: assembled tunnel</b>Hero shot of the finished tunnel, three-quarter view, test-section window facing the camera.</div></div>
+<img src="/fa25-portfolio-tjc252/assets/images/entire%20wind%20tunnel.png" alt="The assembled wind tunnel" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>The finished tunnel.</b> Fully 3D printed in PETG, 37.2 in from inlet to fan plate.</figcaption>
 </figure>
 <section id="purpose">
 <h2><span class="n">01</span>Purpose and requirements</h2>
@@ -161,8 +161,8 @@ permalink: /projects/2026-Wind-Tunnel/
 <p>The screen sits 2 in behind the honeycomb. That is 0.21 chamber widths, which matches the recommended honeycomb-to-screen spacing. The screen is clamped in a two-ring frame that stretches it like an embroidery hoop, because a slack screen opens up where velocity is high and reverses its own corrective effect.</p>
 <div class="decision"><span class="k">Trade-off</span><p>The screen-to-contraction gap is 1 in, about half the textbook 0.2 chamber widths. I accepted it to keep the settling module at 4 in. The turbulence the screen creates keeps decaying through the 8.5 in contraction, so the effective decay length before the test section is closer to 9.5 in.</p></div>
 <figure>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>CAD render or photo: settling module</b>Honeycomb face and the screen clamp ring.</div></div>
+<img src="/fa25-portfolio-tjc252/assets/images/hexagon_wire_screen.png" alt="Hexagonal honeycomb and wire screen in the settling module" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>Settling module.</b> Hexagonal honeycomb and wire screen at the tunnel inlet.</figcaption>
 </figure>
 </section>
 <section id="contraction">
@@ -194,8 +194,8 @@ permalink: /projects/2026-Wind-Tunnel/
 <h3>Viewing window</h3>
 <p>My first approach was to pause the print partway and embed a 4 × 6 in acrylic panel in the wall. The panel did not seat or seal well, and it would have been permanent. I redesigned the window as a separate 3D-printed retainer that press-fits the acrylic into the wall opening. No fasteners pass through the acrylic, so it is never stressed at a bolt hole, and the panel can be removed for cleaning or replacement. The retainer holds the acrylic so its inner face sits in line with the tunnel wall, because a recessed or protruding window would shed vortices beside the model.</p>
 <figure>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: test-section window</b>Printed retainer with the acrylic panel press-fit in place.</div></div>
+<img src="/fa25-portfolio-tjc252/assets/images/test%20chamber.png" alt="Test section with press-fit acrylic window" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>Test section.</b> The printed retainer holds the acrylic window in place with a press fit.</figcaption>
 </figure>
 </section>
 <section id="diffuser">
@@ -224,7 +224,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <div class="eq">\[ \Delta p_{\text{sys}} \approx 0.48\left(\tfrac12 \rho V^2\right) \approx 0.29\,V^2 \ \ \text{[Pa, with } V \text{ in m/s]} \]</div>
 <p>Against a high-static-pressure 120 mm fan with about 60 Pa at shut-off, the curves cross near 8.7 m/s and 22 Pa. The total flow there is about 300 CFM, or 75 CFM per fan.</p>
 <figure>
-<div class="figbox"><svg class="fig" viewBox="0 0 640 360" role="img" aria-labelledby="ft fd"><title id="ft">Fan and system curves</title><desc id="fd">System resistance rises with the square of test-section speed. A 60 pascal high-static-pressure fan crosses it near 8.7 metres per second; the installed case fans settled at 3.3 metres per second.</desc><line class="grid" x1="58" x2="616" y1="310.0" y2="310.0"/><text class="tick" x="50" y="314.0" text-anchor="end">0</text><line class="grid" x1="58" x2="616" y1="261.3" y2="261.3"/><text class="tick" x="50" y="265.3" text-anchor="end">10</text><line class="grid" x1="58" x2="616" y1="212.7" y2="212.7"/><text class="tick" x="50" y="216.7" text-anchor="end">20</text><line class="grid" x1="58" x2="616" y1="164.0" y2="164.0"/><text class="tick" x="50" y="168.0" text-anchor="end">30</text><line class="grid" x1="58" x2="616" y1="115.3" y2="115.3"/><text class="tick" x="50" y="119.3" text-anchor="end">40</text><line class="grid" x1="58" x2="616" y1="66.7" y2="66.7"/><text class="tick" x="50" y="70.7" text-anchor="end">50</text><line class="grid" x1="58" x2="616" y1="18.0" y2="18.0"/><text class="tick" x="50" y="22.0" text-anchor="end">60</text><text class="tick" x="58.0" y="328" text-anchor="middle">0</text><text class="tick" x="137.7" y="328" text-anchor="middle">2</text><text class="tick" x="217.4" y="328" text-anchor="middle">4</text><text class="tick" x="297.1" y="328" text-anchor="middle">6</text><text class="tick" x="376.9" y="328" text-anchor="middle">8</text><text class="tick" x="456.6" y="328" text-anchor="middle">10</text><text class="tick" x="536.3" y="328" text-anchor="middle">12</text><text class="tick" x="616.0" y="328" text-anchor="middle">14</text><text class="axl" x="337.0" y="352" text-anchor="middle">test-section speed, V (m/s)</text><text class="axl" transform="translate(14 164.0) rotate(-90)" text-anchor="middle">pressure rise, Δp (Pa)</text><polyline class="curve" points="58.0,310.0 62.0,310.0 66.0,309.9 70.0,309.9 73.9,309.8 77.9,309.6 81.9,309.5 85.9,309.3 89.9,309.1 93.9,308.8 97.9,308.6 101.8,308.3 105.8,307.9 109.8,307.6 113.8,307.2 117.8,306.8 121.8,306.3 125.8,305.9 129.7,305.4 133.7,304.8 137.7,304.3 141.7,303.7 145.7,303.1 149.7,302.4 153.7,301.7 157.6,301.0 161.6,300.3 165.6,299.5 169.6,298.8 173.6,297.9 177.6,297.1 181.6,296.2 185.5,295.3 189.5,294.4 193.5,293.4 197.5,292.4 201.5,291.4 205.5,290.4 209.5,289.3 213.4,288.2 217.4,287.1 221.4,285.9 225.4,284.7 229.4,283.5 233.4,282.2 237.4,281.0 241.3,279.7 245.3,278.3 249.3,277.0 253.3,275.6 257.3,274.1 261.3,272.7 265.3,271.2 269.2,269.7 273.2,268.2 277.2,266.6 281.2,265.0 285.2,263.4 289.2,261.8 293.2,260.1 297.1,258.4 301.1,256.6 305.1,254.9 309.1,253.1 313.1,251.3 317.1,249.4 321.1,247.5 325.0,245.6 329.0,243.7 333.0,241.7 337.0,239.7 341.0,237.7 345.0,235.6 349.0,233.6 352.9,231.5 356.9,229.3 360.9,227.2 364.9,225.0 368.9,222.7 372.9,220.5 376.9,218.2 380.8,215.9 384.8,213.6 388.8,211.2 392.8,208.8 396.8,206.4 400.8,203.9 404.8,201.4 408.7,198.9 412.7,196.4 416.7,193.8 420.7,191.2 424.7,188.6 428.7,186.0 432.7,183.3 436.6,180.6 440.6,177.8 444.6,175.0 448.6,172.3 452.6,169.4 456.6,166.6 460.6,163.7 464.5,160.8 468.5,157.8 472.5,154.9 476.5,151.9 480.5,148.8 484.5,145.8 488.5,142.7 492.4,139.6 496.4,136.5 500.4,133.3 504.4,130.1 508.4,126.9 512.4,123.6 516.4,120.3 520.3,117.0 524.3,113.7 528.3,110.3 532.3,106.9 536.3,103.5 540.3,100.0 544.3,96.5 548.2,93.0 552.2,89.5 556.2,85.9 560.2,82.3 564.2,78.7 568.2,75.0 572.2,71.3 576.1,67.6 580.1,63.9 584.1,60.1 588.1,56.3 592.1,52.5 596.1,48.6 600.1,44.7 604.0,40.8 608.0,36.9 612.0,32.9 616.0,28.9"/><line class="fanline" x1="58.0" y1="18.0" x2="610.0" y2="310.0"/><circle class="pt" cx="404.8" cy="201.4" r="5"/><text class="lab" x="414.8" y="191.4">design point · 8.7 m/s, 22 Pa</text><circle class="meas" cx="189.5" cy="294.4" r="5"/><text class="labm" x="199.5" y="282.4">measured · 3.3 m/s, 3.2 Pa</text><text class="lab" x="97.9" y="47.2">high-static fan, linearized (60 Pa shut-off)</text><text class="lab" x="520.3" y="121.0" text-anchor="end">system: Δp = 0.29 V²  </text></svg></div>
+<div class="figbox"><svg class="fig" viewBox="0 0 640 360" role="img" aria-labelledby="ft fd"><title id="ft">Fan and system curves</title><desc id="fd">System resistance rises with the square of test-section speed. A 60 pascal high-static-pressure fan crosses it near 8.7 metres per second; the installed case fans settled at 2.9 metres per second.</desc><line class="grid" x1="58" x2="616" y1="310.0" y2="310.0"/><text class="tick" x="50" y="314.0" text-anchor="end">0</text><line class="grid" x1="58" x2="616" y1="261.3" y2="261.3"/><text class="tick" x="50" y="265.3" text-anchor="end">10</text><line class="grid" x1="58" x2="616" y1="212.7" y2="212.7"/><text class="tick" x="50" y="216.7" text-anchor="end">20</text><line class="grid" x1="58" x2="616" y1="164.0" y2="164.0"/><text class="tick" x="50" y="168.0" text-anchor="end">30</text><line class="grid" x1="58" x2="616" y1="115.3" y2="115.3"/><text class="tick" x="50" y="119.3" text-anchor="end">40</text><line class="grid" x1="58" x2="616" y1="66.7" y2="66.7"/><text class="tick" x="50" y="70.7" text-anchor="end">50</text><line class="grid" x1="58" x2="616" y1="18.0" y2="18.0"/><text class="tick" x="50" y="22.0" text-anchor="end">60</text><text class="tick" x="58.0" y="328" text-anchor="middle">0</text><text class="tick" x="137.7" y="328" text-anchor="middle">2</text><text class="tick" x="217.4" y="328" text-anchor="middle">4</text><text class="tick" x="297.1" y="328" text-anchor="middle">6</text><text class="tick" x="376.9" y="328" text-anchor="middle">8</text><text class="tick" x="456.6" y="328" text-anchor="middle">10</text><text class="tick" x="536.3" y="328" text-anchor="middle">12</text><text class="tick" x="616.0" y="328" text-anchor="middle">14</text><text class="axl" x="337.0" y="352" text-anchor="middle">test-section speed, V (m/s)</text><text class="axl" transform="translate(14 164.0) rotate(-90)" text-anchor="middle">pressure rise, Δp (Pa)</text><polyline class="curve" points="58.0,310.0 62.0,310.0 66.0,309.9 70.0,309.9 73.9,309.8 77.9,309.6 81.9,309.5 85.9,309.3 89.9,309.1 93.9,308.8 97.9,308.6 101.8,308.3 105.8,307.9 109.8,307.6 113.8,307.2 117.8,306.8 121.8,306.3 125.8,305.9 129.7,305.4 133.7,304.8 137.7,304.3 141.7,303.7 145.7,303.1 149.7,302.4 153.7,301.7 157.6,301.0 161.6,300.3 165.6,299.5 169.6,298.8 173.6,297.9 177.6,297.1 181.6,296.2 185.5,295.3 189.5,294.4 193.5,293.4 197.5,292.4 201.5,291.4 205.5,290.4 209.5,289.3 213.4,288.2 217.4,287.1 221.4,285.9 225.4,284.7 229.4,283.5 233.4,282.2 237.4,281.0 241.3,279.7 245.3,278.3 249.3,277.0 253.3,275.6 257.3,274.1 261.3,272.7 265.3,271.2 269.2,269.7 273.2,268.2 277.2,266.6 281.2,265.0 285.2,263.4 289.2,261.8 293.2,260.1 297.1,258.4 301.1,256.6 305.1,254.9 309.1,253.1 313.1,251.3 317.1,249.4 321.1,247.5 325.0,245.6 329.0,243.7 333.0,241.7 337.0,239.7 341.0,237.7 345.0,235.6 349.0,233.6 352.9,231.5 356.9,229.3 360.9,227.2 364.9,225.0 368.9,222.7 372.9,220.5 376.9,218.2 380.8,215.9 384.8,213.6 388.8,211.2 392.8,208.8 396.8,206.4 400.8,203.9 404.8,201.4 408.7,198.9 412.7,196.4 416.7,193.8 420.7,191.2 424.7,188.6 428.7,186.0 432.7,183.3 436.6,180.6 440.6,177.8 444.6,175.0 448.6,172.3 452.6,169.4 456.6,166.6 460.6,163.7 464.5,160.8 468.5,157.8 472.5,154.9 476.5,151.9 480.5,148.8 484.5,145.8 488.5,142.7 492.4,139.6 496.4,136.5 500.4,133.3 504.4,130.1 508.4,126.9 512.4,123.6 516.4,120.3 520.3,117.0 524.3,113.7 528.3,110.3 532.3,106.9 536.3,103.5 540.3,100.0 544.3,96.5 548.2,93.0 552.2,89.5 556.2,85.9 560.2,82.3 564.2,78.7 568.2,75.0 572.2,71.3 576.1,67.6 580.1,63.9 584.1,60.1 588.1,56.3 592.1,52.5 596.1,48.6 600.1,44.7 604.0,40.8 608.0,36.9 612.0,32.9 616.0,28.9"/><line class="fanline" x1="58.0" y1="18.0" x2="610.0" y2="310.0"/><circle class="pt" cx="404.8" cy="201.4" r="5"/><text class="lab" x="414.8" y="191.4">design point · 8.7 m/s, 22 Pa</text><circle class="meas" cx="173.6" cy="297.9" r="5"/><text class="labm" x="183.6" y="285.9">measured · 2.9 m/s, 2.5 Pa</text><text class="lab" x="97.9" y="47.2">high-static fan, linearized (60 Pa shut-off)</text><text class="lab" x="520.3" y="121.0" text-anchor="end">system: Δp = 0.29 V²  </text></svg></div>
 <figcaption><b>Figure 4.</b> System resistance and fan operating points. The fan line is a linearized high-static fan curve used for design. The orange point is the measured result with the fans actually installed (section 11).</figcaption>
 </figure>
 </section>
@@ -237,46 +237,52 @@ permalink: /projects/2026-Wind-Tunnel/
 <li><b>Material.</b> PETG, printed on a Bambu A1.</li>
 <li><b>Cost.</b> Off-the-shelf fans, window screen and acrylic. Other parts were designed around material already on hand.</li>
 </ul>
-<div class="pair">
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>CAD: exploded assembly</b>All modules with the joints visible.</div></div>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: diffuser</b>The two diffuser halves glued together.</div></div>
-</div>
+<figure>
+<img src="/fa25-portfolio-tjc252/assets/images/Wind%20Tunnel%20CAD%20exploded%20view.png" alt="Exploded SolidWorks assembly of the wind tunnel" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>Exploded assembly.</b> SolidWorks model of every module, from settling chamber to fan plate.</figcaption>
+</figure>
 </section>
 <section id="fog">
 <h2><span class="n">10</span>Flow visualization: laminar fog generator</h2>
 <p>To make the flow visible I built a fog generator that feeds streaklines into the tunnel inlet. It is a 6 in acrylic cylinder about 9 in tall. An ultrasonic mister sits under about 2 in (800 mL) of water, and a 4.5 in headspace above it lets the fog settle before it leaves. A 1/4 in valve at the outlet feeds four ports.</p>
 <p>Because the tunnel runs on suction, the inlet sits slightly below room pressure. That difference draws fog through the generator, so no separate blower is needed. A needle valve limits the draw so the water surface stays calm. The 1/4 in valve is the smallest flow area in the line, so adding ports would only dilute each streak. I kept four.</p>
 <div class="pair">
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: fog generator</b>Cylinder, mister, and outlet rake.</div></div>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: streaklines</b>Fog passing over a wing section in the test section.</div></div>
+<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20base%20pic.png" alt="Laminar fog generator" style="width:100%;border-radius:4px;display:block;"><figcaption><b>Fog generator.</b> Acrylic cylinder housing the ultrasonic mister.</figcaption></figure>
+<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20with%20flow.png" alt="Fog generator producing fog" style="width:100%;border-radius:4px;display:block;"><figcaption><b>Fog generator running.</b> Fog settling in the headspace before it is drawn into the tunnel.</figcaption></figure>
 </div>
+<h3>Flow over an F-16 model</h3>
+<p>With the fog generator feeding the inlet, the streaklines show the flow passing over a scale F-16 model in the test section.</p>
+<figure>
+<video autoplay muted loop playsinline style="width:100%;border-radius:4px;display:block;background:#000;"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mov" type="video/mp4">Your browser does not support embedded video.</video>
+<figcaption><b>Video.</b> Fog streaklines over the F-16 model at the tunnel's maximum speed of 2.9 m/s.</figcaption>
+</figure>
+<figure>
+<img src="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png" alt="Fog streaklines over an F-16 model in the test section" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>Streaklines.</b> Still frame of the fog passing over the F-16 model.</figcaption>
+</figure>
 </section>
 <section id="results">
 <h2><span class="n">11</span>Commissioning and results</h2>
-<p>I measured <b>3.3 m/s</b> at the center of the test section, about 38% of the 8.7 m/s design speed. At this speed a 4 in chord runs at <span class="m">Re ≈ 22,000</span>.</p>
+<p>I measured a maximum of <b>2.9 m/s</b> at the center of the test section, about 33% of the 8.7 m/s design speed. At this speed a 4 in chord runs at <span class="m">Re ≈ 20,000</span>.</p>
 <h3>Diagnosis</h3>
 <p>The tunnel was built to the design dimensions. The difference is in the fans. The installed fans draw 0.3 A at 12 V, 3.6 W each. They are standard case fans, rated by free-air flow. The design assumed high-static-pressure fans that draw 0.6 to 2.5 A and develop 40 to 100 Pa. A case fan's flow drops steeply once it pushes against any resistance.</p>
-<p>The system curve explains the result. At 3.3 m/s the tunnel needs only</p>
-<div class="eq">\[ \Delta p_{\text{sys}} = 0.29\,(3.3)^2 \approx 3.2\ \text{Pa} \]</div>
-<p>so the installed fans can deliver only about 3 Pa at the flow they are moving. The loss budget does not need to be wrong for the result to make sense. The fans are pressure-limited.</p>
+<p>The system curve explains the result. At 2.9 m/s the tunnel needs only</p>
+<div class="eq">\[ \Delta p_{\text{sys}} = 0.29\,(2.9)^2 \approx 2.5\ \text{Pa} \]</div>
+<p>so the installed fans can deliver only about 2.5 Pa at the flow they are moving. The loss budget does not need to be wrong for the result to make sense. The fans are pressure-limited.</p>
 <h3>Model versus prototype</h3>
-<p>The table compares what the design model predicted with what the physical tunnel delivered. The predicted values assume the high-static fan from section 08. The "at measured speed" column applies the same model to the measured 3.3 m/s, which shows what the tunnel is actually doing internally.</p>
+<p>The table compares what the design model predicted with what the physical tunnel delivered. The predicted values assume the high-static fan from section 08. The "at measured speed" column applies the same model to the measured 2.9 m/s, which shows what the tunnel is actually doing internally.</p>
 <div class="tbl"><table>
 <thead><tr><th>Quantity</th><th class="num">Design model</th><th class="num">At measured speed</th><th class="num">Change</th></tr></thead>
 <tbody>
-<tr><td>Test-section speed</td><td class="num">8.7 m/s</td><td class="num">3.3 m/s</td><td class="num">−62%</td></tr>
-<tr><td>Volume flow</td><td class="num">297 CFM</td><td class="num">113 CFM</td><td class="num">−62%</td></tr>
-<tr><td>Test-section dynamic pressure</td><td class="num">46 Pa</td><td class="num">6.7 Pa</td><td class="num">−86%</td></tr>
-<tr><td>Fan pressure rise needed</td><td class="num">22 Pa</td><td class="num">3.2 Pa</td><td class="num">−86%</td></tr>
-<tr><td>Settling-chamber speed</td><td class="num">2.4 m/s</td><td class="num">0.91 m/s</td><td class="num">−62%</td></tr>
-<tr><td>Chord Reynolds number (4 in)</td><td class="num">59,000</td><td class="num">22,000</td><td class="num">−62%</td></tr>
+<tr><td>Test-section speed</td><td class="num">8.7 m/s</td><td class="num">2.9 m/s</td><td class="num">−67%</td></tr>
+<tr><td>Volume flow</td><td class="num">297 CFM</td><td class="num">99 CFM</td><td class="num">−67%</td></tr>
+<tr><td>Test-section dynamic pressure</td><td class="num">46 Pa</td><td class="num">5.2 Pa</td><td class="num">−89%</td></tr>
+<tr><td>Fan pressure rise needed</td><td class="num">22 Pa</td><td class="num">2.5 Pa</td><td class="num">−89%</td></tr>
+<tr><td>Settling-chamber speed</td><td class="num">2.4 m/s</td><td class="num">0.80 m/s</td><td class="num">−67%</td></tr>
+<tr><td>Chord Reynolds number (4 in)</td><td class="num">59,000</td><td class="num">20,000</td><td class="num">−67%</td></tr>
 </tbody>
 </table></div>
-<p>Because pressure scales with the square of speed, a 62% shortfall in speed is an 86% shortfall in the pressure the fans are producing. The geometry was built to the design dimensions, so most of the gap traces back to the fans, not the tunnel. The Reynolds number result matters most for testing. At 22,000 a wing section sits in the regime where laminar separation bubbles dominate, so lift and stall behavior will differ from the DBF flight condition and cannot be scaled up directly.</p>
+<p>Because pressure scales with the square of speed, a 67% shortfall in speed is an 89% shortfall in the pressure the fans are producing. The geometry was built to the design dimensions, so most of the gap traces back to the fans, not the tunnel. The Reynolds number result matters most for testing. At 22,000 a wing section sits in the regime where laminar separation bubbles dominate, so lift and stall behavior will differ from the DBF flight condition and cannot be scaled up directly.</p>
 <h3>Sources of error</h3>
 <p>The model and the measurement each carry uncertainty. I sorted the main sources by which side of the comparison they affect and which way they push the result.</p>
 <div class="tbl"><table>
@@ -284,19 +290,19 @@ permalink: /projects/2026-Wind-Tunnel/
 <tbody>
 <tr><td><b>Fan curve assumption</b></td><td>The design used a linearized high-static fan curve. The installed fans are 0.3 A case fans whose curve under load is unknown. This is the largest single source of error.</td><td>Model over-predicts speed</td></tr>
 <tr><td><b>Fan installation effects</b></td><td>Four fans in parallel draw from one short plenum with non-uniform inflow. Fans in this arrangement deliver less pressure than their free-standing rating.</td><td>Model over-predicts speed</td></tr>
-<tr><td><b>Low-Reynolds loss coefficients</b></td><td>The K values come from higher-Reynolds tunnels. The screen wire Reynolds number here is about 17, and the test-section Reynolds number based on width is about 28,000. Screen loss and wall friction both rise at low Reynolds number.</td><td>Model under-predicts losses</td></tr>
+<tr><td><b>Low-Reynolds loss coefficients</b></td><td>The K values come from higher-Reynolds tunnels. The screen wire Reynolds number here is about 15, and the test-section Reynolds number based on width is about 25,000. Screen loss and wall friction both rise at low Reynolds number.</td><td>Model under-predicts losses</td></tr>
 <tr><td><b>Diffuser performance</b></td><td>A thick boundary layer entering the diffuser at low speed separates more easily than the 85% efficiency assumes, especially with a 3.7° equivalent angle.</td><td>Model under-predicts losses</td></tr>
 <tr><td><b>Air leakage</b></td><td>A suction tunnel runs below room pressure, so any gap at a module joint, the glued diffuser seam, or the press-fit window draws air in. Air entering downstream of the test section raises fan flow without raising test-section speed.</td><td>Lowers measured speed</td></tr>
 <tr><td><b>Surface finish and tolerance</b></td><td>FDM layer lines add wall roughness and skin friction. Dimensional error of a few tenths of a millimeter changes the test-section area and contraction ratio slightly.</td><td>Small; lowers measured speed</td></tr>
 <tr><td><b>Single-point measurement</b></td><td>Speed was read at one point at the test-section center. The core runs faster than the cross-section average, so one reading does not give the true volume flow.</td><td>Measured value is not an average</td></tr>
-<tr><td><b>Anemometer accuracy</b></td><td>Handheld anemometers typically carry a few percent plus a fixed offset, and 3.3 m/s is near the low end of their range. The probe head also blocks part of a 5 in section and accelerates the flow around it.</td><td>Roughly ±5–10% on the reading</td></tr>
+<tr><td><b>Anemometer accuracy</b></td><td>Handheld anemometers typically carry a few percent plus a fixed offset, and 2.9 m/s is near the low end of their range. The probe head also blocks part of a 5 in section and accelerates the flow around it.</td><td>Roughly ±5–10% on the reading</td></tr>
 <tr><td><b>Air properties</b></td><td>Calculations use sea-level standard density and viscosity. Room temperature and humidity shift both by a few percent.</td><td>Small; affects Re and q</td></tr>
 </tbody>
 </table></div>
 <p>Taken together, the fan-related errors explain most of the gap. The loss-related errors push in the same direction, which means even with correct fans the tunnel would likely land somewhat below 8.7 m/s. A pitot traverse across the section and a datasheet fan curve would narrow both the measurement and the model uncertainty.</p>
 <figure>
-<!-- To use a real photo, replace this box with: <img src="/fa25-portfolio-tjc252/assets/images/YOUR-FILE.jpg" alt="..." style="width:100%;border-radius:4px;"> -->
-<div class="photo"><div><b>Photo: measurement setup</b>Anemometer position at the test-section center.</div></div>
+<img src="/fa25-portfolio-tjc252/assets/images/anometer%20with%20flow.png" alt="Anemometer measuring airspeed at the test-section center" style="width:100%;border-radius:4px;display:block;">
+<figcaption><b>Measurement setup.</b> Anemometer reading airspeed at the center of the test section.</figcaption>
 </figure>
 </section>
 <section id="next">
