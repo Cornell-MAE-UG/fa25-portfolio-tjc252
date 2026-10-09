@@ -45,6 +45,10 @@ permalink: /projects/2026-Wind-Tunnel/
 .wt .photo b{display:block;color:var(--ink)}
 .wt .pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
 .wt .pair .photo{aspect-ratio:4/3}
+.wt .shot{display:block;max-width:100%;width:auto;height:auto;max-height:420px;margin:0 auto;border-radius:4px}
+.wt .shot.big{max-height:540px}
+.wt .pair .shot{max-height:340px}
+.wt figure figcaption{text-align:center}
 .wt ul.clean{padding-left:1.2em}
 .wt ul.clean li{margin-bottom:.4em}
 .wt .refs{font-size:.92em}
@@ -95,7 +99,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <figcaption><b>Figure 1.</b> Final tunnel side profile, drawn to scale. Air enters at the left through a honeycomb and screen, accelerates through the contraction into the test section, decelerates in the diffuser, and is drawn out by the fan array at the right.</figcaption>
 </figure>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/entire%20wind%20tunnel.png" alt="The assembled wind tunnel" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/entire%20wind%20tunnel.png" alt="The assembled wind tunnel" class="shot big">
 <figcaption><b>The finished tunnel.</b> Fully 3D printed in PETG, 37.2 in from inlet to fan plate.</figcaption>
 </figure>
 <section id="purpose">
@@ -161,7 +165,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <p>The screen sits 2 in behind the honeycomb. That is 0.21 chamber widths, which matches the recommended honeycomb-to-screen spacing. The screen is clamped in a two-ring frame that stretches it like an embroidery hoop, because a slack screen opens up where velocity is high and reverses its own corrective effect.</p>
 <div class="decision"><span class="k">Trade-off</span><p>The screen-to-contraction gap is 1 in, about half the textbook 0.2 chamber widths. I accepted it to keep the settling module at 4 in. The turbulence the screen creates keeps decaying through the 8.5 in contraction, so the effective decay length before the test section is closer to 9.5 in.</p></div>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/hexagon_wire_screen.png" alt="Hexagonal honeycomb and wire screen in the settling module" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/hexagon_wire_screen.png" alt="Hexagonal honeycomb and wire screen in the settling module" class="shot">
 <figcaption><b>Settling module.</b> Hexagonal honeycomb and wire screen at the tunnel inlet.</figcaption>
 </figure>
 </section>
@@ -194,7 +198,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <h3>Viewing window</h3>
 <p>My first approach was to pause the print partway and embed a 4 × 6 in acrylic panel in the wall. The panel did not seat or seal well, and it would have been permanent. I redesigned the window as a separate 3D-printed retainer that press-fits the acrylic into the wall opening. No fasteners pass through the acrylic, so it is never stressed at a bolt hole, and the panel can be removed for cleaning or replacement. The retainer holds the acrylic so its inner face sits in line with the tunnel wall, because a recessed or protruding window would shed vortices beside the model.</p>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/test%20chamber.png" alt="Test section with press-fit acrylic window" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/test%20chamber.png" alt="Test section with press-fit acrylic window" class="shot">
 <figcaption><b>Test section.</b> The printed retainer holds the acrylic window in place with a press fit.</figcaption>
 </figure>
 </section>
@@ -238,7 +242,7 @@ permalink: /projects/2026-Wind-Tunnel/
 <li><b>Cost.</b> Off-the-shelf fans, window screen and acrylic. Other parts were designed around material already on hand.</li>
 </ul>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/Wind%20Tunnel%20CAD%20exploded%20view.png" alt="Exploded SolidWorks assembly of the wind tunnel" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/Wind%20Tunnel%20CAD%20exploded%20view.png" alt="Exploded SolidWorks assembly of the wind tunnel" class="shot big">
 <figcaption><b>Exploded assembly.</b> SolidWorks model of every module, from settling chamber to fan plate.</figcaption>
 </figure>
 </section>
@@ -247,17 +251,17 @@ permalink: /projects/2026-Wind-Tunnel/
 <p>To make the flow visible I built a fog generator that feeds streaklines into the tunnel inlet. It is a 6 in acrylic cylinder about 9 in tall. An ultrasonic mister sits under about 2 in (800 mL) of water, and a 4.5 in headspace above it lets the fog settle before it leaves. A 1/4 in valve at the outlet feeds four ports.</p>
 <p>Because the tunnel runs on suction, the inlet sits slightly below room pressure. That difference draws fog through the generator, so no separate blower is needed. A needle valve limits the draw so the water surface stays calm. The 1/4 in valve is the smallest flow area in the line, so adding ports would only dilute each streak. I kept four.</p>
 <div class="pair">
-<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20base%20pic.png" alt="Laminar fog generator" style="width:100%;border-radius:4px;display:block;"><figcaption><b>Fog generator.</b> Acrylic cylinder housing the ultrasonic mister.</figcaption></figure>
-<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20with%20flow.png" alt="Fog generator producing fog" style="width:100%;border-radius:4px;display:block;"><figcaption><b>Fog generator running.</b> Fog settling in the headspace before it is drawn into the tunnel.</figcaption></figure>
+<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20base%20pic.png" alt="Laminar fog generator" class="shot"><figcaption><b>Fog generator.</b> Acrylic cylinder housing the ultrasonic mister.</figcaption></figure>
+<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20with%20flow.png" alt="Fog generator producing fog" class="shot"><figcaption><b>Fog generator running.</b> Fog settling in the headspace before it is drawn into the tunnel.</figcaption></figure>
 </div>
 <h3>Flow over an F-16 model</h3>
 <p>With the fog generator feeding the inlet, the streaklines show the flow passing over a scale F-16 model in the test section.</p>
 <figure>
-<video autoplay muted loop playsinline style="width:100%;border-radius:4px;display:block;background:#000;"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mov" type="video/mp4">Your browser does not support embedded video.</video>
+<video class="shot big" autoplay muted loop playsinline controls preload="metadata" poster="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mp4" type="video/mp4"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mov" type="video/quicktime">Your browser does not support embedded video.</video>
 <figcaption><b>Video.</b> Fog streaklines over the F-16 model at the tunnel's maximum speed of 2.9 m/s.</figcaption>
 </figure>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png" alt="Fog streaklines over an F-16 model in the test section" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png" alt="Fog streaklines over an F-16 model in the test section" class="shot">
 <figcaption><b>Streaklines.</b> Still frame of the fog passing over the F-16 model.</figcaption>
 </figure>
 </section>
@@ -301,7 +305,7 @@ permalink: /projects/2026-Wind-Tunnel/
 </table></div>
 <p>Taken together, the fan-related errors explain most of the gap. The loss-related errors push in the same direction, which means even with correct fans the tunnel would likely land somewhat below 8.7 m/s. A pitot traverse across the section and a datasheet fan curve would narrow both the measurement and the model uncertainty.</p>
 <figure>
-<img src="/fa25-portfolio-tjc252/assets/images/anometer%20with%20flow.png" alt="Anemometer measuring airspeed at the test-section center" style="width:100%;border-radius:4px;display:block;">
+<img src="/fa25-portfolio-tjc252/assets/images/anometer%20with%20flow.png" alt="Anemometer measuring airspeed at the test-section center" class="shot">
 <figcaption><b>Measurement setup.</b> Anemometer reading airspeed at the center of the test section.</figcaption>
 </figure>
 </section>
