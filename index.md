@@ -21,9 +21,9 @@ title: Trevor Crouse
 
 ## About Me
 
-I'm a mechanical engineering student at Cornell with a focus in aerodynamics and mechanical design. On the Cornell AIAA Design Build Fly team, I serve as wing aerodynamics lead — responsible for airfoil selection, computational analysis, full wing CAD, and manufacturing for our competition aircraft. I enjoy working at the intersection of math, simulation, and hands-on build work, and I'm always looking for ways to make things fly better or break less.
+I'm a mechanical engineering student at Cornell with a focus in aerodynamics and mechanical design. On the Cornell AIAA Design Build Fly team, I serve as the aerodynamics & controls lead — responsible for 9 members overseeing all wing and tail components of the aircraft. I enjoy working at the intersection of math, simulation, and hands-on build work, and I'm always looking for ways to make things fly better or break less.
 
-Outside of engineering, I'm the starting goalie for Cornell Club Hockey, a writer for the Cornell Sun, and the president of the Zeta Psi Fraternity on campus.
+Outside of engineering, I'm the starting goalie for Cornell Club Hockey, an opinion writer for the Cornell Daily Sun, and the president of the Zeta Psi Fraternity on campus.
 
 ---
 
