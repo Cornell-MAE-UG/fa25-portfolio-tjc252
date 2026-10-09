@@ -434,21 +434,6 @@ To determine PVC pipe length, we performed a torque balance using the average pe
 
 ---
 
-## Group Absences Reflection
-
-<div style="display:flex; gap:16px; flex-wrap:wrap; margin:1em 0;">
-  <div style="flex:1; min-width:280px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px;">
-    <div style="font-weight:600; color:#3a3f58; margin-bottom:6px;">Allen — 04/06</div>
-    <div style="font-size:0.92em; line-height:1.55;">The team confirmed Allen's progress in his role before the absence and used office hours to begin assembling the final prototype ahead of the lab section. This let us verify all components were on hand and let individual members focus on specific subassemblies without Allen present.</div>
-  </div>
-  <div style="flex:1; min-width:280px; background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px;">
-    <div style="font-weight:600; color:#3a3f58; margin-bottom:6px;">Trevor — 04/20</div>
-    <div style="font-size:0.92em; line-height:1.55;">The team met during the week before the presentation to rewrite and rehearse the elevator pitch with adjustments covering Trevor's planned part. We informed him of the progress made on his return, providing a smooth transition.</div>
-  </div>
-</div>
-
----
-
 ## References
 
 <div style="font-size:0.95em; line-height:1.7;">
