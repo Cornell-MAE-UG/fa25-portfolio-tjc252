@@ -16,7 +16,7 @@ permalink: /projects/
 <div style="font-size:1.15em; font-weight:bold;">2026 Coffee-Table Wind Tunnel</div>
 </div>
 <div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
-<img src="/fa25-portfolio-tjc252/assets/images/entire wind tunnel.png" alt="Wind Tunnel" style="width:100%; height:160px; object-fit:cover; border-radius:4px; margin-bottom:10px;">
+<img src="/fa25-portfolio-tjc252/assets/images/entire wind tunnel.png" alt="Wind Tunnel" style="width:100%; height:220px; object-fit:contain; background:#f7f8fa; border-radius:4px; margin-bottom:10px;">
 <p style="margin:0 0 10px 0;">Sized, designed, and 3D printed a 37 in open-circuit suction wind tunnel from first principles, including a 5th-order polynomial contraction, a honeycomb and screen flow conditioner, and a fan-matched loss budget. Compared prototype performance against the design model and analyzed sources of error.</p>
 <p style="margin:0 0 12px 0;"><strong>Tools:</strong> SOLIDWORKS · Bambu A1 / PETG · Fluid Mechanics Analysis</p>
 <a href="/fa25-portfolio-tjc252/projects/2026-Wind-Tunnel/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
