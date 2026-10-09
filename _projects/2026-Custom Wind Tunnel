@@ -248,16 +248,16 @@ permalink: /projects/2026-Wind-Tunnel/
 </section>
 <section id="fog">
 <h2><span class="n">10</span>Flow visualization: laminar fog generator</h2>
-<p>To make the flow visible I built a fog generator that feeds streaklines into the tunnel inlet. It is a 6 in acrylic cylinder about 9 in tall. An ultrasonic mister sits under about 2 in (800 mL) of water, and a 4.5 in headspace above it lets the fog settle before it leaves. A 1/4 in valve at the outlet feeds four ports.</p>
+<p>To make the flow visible I built a fog generator that feeds streaklines into the tunnel inlet. It is a 6 in 3D printed cylinder about 9 in tall. An ultrasonic mister sits under about 2 in (800 mL) of water, and a 4.5 in headspace above it lets the fog settle before it leaves. A 1/4 in valve at the outlet feeds four ports.</p>
 <p>Because the tunnel runs on suction, the inlet sits slightly below room pressure. That difference draws fog through the generator, so no separate blower is needed. A needle valve limits the draw so the water surface stays calm. The 1/4 in valve is the smallest flow area in the line, so adding ports would only dilute each streak. I kept four.</p>
 <div class="pair">
-<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20base%20pic.png" alt="Laminar fog generator" class="shot"><figcaption><b>Fog generator.</b> Acrylic cylinder housing the ultrasonic mister.</figcaption></figure>
+<figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20base%20pic.png" alt="Laminar fog generator" class="shot"><figcaption><b>Fog generator.</b> 3D print cylinder housing the ultrasonic mister.</figcaption></figure>
 <figure><img src="/fa25-portfolio-tjc252/assets/images/mist%20maker%20with%20flow.png" alt="Fog generator producing fog" class="shot"><figcaption><b>Fog generator running.</b> Fog settling in the headspace before it is drawn into the tunnel.</figcaption></figure>
 </div>
 <h3>Flow over an F-16 model</h3>
 <p>With the fog generator feeding the inlet, the streaklines show the flow passing over a scale F-16 model in the test section.</p>
 <figure>
-<video class="shot big" autoplay muted loop playsinline controls preload="metadata" poster="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mp4" type="video/mp4"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mov" type="video/quicktime">Your browser does not support embedded video.</video>
+<video class="shot big" autoplay muted loop playsinline controls preload="metadata" poster="/fa25-portfolio-tjc252/assets/images/pic%20of%20flow%20on%20f16.png"><source src="/fa25-portfolio-tjc252/assets/images/video of flow on f16.mp4" type="video/mp4"><source src="/fa25-portfolio-tjc252/assets/images/video%20of%20flow%20on%20f16.mov" type="video/quicktime">Your browser does not support embedded video.</video>
 <figcaption><b>Video.</b> Fog streaklines over the F-16 model at the tunnel's maximum speed of 2.9 m/s.</figcaption>
 </figure>
 <figure>
