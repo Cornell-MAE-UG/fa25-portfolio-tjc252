@@ -62,4 +62,17 @@ permalink: /projects/
 <a href="/fa25-portfolio-tjc252/projects/2025-statics/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
 </div>
 </div>
+
+<div style="flex:1; min-width:260px; border:1px solid #dee2e6; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.07);">
+<div style="background-color:#3a3f58; color:white; padding:14px 18px;">
+<div style="font-size:0.8em; color:#aab0cc; margin-bottom:4px;">MAE 3230 — Fluid Mechanics <span style="display:inline-block; margin-left:6px; background:#fff8e6; color:#8a5a00; border:1px solid #c8890b; border-radius:10px; padding:0 8px; font-size:0.9em;">In Progress</span></div>
+<div style="font-size:1.15em; font-weight:bold;">Fluid-Mechanical Dissection</div>
+</div>
+<div style="padding:14px 18px; font-size:0.93em; line-height:1.65; background:white;">
+<img src="/fa25-portfolio-tjc252/assets/images/fluids-wip.png" alt="Streamline sketch" style="width:100%; height:160px; object-fit:cover; border-radius:4px; margin-bottom:10px;">
+<p style="margin:0 0 10px 0;">Dissecting a real-world device and explaining the fluid mechanics behind how it works, including its internal flow paths, pressure and velocity fields, and governing conservation laws. Full write-up and video coming later this semester.</p>
+<p style="margin:0 0 12px 0;"><strong>Tools:</strong> Fluid mechanics analysis · Device teardown · Video</p>
+<a href="/fa25-portfolio-tjc252/projects/2026-Fluid-Mechanical-Dissection/" style="display:inline-block; background-color:#3a3f58; color:white; padding:7px 16px; border-radius:4px; font-size:0.88em; text-decoration:none;">View Project →</a>
+</div>
+</div>
 </div>
