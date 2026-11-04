@@ -72,29 +72,41 @@ Outside of engineering, I'm the starting goalie for Cornell Club Hockey and an o
   </thead>
   <tbody>
     <tr style="background-color: #f7f8fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Fluid Mechanics</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Euler & Bernoulli equations, integral & differential conservation laws, Reynolds transport theorem, compressible nozzle flow, boundary layers, lift & drag, turbomachinery</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Mechanics of Engineering Materials</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">General stress & strain states, combined loading, energy methods, failure criteria, fatigue & fracture, materials selection</td>
+    </tr>
+    <tr style="background-color: #f7f8fa;">
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">System Dynamics</td>
+      <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Dynamic system modeling, single & multi-DOF vibrations, transient & frequency response, feedback control design, experimental system identification</td>
+    </tr>
+    <tr>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Thermodynamics</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Control volume analysis, energy & entropy balances, thermodynamic cycles</td>
     </tr>
-    <tr>
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Statics & Mechanics of Solids</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Free-body diagrams, stress & strain, beam bending, deflection</td>
     </tr>
-    <tr style="background-color: #f7f8fa;">
+    <tr>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Dynamics</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Rigid body kinematics, rotating frames, Coriolis effects, numerical ODE methods</td>
     </tr>
-    <tr>
+    <tr style="background-color: #f7f8fa;">
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Mechanical Design</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Full design cycle, prototyping, CAD, fabrication, client-facing deliverables</td>
     </tr>
-    <tr style="background-color: #f7f8fa;">
+    <tr>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Physics — Waves & EM</td>
       <td style="padding: 9px 12px; border-bottom: 1px solid #dee2e6;">Standing waves, Fourier analysis, Maxwell's equations, EM wave propagation, polarization</td>
     </tr>
   </tbody>
 </table>
 
----
+-
 
 ## Contact
 
