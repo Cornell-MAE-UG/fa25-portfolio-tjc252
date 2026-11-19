@@ -12,7 +12,7 @@ permalink: /projects/2026-Fluid-Mechanical-Dissection/
 
 ## Fluid-Mechanical Dissection
 
-For this project, I will select a real-world device, take it apart, and explain the fluid mechanics that make it work. The final deliverable will include video content walking through the device's internal flow paths and the governing physics behind its operation.
+For this project, I will take a weed wacker, take it apart, and explain the fluid mechanics that make it work. The final deliverable will include video content walking through the device's internal flow paths and the governing physics behind its operation.
 
 ---
 
@@ -27,4 +27,4 @@ For this project, I will select a real-world device, take it apart, and explain 
 
 ## Status
 
-<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Device selection and analysis in progress. Check back later this semester for the completed project.</div>
+<div style="background-color:#f7f8fa; border-left:4px solid #3a3f58; padding:14px 18px; border-radius:4px; margin:1.5em 0; font-size:0.97em; line-height:1.7;">Analysis of the weed wacker in progress. Check back later this semester for the completed project.</div>
